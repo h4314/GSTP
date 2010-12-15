@@ -9,8 +9,7 @@ Son positionnement dans le cycle de vie général du développement des système
 
 Résultats (Livrables) attendus (3 à 4 pages)
 --------------------------------------------
-Liste et plans types des documents et des composants logiciels demandés (directement les
-annexes G et H si elles sont peu importantes)
+Liste et plans types des documents et des composants logiciels demandés (directement les deux premières annexes si elles sont peu importantes)
 
 Méthodes - Modes Opératoires - Phasage (1 à 2 pages)
 ---------------------------------------------------
@@ -49,10 +48,10 @@ Annexes :
 =========
 
 Plans types des documents à livrer (2 à 3 pages)
---------------------------------------------------
+------------------------------------------------
 
 Description succincte des logiciels a livrer
-----------------------------------------------
+--------------------------------------------
 - Reformulation des spécifications et/ou organigramme technique du produit ou système dans lequel s’inséreront les composants logiciels demandés
 
 Descriptif des taches (document spécifique)
