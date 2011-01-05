@@ -19,14 +19,17 @@ modifications effectuer par les autres personnes de l'équipe (pull).
 
 Un document pourra avoir plusieurs états, en fonction de la tâche qui lui est
 associé dans l'outil de gestion de projet Redmine.
+
     - En cours : Le document est commencé, et est en cours de rédaction.
     L'avancement peut être visualisé à l'aide de la barre de progression.
+
     - Besoin de relecture : Le document est bien avancé, et l'auteur estime que la
     relecture peut commencer. Il s'agit alors pour le responsable qualité de faire
     des vérification de forme et de fond. La personne chargé de la relecture peut
     créer des nouvelles demandes associées à la tâche de rédaction du document si
     celui-ci contient des irrégularités qui ne peuvent pas être corrigées par le
     relecteur.
+
     - Fermé : Une fois que le document est en version final, il doit être placé
     sous cette catégorie.
 
