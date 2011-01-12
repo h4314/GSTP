@@ -2,41 +2,141 @@
 Dossier d'initialisation
 ========================
 
-Objet du projet - Contexte (1 à 2 pages)
-----------------------------------------
-Le contexte général du projet ; son positionnement éventuel dans un projet plus vaste ; synthèse des phases antérieures si il y a lieu.
-Son positionnement dans le cycle de vie général du développement des système d’information (identification du type de phase à laquelle correspond le projet ; ex : étude préalable, spécification d’interface, étude d’architecture technique, réalisation, test, ....)
+Vocabulaire
+###########
 
-Résultats (Livrables) attendus (3 à 4 pages)
---------------------------------------------
-Liste et plans types des documents et des composants logiciels demandés (directement les deux premières annexes si elles sont peu importantes)
+CdP
+	Chef de Projet
+RQ
+	Responsable Qualité
 
+GSTP
+	Entreprise de travaux de notre étude de cas
+
+PAQ
+	Plan d'assurance Qualité
+
+MoA
+	Maîtrise d'Ouvrage
+
+MoE
+	Maîtrise d'Oeuvre
+
+SI
+	Système d'information
+
+Objet, contexte et positionnement du projet
+###########################################
+Objet
+-----
+Ce projet consiste à l'étude préalable de la refonte d'une partie du Système d'Information du domaine "gestion de matériel" de l'entreprise GSTP.
+Les objectifs de cette refonte sont d'améliorer les délais, de diminuer les coûts et d'améliorer la qualité à tous les niveaux.
+
+Contexte
+--------
+GSTP est une entreprise de travaux, spécialisée dans les activités de terrassement et génie civil.
+
+GSTP en quelques chiffres:
+- Chiffre d'Affaire: 500 M€
+- Valeur du stock PR: 10 M€
+- Valeur du Matériel: 300 M €
+- Engins de travaux (pelles mécaniques, niveleuse): 400
+- Matériel de génie civil (grues, centrales à béton, etc): env. 200
+- Camions de transport: 300
+- Autres petits matériels divers 1200
+- Nombre de chantiers 40, répartis sur un rayon de 500km autour du siège
+- Effectif Direction du Matériel: env. 70 
+- Durée moyenne d’un chantier: 12 mois
+
+GSTP est une entreprise d'envergure nationale: la distance et l'ampleur de ses chantiers nécessitent une organisation interne efficace. Elle fait appel à la sous-traitance (travaux et location de matériel) pour environ 15% de son activité.
+
+La Direction du Materiel est un des secteurs les plus important de l'entreprise. Les enjeux de l'efficacité de l'activité de GSTP sont d'avoir un matériel opérationel et performant, et d'avoir une bonne gestion de ce dernier.
+C'est pourquoi la gestion du matériel (achat, maintenance, équipement) a une part importante dans le fonctionnement de GSTP.
+
+Positionnement
+--------------
+Pour répondre aux objectifs du projet énoncés précédemment, notre équipe va réaliser une étude approfondie des besoins de l'entreprise, de l'existant et lui proposer deux solutions adaptés à ses besoins: une solution générique et une autre spécifique. Chaque solution sera évaluée en termes de coûts, de délai, de risques et chaque solution se fera en conformité avec les besoins fonctionnels de l'entreprise et avec sa stratégie.
+
+
+Résultats (Livrables) attendus
+###############################
+Dans cette section de ce document se trouve la liste et les plans types des livrables demandés:
+
+Livrables relatifs à la Gestion de Projet:
+------------------------------------------
 - Dossier d'initialisation
+- Planning prévisionnel
+- Planning de réalisation
+- Fiches de suivi (4 fiches de suivi: global, par livrable, par sous-phase, par personne)
+- Dossier bilan
+
+Livrable relatif à l'Assurance Qualité:
+---------------------------------------
 - Dossier qualité ou Plan d'Assurance Qualité (PAQ)
+	!!!!!! A FAIRE !!!!
+	#. Résultats attendus
+	#. Conditions d'acceptation des résultats
+	#. Modalités de contrôle
+	#. Plannification projet
+	#. Organisation de l'équipe
+	#. Relations entre acteurs
+	#. Méthodes, normes et outils utilisés
+	#. Gestion de la documentation
+
+Livrables relatifs à la production:
+-----------------------------------
 - Dossier d'expression des besoins
-- Dossier des solutions
-- Dossier de choix
+	#. Etude de l'existant
+	#. Normes et benchmarking
+	#. Cibles fonctionnelles
+	#. Thèmes de progrès
 
-Méthodes - Modes Opératoires - Phasage (1 à 2 pages)
----------------------------------------------------
-Identification de (des) la méthode(s) utilisées (on se limite à référencer ces méthodes).
-Découpage du projet en PHASES et SOUS-PHASES
-Identification des résultats intermédiaires (résultats de phases et sous-phases)
+- Dossier de construction des solutions
+	#. Matrice processus / fonctions
+	#. Dossier de modélisation généré par ARIS
+	#. Dossier de synthèse optionnel
 
-Identification des activités et taches (3 à 4 pages)
-----------------------------------------------------
-Liste des activités et des taches
-- 1 tâche = 1 étudiant et 1 semaine
-- 1 étudiant peut avoir plusieurs tâches la même semaine (en parallèle)
 
-Plan de charges (voir document spécifique)
---------------------------------------------
+- Dossier d'évaluation des solutions et mise en oeuvre
+	#. Adéquation avec la stratégie d'entreprise
+	#. Adéquation aux besoins fonctionnels
+	#. Evaluation des délais
+	#. Evaluation des coûts
+	#. Evaluation des risques
 
-Planning (diagramme de Gantt)
--------------------------------
-À l’aide d’un outil de gestion de projet : MS Project, Redmine, etc. (Voir
-        Paul pour Redmine).
+- Présentation finale
 
+Méthodes - Modes Opératoires - Phasage
+######################################
+Durant notre étude, nous utiliserons les méthodes MERISE et ARIS.
+
+L'étude sera décomposée de la manière suivante:
+
+#. Phase 1: Initialisation
+#. Phase 2: Expression des besoins
+#. Phase 3: Expression des solutions
+#. Phase 4: Evaluation des solutions
+
+Chaque phase sera décomposé de la manière suivante:
+
+* Phase 1: Initialisation
+	- Rédaction du Dossier d'Initialisation
+	- Rédaction du PAQ
+
+* Phase 2: Expression des besoins
+	- Etude de l'existant: rédaction d'une synthèse de l'existant
+	- Etude des normes et benchmark: rédaction synthèse études des normes et benchmark
+	- Spécification Cible: rédaction Dossier Expression des Besoins
+
+* Phase 3: Expression des solutions
+	- Solution spécifique: rédaction du dossier de la solution 1
+	- Solution standard: rédaction du dossier de la solution 2
+	- Modélisation et configuration des solutions: dossier de modélisation et configuration standard
+
+* Phase 4: Evaluation des solutions
+	- Dossier de choix de solution
+
+Ce phasage suivra le planning suivant (il nous a été imposé par la MoA):
 
 =======		=====
 Semaine		Phase
@@ -52,26 +152,96 @@ s8		Evalutation Solutions
 s9		Soutenance
 =======		=====
 
-organisation de l’equipe (1 à 2 pages)
----------------------------------------
-- Définition des responsabilités et des rôles de chaque membre de l’équipe
-- Histogramme des charges par personnes (résultant du planning)
+Identification des activités et taches
+######################################
+Les activités et les tâches sont identifiées par le CdP. C'est le CdP qui affecte les tâches aux membres de l'équipe, et qui s'assure du bon accomplissement de ces dernières.
 
-* Chef de projet: Etienne GUERIN (EG)
-* Responsable Qualité et Communication: Paul ADENOT (PA)
-* Consultants:
-	* Experts ERP: Yoann BUCH (YB) et Yi Quan ZHOU (YQZ)
-	* Expert Métier (BTP): Pierrick GRANDJER (PB)
+On considère qu'une tâche est affectée à une seule personnne (sauf cas particulier), et qu'elle dure une semaine.
+Une personne peut avoir plusieurs tâches la même semaine. (parallèlisation des tâches).
+
+Notre étude comportera 4 types d'activités principales:
+- Rédaction
+- Relecture
+- Modélisation
+- Technique
+
+Ci-dessous, vous avez le détail de la décomposition en tâches pour toutes les phases du projet:
+
+
+
+
+Plan de charges (voir document spécifique)
+##########################################
+
+Planning (diagramme de Gantt)
+#############################
+À l’aide d’un outil de gestion de projet : MS Project, Redmine, etc. (Voir
+        Paul pour Redmine).
+
+
+
+
+Organisation de l’equipe
+########################
+
+* Chef de projet: **Etienne GUERIN (EG)**
+	Il plannifie l'ensemble du déroulement du projet. Son rôle est d'identifier les tâches à effectuer, d'évaluer les charges de travail, et de s'assurer du bon déroulement (suivi) du projet et de son exécution. Il met en place les outils de suivi, et communique régulièrement avec son équipe pour avoir un aperçu de l'avancement des tâches.
+Il est le principal interlocuteur avec la MoA.
+
+* Responsable Qualité et Communication: **Paul ADENOT (PA)**
+	Il est chargé de mettre en place le PAQ. Il est également chargé de veiller au respect et à l'application de ce PAQ tout au long du projet. Il intervient lors de la validation des tâches.
+Il est un interlocuteur privilégié avec la MoA.
+
+* Consultants: ils sont experts dans leur domaine et apportent leurs compétences et savoir-faire. Ils sont chargés de produire l'étude préalable sous la direction du CdP, en collaboration avec le RQ
+	* Experts ERP et modélisation: Yoann BUCH (YB) et Yi Quan ZHOU (YQZ)
+	* Expert Métier (BTP), Méthodes et Outils: Pierrick GRANDJER (PB), Arturo MAYOR (AM)
 	* Expert Développement Système d'Information: Martin RICHARD (MR)
-	* Responsable Méthode et Outils: Arturo MAYOR (AM)
 
 Analyse des risques (1 page max)
 --------------------------------
-- Liste des risques perçus
-- Plan d’actions pour gérer ces risques
 
-Modalites de validation et de recette (1 page max)
-----------------------------------------------------
+
+Risque	Type	Cause: probabilité	Conséquence	Mesure à prendre
+
+Dépassement délai	Organisation	Laxisme: peu probable	non respect des engagements, prise de retard, mécontentement client	Cdp: vérifier le niveau d'activité des membres
+
+Dépassement délai	Organisation	Charge trop lourde pour un membre: probable	non respect des engagements, prise de retard, mécontentement client	Mise en place d'un planning précis, réaliste et ajustable
+
+Serveurs en panne	Défection matérielle	panne: peu probable	travail de projet beaucoup plus difficile à mener, du fait de la forte dépendance des serveurs	Choisir un hébergeur avec une bonne qualité de service
+
+Perte de contact avec un membre de l'équipe 	Social		problème de santé: moyen	risque de perte de temps	essayer de prévenir l'équipe lorsque maladie
+
+Solution inadaptée	Technologie	Lacunes dans la connaissances des ERP: moyen	solution proposée inadéquate	Assurer une bonne assimilation des ERP et des nouveaux modèles, contacter les professeurs
+
+mauvaise cohésion	production	mauvaise cohésion, mauvais travail d'équipe: moyen	mauvaise cohérence des livrables, mauvaise qualité d'ensemble	adopter une attitude de travail collectif, organisation de réunions de travail régulières, etc.
+
+
+Dans notre cas, il n'y a pas de risques financier, car nous sommes dans un projet "fictif". Cependant, si jamais nous gérons mal le projet, nous pouvons être pénalisés d'une autre façon: beaucoup de temps de travail hors séance, pénalités au niveau de la note, etc.
+
+
+Modalites de validation et de recette
+-------------------------------------
+
+Pour obtenir le statut de version *finale*, les livrables devront être validés et vérifiés par le CdP et le RQ.
+
+Ils seront déposés par le CdP ou le RQ au fur et à mesure de l'avancement du projet sur la plateforme Moodle. Un mail sera également envoyé à la MoA pour l'informer du dépôt.
+
+Ci-dessous les dates prévues pour le dépôt des différents livrables:
+
+Mercredi 12/01/2011
+	Dossier d'Initialisation + PAQ + Planning Prévisionnel
+Mercredi 2/02/2011
+	Dossier d'expression des besoins
+Mercredi 23/02/2011
+	Dossier de construction des solutions
+Mercredi 2/03/2011
+	Dossier d'évaluation des solutions
+
+??? Dossier Bilan
+Dossier pour la présentation du projet
+??? Tableau de bord
+
+
 
 Annexes :
 =========
@@ -85,3 +255,6 @@ Description succincte des logiciels a livrer
 
 Descriptif des taches (document spécifique)
 -------------------------------------------
+
+
+
