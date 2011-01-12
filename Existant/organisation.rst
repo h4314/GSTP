@@ -18,6 +18,8 @@ Organisation fonctionnelle
 Macro-structure
 --------------- 
 
+_TODO: sous forme d'un schema ?_
+
 * Direction générale (DG)
   * Direction des ressources humaines (DRH)
   * Direction finances et comptabilités (DFC)
@@ -32,6 +34,8 @@ Macro-structure
 
 Zoom sur le domaine d'étude 
 ---------------------------
+
+_TODO: sous forme d'un schema ?_
 
 **Département Matériel**
 
@@ -90,14 +94,54 @@ Le matériel n'est jamais transféré de chantier à chantier. Celui-ci doit d'a
 => possibilité d'amélioration non citée dans le document !
 
 
+Procédures par département
+--------------------------
+
+Gestion du matériel
+~~~~~~~~~~~~~~~~~~~
+
+Achat
+~~~~~
+
+Maintenance
+~~~~~~~~~~~
+
 Fonctions transverses
 ----------------------
 
-* facturation 
+_TODO: sous forme d'un schema ?_
+
+On observe de nombreux flux d'informations concernant :
+* facturation des chantiers
+	* départements concernés :
+		* Source : Département du matériel, service Facturation du Matériel
+		* Intérmédiaire : DFC
+  		* Destination : Chantier
+ 	* information : demande de facturation
 * affectation 
+	* départements concernés :
+		* Source : Chantier ou Département Matériel/Gestion du parc matériel
+  		* Destination : Département Matériel/Gestion du parc matériel ou Chantier
+	* information : matériel
 * maintenance
-* achats
-* ...
+ 	* départements concernés :
+		* Source : Chantier
+  		* Destination : Département maintenance, ateliers
+	* information : matériel
+* achats de matériel
+	* départements concernés :
+		* Source : demande effectuée par la Direction du Matériel
+  		* Intermédiaire : Département achat, services gestion des fournisseurs et achat du matériel
+ 		* Intermédiaire : fournisseurs
+ 		* Destination  : Direction du matériel/Gestion du parc matériel
+	* informations : demande d'achat, matériel acheté
+* achats de pièces de rechange
+* location de matériel
+*
+* pièces de rechange
+	* départements concernés :
+		* Source : Chantier
+  		* Destination : Département maintenance, ateliers
 
 
 Organisation géographique
@@ -122,6 +166,8 @@ Organisation des ressources
 Ressources Humaines (DM)
 ------------------------
 
+_TODO: sous forme d'un schema/tableau ?_
+
 Total : 70
 * Département Matériel
   * Service Gestion du Matériel : 3 personnes
@@ -137,6 +183,8 @@ Total : 70
 
 Ressources matérielles
 -----------------------
+
+_TODO: sous forme d'un tableau ?_
 
 Total : 2000
 * engins de travaux : env. 400
