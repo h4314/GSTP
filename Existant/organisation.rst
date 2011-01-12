@@ -286,6 +286,16 @@ Département Achat
 	* Il est difficile à identifier les fournisseurs potentiels et à élaborer une cartographie en les qualifiant en fonction de leur coût, de leur capacité de production, leurs délais de livraison, leurs garanties en terme de qualité etc.
 	* Les contrats avec les fournisseurs sont des fois mal formalisés en termes des clauses spécifiques concernant la logistique, les modalités de paiement, la qualité de service ou tout autre engagement particulier. 
 
+	
+Département Matériel
+---------------------
+ * Coût de location de matériel élevé. Actuellement, on vérifie la disponibilité du matériel lors que le département matériel reçoit une demande de chantier.  Les demandes ne sont pas anticipées et donc aucun lissage n'est fait sur les demandes de chantier. Par conséquent, pendant certaines périodes, il nécessite beaucoup de location de matériel qui coût cher, tandis que pendant des périodes creuses, le matériel reste dans le parc.	
+	
+ * L'entrée du matériel dans le parc non formalisé. Il existe plusieurs évènements d'entrée du matériel: avis de livraison, demande suite à la restitution du matériel, avis de maintenance. Ils sont traités à la base des bons rédigés par différentes personnes en différents formats. Le traitement est long et que le matériel est bloqué pendant un certain temps avant de devenir disponible.
+
+
+Département Maintenance
+-----------------------
 
 *Faut-il les citer ??? = introduction vers les améliorations recherchées/attentes des partenaires*
 
