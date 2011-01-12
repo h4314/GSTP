@@ -5,6 +5,9 @@ Plan d'assurance qualité projet
 .. contents:: Sommaire
 .. sectnum::
 
+
+.. page::
+
 Objectif du Plan d'assurance qualité
 ####################################
 
@@ -43,10 +46,10 @@ Cette équipe constitue la MOE, qui répond à l'appel d'offre de la societé GS
 La maîtrise d'ouvrage est une équipe de l'entreprise GSTP, entité porteuse du
 besoin. L'entreprise est représenté par :
 
-- Y. Amghar
-- A. Legait
-- P.A. Millet
-- M. Ou-halima
+- Y Amghar
+- A Legait
+- PA Millet
+- M Ou-halima
 
 Les deux entités MOE ET MOA devront ainsi travailler ensemble afin de mener à bien le
 projet.
@@ -101,6 +104,8 @@ peuvent être faites sur les aspects de gestion du temps et des tâches. Le chef
 de projet doit pouvoir effectuer le suivi correctement, et donc cet aspect ne
 peut pas être sacrifié.
 
+.. page::
+
 Terminologie
 ############
 
@@ -144,6 +149,21 @@ Non-conformité
 Demande d'évolution
     Demande faite par le client, concernant l'évolution du périmètre du projet.
     Peut être rejeté ou accepté, et traité au cas par cas.
+Template de document
+    Squelette de document, permettant de fixer une fois pour toute la structure
+    de document. Souvent il est copié collé, puis complété, afin de produire
+    le document final.
+RSS
+    Littéralement *Really Simple Syndication*, flux XML largement utilisé en
+    syndicat ion de contenu permettant à des acteurs de s'abonner à une source de
+    donnée, et d'être mis à jour d'une évolution.
+Wiki
+    Page web éditable librement, ou par des acteurs identifiés, permettant une
+    collaboration rapide sur un document. Utilise souvent un langage de balisage
+    léger pour la mise en forme.
+
+
+.. page::
 
 
 Objectifs et engagement qualité
@@ -161,9 +181,109 @@ système d'information.
 Engagement qualité
 ------------------
 
-La MOA s'engage 
+La MOA s'engage à fournir les informations nécessaire à la bonne réalisation du
+projet par la MOE, notamment, mais non limités à l'organisation, les processus
+organisationnels actuels, et autres méthodes de travail.
 
-    
+La MOE s'engage à respecter un politique de discrétion dans le cadre de
+d'éventuelles information confidentielles nécessaire à la bonne exécution du
+projet.
+
+La MOA s'engage à mettre à disposition des employés, et à accueillir du
+personnel de la MOA pour d'éventuelles interview, afin de pouvoir formaliser les
+processus directement sur le terrain, et de capter au mieux l'existant.
+ 
+.. page::
+
+Organisation du projet
+######################
+
+
+
+Structure de pilotage du projet
+-------------------------------
+
+Schéma représentant la structure de pilotage de projet entre les deux équipes :
+
+.. image:: images/comite.png
+    :scale: 70%
+
+
+
+La structure de pilotage du projet est composée de membres de l'entreprise GSTP,
+et de membres de l'équipe de projet. Le regroupement de ces deux équipes est
+appelé « Comité de pilotage », et sera responsable en terme de guidage pour le
+projet.
+
+En cas de décisions, c'est ces personnes qui discuterons ensembles de la
+solution la plus bénéfique pour le projet, éventuellement aidées d'experts, des
+deux entreprises.
+
+Organisation de l'équipe de projet
+----------------------------------
+
+Les membres de l'équipe sont organisés comme suit :
+
+- Paul ADENOT (Responsable qualité, communication)
+    - Responsable de la qualité des documents, des moyens techniques de suivi de projet, et de la communication interne. Membre du comité de pilotage.
+- Étienne GUÉRIN (Chef de projet)
+    - Responsable de l'équipe, de la création des plannings, de l'assignation des tâches.
+- Martin RICHARD (Expert technique SI)
+    - Étudie et détermine les aspects informatiques de l'existant, et propose des solutions techniques.
+- Yi Quan ZHOU (Expert technique matériel)
+    - Étudie l'aspect gestion du matériel dans l'entreprise GSTP.
+- Arturo Mayor (Expert technique matériel)
+    - Idem
+- Yoann BUCH (Expert technique organisationnel)
+    - Étudie les aspects organisationnels dans l'entreprise GSTP.
+- Pierrick GRANDJER (Expert technique BTP)
+    - Étudie les aspects spécifiques à une entreprise de BTP tel que GSTP
+
+Sous-traitance
+--------------
+
+L'équipe assurera tous les aspects de l'étude, et s'engage à ne pas déléguer de
+tâches à un éventuel sous-traitant.
+
+Planification du projet
+-----------------------
+
+La planification prévisionnel a été effectué dans le dossier d'initialisation,
+par le chef de projet. Cette planification de projet est reporté progressivement
+dans l'outil de gestion de projet, permettant une interaction facilité avec
+l'équipe de projet.
+
+À chaque fois que des tâches sont assignées à un acteur, un flux RSS, suivi par
+les membres du projet, est mis à jour, permettant de le tenir au courant en
+temps réel. Un email lui est aussi envoyé, par le chef de projet, permettant de
+clarifier éventuellement certains points de la tâche.
+
+Le suivi des tâches est intégré dans l'outil de gestion de projet. Il est de la
+responsabilité des membres de l'équipe de projet de mettre à jour leurs tâches
+(temps passé, avancement, remarques, etc.) sur l'outil de gestion de projet.
+Un accès a été fourni à la MOA dans un but de transparence et de facilité de
+suivi.
+
+La mesure de l'avancement est double. D'une part, les experts techniques
+indiquent leur avancement sur la plateforme de gestion de projet, et d'autre
+part, le responsable qualité pourra juger de l'avancement lors des revues de
+documents.
+
+Les réunions de projet se font une fois par séance de travail. Un compte rendu
+normalisé à l'aide des *templates* de compte rendu de réunion est placé dans le
+wiki de l'outil de gestion de projet, consultable par la MOA. À la fin de chaque
+réunion, la prochaine est planifiée. Les compte rendu de réunion sont rédigé de
+manière à résumer tout ce qu'il s'est dit pendant la réunion, sans synthèse, de
+manière à refléter de manière fidèle le dialogue de l'équipe.
+
+En ce qui concerne le suivi prévisionnel, le chef de projet dresse après chaque
+session de travail un indicateur de l'état du projet. L'outil de gestion de
+projet permet aussi d'avoir des statistiques globales sur le projet, incluant le
+nombre d'heure passé par acteur sur chaque catégorie de tâche, permettant
+d'avoir une vue d'ensemble du projet.
+
+
+.. page::
 
 Gestion de la documentation
 ###########################
@@ -264,6 +384,9 @@ formation leur a été donnée en début de projet, et des référents technique
 - Git et GitHub : Paul ADENOT et Martin RICHARD.
 - Redmine : Paul ADENOT et Etienne GUÉRIN.
 
+
+.. page::
+
 Gestion des modifications
 #########################
 
@@ -296,6 +419,7 @@ Dans le cadre d'une demande d'évolution émanant de la MOA
 #. Si la demande est refusée, en informer la MOA, en expliquant les raison, de manière clair. Il peut être possible de négocier, mais cela sort du cadre de la procédure à suivre lors d'une demande d'évolution.
 
 
+.. page::
 
 Gestion de la qualité globale d'un document
 ###########################################
@@ -317,3 +441,12 @@ Forme
 - Grammaire : les fautes de grammaires en tout genre doivent être évitées.
 - Typographie : la typographie devra respecter les standards français, afin de produire des document agréables et facile à lire, sans détourner le lecteur du contenu.
 
+
+.. page
+
+Gestion de l'application du PAQ
+###############################
+
+Le responsable qualité, assisté par le chef de projet, est responsable de la
+bonne application du plan d'assurance qualité. Chaque membre de projet devra
+s'y référer pendant toute la durée du projet.
