@@ -97,14 +97,68 @@ Le matériel n'est jamais transféré de chantier à chantier. Celui-ci doit d'a
 Procédures par département
 --------------------------
 
+Gestion matériel
+~~~~~~~~~~~~~~~~
 
-Approvisionnement de produit
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Facturation du matériel pour un chantier
+````````````````````````````````````````
 
-Le diagramme d'approvisionnement de produit décrit l'enchaînement d'actions aboutissant
+- Une facture résulte d'un calcul de facture de matériel.
+
+- Un calcul de facture pour un matériel donné est effectué après plusieurs rapports :
+	- Le pointage du matériel : son utilisation est terminée et il faut déterminer ce qu'il à coûté.
+	- Un avis de valorisation de structure (?)
+	- Un calcul de valorisation de matériel : 
+	- Un calcul de coût de maintenance.
+	
+- Un calcul de valorisation de matériel est effectué régulièrement
+
+- Un calcul de coût de maintenance peut être effectué pour plusieurs raisons.
+	- Régulièrement, sans élément déclencheur.
+	- Après un calcul de valorisation des pièces de rechange, lui-même effectué régulièrement
+	- Après réception d'un avis de valorisation de personnel.
+	
+Il ressort de cette procédure que les facturations découlent souvent d'opérations effectuées régulièrement, ou bien suite à la fin d'utilisation d'un matiériel.
+	
+source : GSTP/Ressources/Modele-de-l-existant/MCT-Facturer-chantier.doc
+
+Planification de l'affectation du matériel
+``````````````````````````````````````````
+
+Ce diagramme définit la planification du matétiel, que ce soit sa location, son achat, ou son affectation.
+Comme les deux vont de paire, il concerne aussi bien la gestion du personnel de maintenance que celle des chantiers.
+
+- La gestion du personnel de maintenance découle d'une demande de dispositions des personnes.
+
+- La gestion des chantiers est déterminée par le planning d'affectation de matériel.
+
+- L'achat et la location de matériel ainsi que les planifications de maintenance sont effectués suite à une planification d'affectation du matériel.
+
+- La planification d'affectation du matériel suit plusieurs événements.
+	- Une autorisation d'acquisition délivrée après une demande d'achat de matériel.
+	- Une maintenance préventive du matériel effectuée après un certain temps d'utilisation.
+	- Une planification régulièrement effectuée pour vérifier le bon fonctionnement.
+	- Une programmation d'utilisation de matériel : tel ou tel chantier va avoir besoin de tel type de matériel...
+
+- La demande d'achat de matériel est effectuée suite à la programmation d'utilisation de matériel.
+
+- La programmation d'utilisation du matériel découle soit d'une maintenance préventive, soit d'une vérification régulière.	
+
+source : GSTP/Ressources/Modele-de-l-existant/MCT-Planification.doc
+
+Achat
+~~~~~
+
+Maintenance
+~~~~~~~~~~~
+
+Approvisionnement en pièces de rechange
+```````````````````````````````````````
+
+Le diagramme d'approvisionnement de pièces de rechange décrit l'enchaînement d'actions aboutissant
 à une commande.
 												
-- Une commande de produit s'effectue suite à une demande d'approvisionnement urgent par exemple pour un gros chantier si le stock est insuffisant), ou suite à une demande simple de réapprovisionnement.
+- Une commande de pièces de rechange s'effectue suite à une demande d'approvisionnement urgent par exemple pour un gros chantier si le stock est insuffisant, ou beaucoup de pannes), ou suite à une demande simple de réapprovisionnement.
 
 - Une demande de réapprovisionnement est faite suite à un calcul des besoins.
 
@@ -123,45 +177,7 @@ Le diagramme d'approvisionnement de produit décrit l'enchaînement d'actions ab
 
 Il ressort de cette procédure que de multiples vérifications différentes peuvent mener à la commande d'un produit. Le risque de se retrouver en rupture de stock est donc réduit.
 
-source : GSTP/Ressources/Modele-de-l-existant/MCT-Approvisionner-pr
-
-
-Facturation du matériel pour un chantier
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- Une facture résulte d'un calcul de facture de matériel.
-
-- Un calcul de facture pour un matériel donné est effectué après plusieurs rapports :
-	- Le pointage du matériel : son utilisation est terminée et il faut déterminer ce qu'il à coûté.
-	- 
-	
-	~
-
-Affectation et restitution du matériel
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Le diagramme d'affectation et restitution du matériel décrit le cycle de la gestion du matériel en fonction de demandes des chantiers.
-
-- Une réception de matériel est faite suite à la livraison du matériel d'un fournisseur.
-- Le matériel peut entrer dans le parc matériel après plusieurs évènements
-	- Un avis de livraison suite à l'arrivé du matériel de fournisseur
-	- Une demande d'entrée de parc 
-	- Un avis de maintenance issue de la fin de maintenance du matériel
-
-- Une affectation du matériel se faite suite à une demande de matériel de chantier 
-- La vérification de la disponibilité de matériel se fait systématiquement lors de l'affectation de matériel qui entraine les opérations suivantes:
-	- L'affectation de matériel au chantier lors qu'il est disponible
-	- Une demande de prestation urgente lors que aucun matériel n'est diponible
-- Un contrôle de retour est effectué après la restitution du matériel
-- Plusieurs évènements sont possibles après le contrôle de retour
-	- Un retour au fournisseur
-	- Une demande de maintenance 
-	- Une demande d'entrée dans le parc	
-	
-Achat
-~~~~~
-
-Maintenance
-~~~~~~~~~~~
+source : GSTP/Ressources/Modele-de-l-existant/MCT-Approvisionner-pr.doc
 
 Fonctions transverses
 ----------------------
@@ -261,7 +277,7 @@ Environnement extérieur
 * ...
 
 
-Disfonctionnements constatés
+Dysfonctionnements constatés
 =============================
 Département Achat
 -----------------
@@ -288,6 +304,29 @@ Département Maintenance
 
 
 ** ajout des chiffres en annexes ???**
+
+Département Gestion de matériel
+-------------------------------
+
+Planification de l'affectation du matériel
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+La procédure est très lourde et le moindre retard dans l'une ou l'autre des opérations peut énormément retarder les commandes de matériel, elles-mêmes retardées par le dialogue avec les fournisseurs...
+
+
+Facturation du matériel pour un chantier
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Département Maintenance
+-----------------------
+
+Approvisionnement en pièces de rechange
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cette procédure semble bien concue car une multitude d'événements peuvent mener à une commande de pièces de rechanges, ce qui implique qu'on est rarement pris de court.
+Les éventuels dysfonctionnements peuvent être dus à la commande. Les difficultés à trouver un fournisseur efficace en des délais courts est dû à une mauvaise politique commerciale.
+
+
+
 
 
 
