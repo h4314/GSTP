@@ -240,8 +240,14 @@ Environnement extérieur
 * ...
 
 
-Disfonctionnements constastés
+Disfonctionnements constatés
 =============================
+Département Achat
+-----------------
+ * Des coûts achats élevés. Le département achat ne possède pas de solution SRM(Supplier Relationship Management). Les informations de fournisseurs sont sauvegardées et gérées dans un fichier excel. 
+	* Il n'existe pas d'outil pour associer les fournisseurs avec les produits lors qu'on prend les décision d'achat pour que le coût revienne minimal à tous les niveaux. 
+	* Il est difficile à identifier les fournisseurs potentiels et à élaborer une cartographie en les qualifiant en fonction de leur coût, de leur capacité de production, leurs délais de livraison, leurs garanties en terme de qualité etc.
+	* Les contrats avec les fournisseurs sont des fois mal formalisés en termes des clauses spécifiques concernant la logistique, les modalités de paiement, la qualité de service ou tout autre engagement particulier. 
 
 
 *Faut-il les citer ??? = introduction vers les améliorations recherchées/attentes des partenaires*
