@@ -97,9 +97,45 @@ Le matériel n'est jamais transféré de chantier à chantier. Celui-ci doit d'a
 Procédures par département
 --------------------------
 
-Gestion du matériel
-~~~~~~~~~~~~~~~~~~~
 
+Approvisionnement de produit
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Le diagramme d'approvisionnement de produit décrit l'enchaînement d'actions aboutissant
+à une commande.
+												
+- Une commande de produit s'effectue suite à une demande d'approvisionnement urgent par exemple pour un gros chantier si le stock est insuffisant), ou suite à une demande simple de réapprovisionnement.
+
+- Une demande de réapprovisionnement est faite suite à un calcul des besoins.
+
+- Un calcul des besoins peut résulter de plusieurs événements.
+	- Prévision d'une consommation future (par exemple un chantier prévu, non urgent)
+	- Si aucun besoin ne se fait ressentir, on effectue néanmoins régulièrement un nouveau calcul des besoins.
+	- En cas de variation de stock.
+	
+- Une variation de stock est détectée à la suite d'un calcul du stock.
+
+- On peut calculer le stock après plusieurs événements.
+	- Une sortie de produit (vente, utilisation, ...)
+	- Un inventaire, effectué à intervalles réguliers.
+	- L'établissement d'un avis de livraison, lui-même fait après réception du produit.
+					
+
+Il ressort de cette procédure que de multiples vérifications différentes peuvent mener à la commande d'un produit. Le risque de se retrouver en rupture de stock est donc réduit.
+
+source : GSTP/Ressources/Modele-de-l-existant/MCT-Approvisionner-pr
+
+
+Facturation du matériel pour un chantier
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Une facture résulte d'un calcul de facture de matériel.
+
+- Un calcul de facture pour un matériel donné est effectué après plusieurs rapports :
+	- Le pointage du matériel : son utilisation est terminée et il faut déterminer ce qu'il à coûté.
+	- 
+	
+	~
 Achat
 ~~~~~
 
