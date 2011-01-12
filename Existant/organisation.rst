@@ -136,6 +136,27 @@ Facturation du matériel pour un chantier
 	- 
 	
 	~
+
+Affectation et restitution du matériel
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Le diagramme d'affectation et restitution du matériel décrit le cycle de la gestion du matériel en fonction de demandes des chantiers.
+
+- Une réception de matériel est faite suite à la livraison du matériel d'un fournisseur.
+- Le matériel peut entrer dans le parc matériel après plusieurs évènements
+	- Un avis de livraison suite à l'arrivé du matériel de fournisseur
+	- Une demande d'entrée de parc 
+	- Un avis de maintenance issue de la fin de maintenance du matériel
+
+- Une affectation du matériel se faite suite à une demande de matériel de chantier 
+- La vérification de la disponibilité de matériel se fait systématiquement lors de l'affectation de matériel qui entraine les opérations suivantes:
+	- L'affectation de matériel au chantier lors qu'il est disponible
+	- Une demande de prestation urgente lors que aucun matériel n'est diponible
+- Un contrôle de retour est effectué après la restitution du matériel
+- Plusieurs évènements sont possibles après le contrôle de retour
+	- Un retour au fournisseur
+	- Une demande de maintenance 
+	- Une demande d'entrée dans le parc	
+	
 Achat
 ~~~~~
 
