@@ -51,7 +51,7 @@ _TODO: sous forme d'un schema ?_
 **Département Maintenance**
 
 * préventive 
-  * resitution par un chantier (révision)
+  * restitution par un chantier (révision)
   * planning d'entretien
 * rénovation
   * suite à une panne
@@ -97,6 +97,7 @@ Le matériel n'est jamais transféré de chantier à chantier. Celui-ci doit d'a
 Procédures par département
 --------------------------
 
+_TODO, faire une macro-matrice service/procédure ?_
 
 Approvisionnement de produit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -139,13 +140,33 @@ Facturation du matériel pour un chantier
 Achat
 ~~~~~
 
+
 Maintenance
 ~~~~~~~~~~~
+
+Une opération de maintenance est effectuée suite à :
+- une demande de révision d'un chantier 
+- une révision prévue par le planning de maintenance
+- une demande d'intervention suite à une panne détectée sur un chantier
+
+Dans le cas d'une panne, un diagnostic est préalablement effectué pour évaluer sa sévérité. Cette dernière peut impliquer une demande urgente de matériel de remplacement.
+
+L'opération est lancée une fois le type d'opération connue et en tenant compte des disponibilités des employés.
+
+Le lancement d'une opération induit :
+- des changements dans le planning d'affectation des personnes
+- une éventuelle demande de pièces de rechange au magasin, ce dernier pouvant effectuer une demande de réapprovisionnement urgente (service de réapprovisionnement) dans le cas où les pièces de rechanges demandées ne sont pas en stock
+
+L'opération est réellement réalisée une fois les personnes et les pièces de rechange disponibles.
+
+Une fois terminée, un avis de maintenance est édité pour signaler au parc le retour du matériel et le cas échéant un avis de maintenance chantier pour le prévenir que le matériel est de nouveau disponible.
+
 
 Fonctions transverses
 ----------------------
 
-_TODO: sous forme d'un schema ?_
+_TODO: sous forme d'un schema ? diagramme  de flux d'information_
+_redondance avec les procédures ?_
 
 On observe de nombreux flux d'informations concernant :
 * facturation des chantiers
@@ -240,7 +261,7 @@ Environnement extérieur
 * ...
 
 
-Disfonctionnements constatés
+Dysfonctionnements constatés
 =============================
 Département Achat
 -----------------
@@ -248,6 +269,19 @@ Département Achat
 	* Il n'existe pas d'outil pour associer les fournisseurs avec les produits lors qu'on prend les décision d'achat pour que le coût revienne minimal à tous les niveaux. 
 	* Il est difficile à identifier les fournisseurs potentiels et à élaborer une cartographie en les qualifiant en fonction de leur coût, de leur capacité de production, leurs délais de livraison, leurs garanties en terme de qualité etc.
 	* Les contrats avec les fournisseurs sont des fois mal formalisés en termes des clauses spécifiques concernant la logistique, les modalités de paiement, la qualité de service ou tout autre engagement particulier. 
+
+
+Maintenance
+------------
+
+* taux de pannes élevées : beaucoup de retours chantiers sont constatées et auraient pu être évitées en améliorant la maintenance préventive : une meilleure planification des révisions
+* les opérations de maintenance immobilisent trop longtemps le matériel à cause d'une mauvaise planification des ressources humaines et de la mauvaise estimation des temps standards par type d'opération
+* les coûts de maintenance sont trop élevés : les temps d'intervention sont trop longs et les gammes opératoires mal définies
+* le stock de pièces de rechange est trop important et mal géré :
+	* on constate trop souvent, par manque de système prévisionnel, des demandes d'approvisionnements urgentes ce qui retarde les opérations
+ 	* par peur d'être en rupture de stock sur certains produits on constate que certaines pièces de rechanges sont sur-commandées et d'autres sous commandées.
+* les pièces de rechange au niveau des 3 magasins sont réparties inéquitablement entre les 3 magasins
+
 
 
 *Faut-il les citer ??? = introduction vers les améliorations recherchées/attentes des partenaires*
