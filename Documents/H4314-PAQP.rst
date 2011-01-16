@@ -5,13 +5,10 @@ Plan d'assurance qualité projet
 .. contents:: Sommaire
 .. sectnum::
 
-Objectif du Plan d'assurance qualité
-####################################
-
 Présentation du document
-------------------------
-Ce document présente les mécanismes qualités qui seront mis en oeuvre par la
-maitrise d'ouvrage, pour satisfaire les besoins de la maitrise d'oeuvre.
+########################
+Ce document présente les mécanismes qualités qui seront mis en œuvre par la
+maitrise d'ouvrage, pour satisfaire les besoins de la maitrise d'œuvre.
 
 Ce document servira de référence, du point de vu qualité, pour cadrer la
 réalisation du projet.
@@ -26,8 +23,8 @@ D'autres documents pourront être considérés comme référence lors de ce proj
 - La documentation officielle de Redmine, l'outil de gestion de projet libre (http://www.redmine.org/guide)
 - Le lexique des règles typographiques en usage à l'imprimerie nationale, pour tout ce qui concerne la typographie
 
-Partenaire
-----------
+Équipe
+######
 L'équipe de projet est constitué de :
 
 - Paul ADENOT (Responsable Qualité)
@@ -38,22 +35,11 @@ L'équipe de projet est constitué de :
 - Yoann BUCH
 - Pierrick GRANDJER
 
-Cette équipe constitue la MOE, qui répond à l'appel d'offre de la societé GSTP.
+Cette équipe constitue la MOE, qui répond à l'appel d'offre de la societé GSTP
 
-La maîtrise d'ouvrage est une équipe de l'entreprise GSTP, entité porteuse du
-besoin. L'entreprise est représenté par :
-
-- Y. Amghar
-- A. Legait
-- P.A. Millet
-- M. Ou-halima
-
-Les deux entités MOE ET MOA devront ainsi travailler ensemble afin de mener à bien le
-projet.
-
-Relation avec la MOA
+Relation avec la MOE
 --------------------
-La relation avec la MOA se fera principalement par le chef de projet et le
+La relation avec la MOE se fera principalement par le chef de projet et le
 responsable qualité, ces deux acteurs ayant une bonne vision globale du projet.
 
 En cas de besoin, cependant, il pourra être demandé à un autre membre de
@@ -70,101 +56,6 @@ acteurs doivent être disponibles, afin de garantir une bonne réactivité, en c
 de changement de situation du côté MOA comme du côté MOE.
 
 
-Critère et procédure d'évolution du PAQP
-----------------------------------------
-
-Le présent document pourra être amener à évoluer, pour refléter un changement de
-situation au sein du projet (pouvant être une simple mise en conformité des
-informations contenues dans ce document après un changement dans une équipe,
-jusqu'au changement dans les résultats attendus).
-
-Dès que le besoin de changement se fera sentir, et si le changement n'est pas
-trivial, une réunion aura lieu, réunissant la MOE, et éventuellement la MOA si
-le changement impacte cette équipe. Le responsable qualité expliquera alors la
-situation, et l'équipe tentera de résoudre le problème, ou validera l'évolution.
-
-Procédure de dérogation au PAQP
--------------------------------
-
-Il pourra être autorisé une dérogation au PAQP, ponctuelle, si, pour une tâche,
-celui-ci diminue trop l'agilité du projet, au sens flexibilité et interactivité.
-Si pour une tâche, la méthode est considérée trop lourde ou inadéquate, il ne
-faudra pas hésiter à se baser sur une méthode plus légère.
-
-Cela ne veut en aucun cas dire qu'on peut se passer de méthode. Il s'agira juste
-de s'affranchir, par exemple, d'un mécanisme de validation lourd pour un
-livrable devant être revu à plusieurs étapes du projet, faisant perdre du temps
-aux acteurs validant le projet.
-
-Une exception à cette règle de dérogation est à mentionner. Les dérogations ne
-peuvent être faites sur les aspects de gestion du temps et des tâches. Le chef
-de projet doit pouvoir effectuer le suivi correctement, et donc cet aspect ne
-peut pas être sacrifié.
-
-Terminologie
-############
-
-Abréviations utilisées
-----------------------
-
-CdP
-    Chef de Projet
-RQ
-    Responsable Qualité
-GSTP
-    Entreprise de travaux de notre étude de cas
-PAQ
-    Plan d'assurance Qualité
-PAQP
-    Plan d'assurance qualité projet
-MOA
-    Maîtrise d'Ouvrage
-MOE
-    Maîtrise d'Oeuvre
-SI
-    Système d'information
-    
-Glossaire des termes
---------------------
-Draft
-    Littéralement, *brouillon*, état d'un document, non terminé, dans lequel
-    l'accent est mis sur le fond plutôt que la forme. C'est un document de
-    travail.
-Livrable
-    Comme son nom l'indique, c'est un document prêt à être livré au client. Il a
-    le même fond que le draft associé, mais la forme est soignée.
-Tâche
-    Unité atomique de réalisation d'un projet. Les tâches sont hiérarchisables
-    sous forme de sous-tâches. Une tâche est assignée à une ou plusieurs
-    personne, possède un état (Nouveau, En cours, Attente de revue, Fermée,
-    etc.), et un avancement.
-Non-conformité
-    Problème décelé dans le projet. Il doit être résolu en utilisant la
-    procédure disponible dans ce document.
-Demande d'évolution
-    Demande faite par le client, concernant l'évolution du périmètre du projet.
-    Peut être rejeté ou accepté, et traité au cas par cas.
-
-
-Objectifs et engagement qualité
-###############################
-
-Résultats attendus
-------------------
-
-Le résultat attendu est double. D'une part, un audit de la solution actuelle
-employée par GSTP en ce qui concerne sa gestion interne devra être effectué, en
-mettant en évidence les goulet d'étranglement de performance. D'autre part, deux
-(2) solutions devront être proposées, pour résoudre ces problème, à l'aide d'un
-système d'information.
-
-Engagement qualité
-------------------
-
-La MOA s'engage 
-
-    
-
 Gestion de la documentation
 ###########################
 
@@ -177,9 +68,9 @@ documentation dans ce projet.
 Gestion des drafts
 ------------------
 Les *drafts* seront placés sous le gestionnaire de version décentralisé
-**Git**. Le dépôt sera placé sur le site GitHub, et tous les membres de
+**Git**. Le dépôt sera placé sur le site Github, et tous les membres de
 l'équipe pourront effectuer des modifications (commit et push) et accéder aux
-modifications effectuées par les autres personnes de l'équipe (pull).
+modifications effectuer par les autres personnes de l'équipe (pull).
 
 Un document pourra avoir plusieurs états, en fonction de la tâche qui lui est
 associé dans l'outil de gestion de projet Redmine.
@@ -235,8 +126,10 @@ de ne pas perdre le lecteur.
 Sauvegardes et versionning
 --------------------------
 L'outil de gestion de projet, *Redmine* est hébergé sur le serveur du BdE de l'INSA de
-Lyon, dont la politique de sauvegarde est très rigoureuse (redondance,
-sauvegardes off-site). Cet outil dispose en outre de capacité de journalisation, permettant
+Lyon, qui dispose de disques en redondance (RAID 1), pour parer à une éventuelle
+défaillance matérielle. De plus, la base de donnée du logicielle est sauvegardée
+tous les jours à minuit sur un NAS hors-site, disposant lui aussi de disques en
+redondance. Cet outil dispose en outre de capacité de journalisation, permettant
 de retracer dans des fichier de log les activités ayant été effectuées sur le
 logiciel, et permet donc implicitement un versionning des action.
 
@@ -281,20 +174,17 @@ indiquant une procédure pour :
 
 Dans le cadre de la découverte d'une non-conformité:
 ----------------------------------------------------
-
 #. Informer la MOA, si le changement est important.
 #. Placer une demande, du type *anomalie*, dans le logiciel de gestion de projet, dans la catégorie adéquate.
 #. Effectuer la modification dans le document racine, c'est à dire le document où se trouve la principale modification à faire.
 #. Propager cette modification dans les différents documents impactés. On veillera à utiliser au mieux les capacités d'inclusions de documents du logiciel utilisé, afin de ne garder qu'en un seul endroit l'information : une information à plusieurs endroit doit être modifiée plusieurs fois en cas de réponse à une non conformité.
 #. Informer les différents acteurs concernés du changement, afin qu'il puissent adapter leur travail futur, en prenant en compte cette évolution. Les autres acteurs, non directement informés, pourront se tenir au courant de la situation en consultant l'outil de gestion de projet.
 
-
 Dans le cadre d'une demande d'évolution émanant de la MOA
 ---------------------------------------------------------
 #. Discuter de l'acceptation de la demande d'évolution. Les critères pouvant être pris en compte sont (liste non exhaustive) : la taille des modifications à apporter, la complexité des modifications à apporter, le nombre de demande d'évolution déjà acceptées durant le projet, la disponibilité de la MOE, la criticité de la demande d'évolution.
 #. Si la demande est accepté, procéder comme pour une non-conformité.
 #. Si la demande est refusée, en informer la MOA, en expliquant les raison, de manière clair. Il peut être possible de négocier, mais cela sort du cadre de la procédure à suivre lors d'une demande d'évolution.
-
 
 
 Gestion de la qualité globale d'un document
