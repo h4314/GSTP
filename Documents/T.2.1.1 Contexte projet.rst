@@ -47,7 +47,7 @@ Les Directions et Services
 **3. Direction des finances et comptabilité (DFC)**
 
 - Cette direction est chargée de la gestion financière.
-Le Service de la Comptabilité est divisé sous-sections qui s’occupent respectivement : des salaires, de la sécurité sociale et des impôts, du suivi des fournisseurs et des banques, de la caisse et de l’approvisionnement.
+- Le Service de la Comptabilité est divisé sous-sections qui s’occupent respectivement : des salaires, de la sécurité sociale et des impôts, du suivi des fournisseurs et des banques, de la caisse et de l’approvisionnement.
 
 **4. Direction informatique (DI)**
 
