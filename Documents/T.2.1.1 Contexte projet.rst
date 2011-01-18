@@ -2,93 +2,91 @@
 Contexte du Projet
 ==================
 
-Les activités concernées dans l’entreprise
+Les activitÃ©s concernÃ©es dans lâ€™entreprise
 ##########################################
 
-GSTP est une entreprise de travaux, spécialisée dans les activités de terrassement et Génie Civil. Il sont soucieux de protéger l’environnement. Dans les travaux de terrassement la qualité environnementale est de rigueur, peu importe l’endroit d’intervention (aggloméré ou désertique).
+GSTP est une entreprise de travaux, spÃ©cialisÃ©e dans les activitÃ©s de terrassement et GÃ©nie Civil. Il sont soucieux de protÃ©ger lâ€™environnement. Dans les travaux de terrassement la qualitÃ© environnementale est de rigueur, peu importe lâ€™endroit dâ€™intervention (agglomÃ©rÃ© ou dÃ©sertique).
 
 Services :
 ----------
-- Décapage
-- Déblais
+- DÃ©capage
+- DÃ©blais
 - Remblai
 - VRD et assainissement
 - Caniveaux, Drainage
 - Construction de piste et excavation
-- Démolition, Débroussaillage
-- Aménagement et installation infrastructure de base
+- DÃ©molition, DÃ©broussaillage
+- AmÃ©nagement et installation infrastructure de base
 
-Ils assurent d’autres travaux spéciaux:
+Ils assurent dâ€™autres travaux spÃ©ciaux:
 
 - Forage horizontal
-- Mur de soutènement gabionnage
-- Construction de jetée sur mer
+- Mur de soutÃ¨nement gabionnage
+- Construction de jetÃ©e sur mer
 
 Actions :
 ---------
-- Humidification des zones d’évolution des engins.
+- Humidification des zones dâ€™Ã©volution des engins.
 - Balayage quotidien. 
-- Captage et neutralisation de déchets. 
-- Limiter la circulation et les zones de circulation pour l’évacuation et la livraison.
-- Emplacement de stationnement pour les engins et véhicules sur le chantier pendant toute la durée des travaux. 
-- Triage des déchets et réduction au maxi des salissures occasionnés. 
+- Captage et neutralisation de dÃ©chets. 
+- Limiter la circulation et les zones de circulation pour lâ€™Ã©vacuation et la livraison.
+- Emplacement de stationnement pour les engins et vÃ©hicules sur le chantier pendant toute la durÃ©e des travaux. 
+- Triage des dÃ©chets et rÃ©duction au maxi des salissures occasionnÃ©s. 
 
-Les Directions Concernés
+Les Directions ConcernÃ©s
 ########################
 
-#. Direction générale (DG)
+**1. Direction gÃ©nÃ©rale (DG)**
 
-Elle est la plus haute instance de l’entreprise. Elle définit les axes stratégiques de fonctionnement et donne les objectifs globaux à atteindre. Elle a aussi pour rôle d’appuyer et de coordonner l’ensemble des activités techniques et financières et d’en assurer le contrôle. 
+Elle est la plus haute instance de lâ€™entreprise. Elle dÃ©finit les axes stratÃ©giques de fonctionnement et donne les objectifs globaux Ã  atteindre. Elle a aussi pour rÃ´le dâ€™appuyer et de coordonner lâ€™ensemble des activitÃ©s techniques et financiÃ¨res et dâ€™en assurer le contrÃ´le. 
 
-#. Direction des ressources humaines (DRH)
+**2. Direction des ressources humaines (DRH)**
 
-La fonction de Ressources Humaines se positionne plus qu’avant en tant que support à la gestion quotidienne des 	chantiers. Cela facilite l’anticipation dans la gestion des plannings, voire la mise en œuvre d’actions de formation et cela peut permettre de traiter plus efficacement les questions humaines qui se posent.
+La fonction de Ressources Humaines se positionne plus quâ€™avant en tant que support Ã  la gestion quotidienne des 	chantiers. Cela facilite lâ€™anticipation dans la gestion des plannings, voire la mise en Å“uvre dâ€™actions de formation et cela peut permettre de traiter plus efficacement les questions humaines qui se posent.
 
-#. Direction des finances et comptabilité (DFC)
+**3. Direction des finances et comptabilitÃ© (DFC)**
 
-Cette direction est chargée de la gestion financière.
-Le Service de la Comptabilité est divisé sous-sections qui s’occupent respectivement : des salaires, de la sécurité sociale et des impôts, du suivi des fournisseurs et des banques, de la caisse et de l’approvisionnement.
+Cette direction est chargÃ©e de la gestion financiÃ¨re.
+Le Service de la ComptabilitÃ© est divisÃ© sous-sections qui sâ€™occupent respectivement : des salaires, de la sÃ©curitÃ© sociale et des impÃ´ts, du suivi des fournisseurs et des banques, de la caisse et de lâ€™approvisionnement.
 
-#. Direction informatique (DI)
+**4. Direction informatique (DI)**
 
-La DI est responsable de l'ensemble des composants matériels (postes de travail, serveurs, équipements de réseau, systèmes de stockage, de sauvegarde et d'impression, etc) et logiciels du système de gestion (paye, comptabilité,gestion du personnel, etc), ainsi que du choix et de l'exploitation des services de télécommunications mis en œuvre.
+La DI est responsable de l'ensemble des composants matÃ©riels (postes de travail, serveurs, Ã©quipements de rÃ©seau, systÃ¨mes de stockage, de sauvegarde et d'impression, etc) et logiciels du systÃ¨me de gestion (paye, comptabilitÃ©,gestion du personnel, etc), ainsi que du choix et de l'exploitation des services de tÃ©lÃ©communications mis en Å“uvre.
 
-Cette direction va gérer d'application indépendantes, développées en interne, utilisant des fichiers. Le Responsable de la DI est chargé notamment :
+Cette direction va gÃ©rer d'application indÃ©pendantes, dÃ©veloppÃ©es en interne, utilisant des fichiers. Le Responsable de la DI est chargÃ© notamment :
 
-	- D'anticiper les évolutions imposées par la stratégie de l'entreprise, les évolutions du contexte, les lois.
-	- D'avoir un rôle d'assistance à la maîtrise d'ouvrage (et non pas seulement de maîtrise d'œuvre) de l'informatique dans l'entreprise.
+	- D'anticiper les Ã©volutions imposÃ©es par la stratÃ©gie de l'entreprise, les Ã©volutions du contexte, les lois.
+	- D'avoir un rÃ´le d'assistance Ã  la maÃ®trise d'ouvrage (et non pas seulement de maÃ®trise d'Å“uvre) de l'informatique dans l'entreprise.
 	- De commander des projets.
-	- D'administrer les bases de données ainsi que les serveurs d'applications.
+	- D'administrer les bases de donnÃ©es ainsi que les serveurs d'applications.
 
-#. Direction du matériel (DM)
+**5. Direction du matÃ©riel (DM)**
 
-La Direction du matériel joue un rôle de fournisseur (location du matériel) vis-à-vis des chantiers. Elle est chargée de différents missions :
+La Direction du matÃ©riel joue un rÃ´le de fournisseur (location du matÃ©riel) vis-Ã -vis des chantiers. Elle est chargÃ©e de diffÃ©rents missions :
 
-	- La mise à la disposition du matériel aux chantier.
-	- L’organisation de la maintenance du matériel (entretien, rénovation et réparations).
-	- L’organisation de le stock de pièces pour les réparations.
-	- Facturer l'utilisation du matériel aux chantiers.
+	- La mise Ã  la disposition du matÃ©riel aux chantier.
+	- Lâ€™organisation de la maintenance du matÃ©riel (entretien, rÃ©novation et rÃ©parations).
+	- Lâ€™organisation de le stock de piÃ¨ces pour les rÃ©parations.
+	- Facturer l'utilisation du matÃ©riel aux chantiers.
 
-Elle est décomposée en trois départements qui sont décomposé à son tour en services:
+Elle est dÃ©composÃ©e en trois dÃ©partements qui sont dÃ©composÃ© Ã  son tour en services:
 
-	* Département Matériel
-		- Service Gestion du Matériel
-		- Gestion du Parc Matériel
-		- Facturation Matériel
+	* DÃ©partement MatÃ©riel
+		- Service Gestion du MatÃ©riel
+		- Gestion du Parc MatÃ©riel
+		- Facturation MatÃ©riel
 
-	* Département Maintenance
-		- Service Gestion des pièces de Rechange
+	* DÃ©partement Maintenance
+		- Service Gestion des piÃ¨ces de Rechange
 		- Service de Maintenance
 
-	* Département Achat
+	* DÃ©partement Achat
 		- Service Gestion des Fournisseurs
-		- Service d'Achat du Matériel
-		- Service d'Achat des Pièces de Rechange
-		- Service Location du Matériel
+		- Service d'Achat du MatÃ©riel
+		- Service d'Achat des PiÃ¨ces de Rechange
+		- Service Location du MatÃ©riel
 		
-#. Direction travaux, études et méthodes (DTEM)
+**6. Direction travaux, Ã©tudes et mÃ©thodes (DTEM)**
 
-La DTEM est responsable de l’exécution des travaux d’un ou de plusieurs chantiers. C'est le pivot de l'organisation et de l'exploitation dirigée par les chefs de chantier. Le responsable de travaux exerce son métier directement sur les chantiers. Il dirige et organise le chantier, compose les équipes dirigées par le chef de chantier, surveille l'avancement des travaux, rédige les rapports, dialogue avec les ingénieurs et les riverains du chantier. Il est responsable vis-à-vis de son client du respect des délais et de la qualité de l’ouvrage. Il est également responsable du respect des règles d’hygiène et de sécurité sur le chantier. Réactif et communiquant, il a une forte charge de travail.
-
-
+La DTEM est responsable de lâ€™exÃ©cution des travaux dâ€™un ou de plusieurs chantiers. C'est le pivot de l'organisation et de l'exploitation dirigÃ©e par les chefs de chantier. Le responsable de travaux exerce son mÃ©tier directement sur les chantiers. Il dirige et organise le chantier, compose les Ã©quipes dirigÃ©es par le chef de chantier, surveille l'avancement des travaux, rÃ©dige les rapports, dialogue avec les ingÃ©nieurs et les riverains du chantier. Il est responsable vis-Ã -vis de son client du respect des dÃ©lais et de la qualitÃ© de lâ€™ouvrage. Il est Ã©galement responsable du respect des rÃ¨gles dâ€™hygiÃ¨ne et de sÃ©curitÃ© sur le chantier. RÃ©actif et communiquant, il a une forte charge de travail.
 
