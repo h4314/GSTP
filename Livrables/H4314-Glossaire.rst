@@ -3,7 +3,7 @@ Glossaire
 =========
 
 Le glossaire est divisé en deux parties, l'un concerne les termes issus des
-documents emis par GSTP, le second concerne les termes fonctionnels à définir
+documents émis par GSTP, le second concerne les termes fonctionnels à définir
 dans le cadre de notre étude.
 
 Nous nous intéressons ici au premier : la définition des termes fonctionnels.
