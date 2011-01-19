@@ -146,11 +146,11 @@ Rénovation
 
 Il est composé de deux services :
 Gestion des Pièces de Rechanges
-  - approvisionnement/réception/valorisation
-  - lieux : magasins
+- approvisionnement/réception/valorisation
+- lieux : magasins
 Maintenance 
-    - planification/exécution/valorisation des opérations de maintenance 
-    - lieux : ateliers
+- planification/exécution/valorisation des opérations de maintenance 
+- lieux : ateliers
  
 
 Département Achat
@@ -209,22 +209,8 @@ Organisation des ressources
 Ressources Humaines 
 --------------------
 
-::
-
-    _TODO: sous forme d'un schema/tableau ?_
-
-Total : 70
- - Département Matériel
-  	- Service Gestion du Matériel : 3 personnes
-  	- Gestion du Parc Matériel : 1 personne
-  	- Facturation Matériel : 1 personne
- - Département Maintenance 
-  	- Gestion des Pièces de Rechange : 1 personne par magasin (= 3 personnes)
-  	- Maintenance : 60 personnes 
-    		- atelier principal : 8 personnes
-    		- ateliers de chantier : 42
- - Département Achat : 2 personnes
-
+.. image:: images/rh.png
+    :scale: 50%
 
 Ressources matérielles
 -----------------------
