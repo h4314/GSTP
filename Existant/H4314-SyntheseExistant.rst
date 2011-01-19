@@ -16,15 +16,15 @@ Introduction
 Domaine d'étude
 ===============
 
-Seul le domaine de la gestion du matériel sera étudié.
+Seul le domaine de la gestion du matériel (DM) de GSTP sera étudié.
 
 
-Les activités concernées
+Activités concernées
 ========================
 
-GSTP est une entreprise de travaux, spécialisée dans les activités de terrassement et Génie Civil. Il sont soucieux de protéger l’environnement. Dans les travaux de terrassement la qualité environnementale est de rigueur, peu importe l’endroit d’intervention (aggloméré ou désertique).
+GSTP est une entreprise de travaux, spécialisée dans les activités de terrassement et Génie Civil. Il sont soucieux de protéger l’environnement. Dans les travaux de terrassement la qualité environnementale est de rigueur, quelque soit l’endroit d’intervention (aggloméré ou désertique).
 
-Services :
+Services proposés par GSTP:
 ----------
 - Décapage
 - Déblais
@@ -35,7 +35,7 @@ Services :
 - Démolition, Débroussaillage
 - Aménagement et installation infrastructure de base
 
-Ils assurent d’autres travaux spéciaux:
+GSTP assure d’autres travaux spéciaux:
 
 - Forage horizontal
 - Mur de soutènement gabionnage
@@ -50,18 +50,18 @@ Actions :
 - Emplacement de stationnement pour les engins et véhicules sur le chantier pendant toute la durée des travaux. 
 - Triage des déchets et réduction au maxi des salissures occasionnés. 
 
-Les Directions et Services
-==========================
+Directions et Services de GSTP
+================================
 
 Direction générale (DG)
 -------------------------
 
-- Elle est la plus haute instance de l’entreprise. Elle définit les axes stratégiques de fonctionnement et donne les objectifs globaux à atteindre. Elle a aussi pour rôle d’appuyer et de coordonner l’ensemble des activités techniques et financières et d’en assurer le contrôle. 
+- Elle est la plus haute instance de l’entreprise. Elle définit les axes stratégiques de fonctionnement et donne les objectifs globaux à atteindre. Elle a aussi pour rôle d’appuyer et de coordonner l’ensemble des activités techniques et financières de l'entreprise et d’en assurer le contrôle. 
 
 Direction des ressources humaines (DRH)
 --------------------------------------------------
 
-- La fonction de Ressources Humaines se positionne plus qu’avant en tant que support à la gestion quotidienne des 	chantiers. Cela facilite l’anticipation dans la gestion des plannings, voire la mise en œuvre d’actions de formation et cela peut permettre de traiter plus efficacement les questions humaines qui se posent.
+- Les Ressources Humaines se positionnent davantage en fonction de support qu'à la gestion quotidienne des 	chantiers. Cette fonction permet de faciliter l’anticipation dans la gestion des plannings, voire la mise en œuvre d’actions de formation. Ainsi cela permet de traiter plus efficacement les questions relatives à la gestion des ressources humaines.
 
 Direction des finances et comptabilité (DFC)
 --------------------------------------------------
@@ -72,26 +72,25 @@ Direction des finances et comptabilité (DFC)
 Direction informatique (DI)
 --------------------------------------------------
 
-- La DI est responsable de l'ensemble des composants matériels (postes de travail, serveurs, équipements de réseau, systèmes de stockage, de sauvegarde et d'impression, etc) et logiciels du système de gestion (paye, comptabilité,gestion du personnel, etc), ainsi que du choix et de l'exploitation des services de télécommunications mis en œuvre.
+- La DI est responsable de l'ensemble des composants matériels informatiques (postes de travail, serveurs, équipements de réseau, systèmes de stockage, de sauvegarde et d'impression, etc) et des logiciels du système de gestion (paye, comptabilité,gestion du personnel, etc), ainsi que du choix et de l'exploitation des services de télécommunication mis en œuvre.
 
-- Cette direction va gérer d'application indépendantes, développées en interne, utilisant des fichiers. Le Responsable de la DI est chargé notamment :
+- Cette direction doit gérer des applications logicielles indépendantes, développées en interne, utilisant des fichiers. Le Responsable de la DI est notamment chargé:
 
-	- D'anticiper les évolutions imposées par la stratégie de l'entreprise, les évolutions du contexte, les lois.
-	- D'avoir un rôle d'assistance à la maîtrise d'ouvrage (et non pas seulement de maîtrise d'œuvre) de l'informatique dans l'entreprise.
-	- De commander des projets.
-	- D'administrer les bases de données ainsi que les serveurs d'applications.
+	- d'anticiper les évolutions imposées par la stratégie de l'entreprise, les évolutions du contexte des Systèmes d'Information, et d'appliquer les lois en vigueures (ex: CNIL)
+	- de commander des projets.
+	- d'administrer les bases de données ainsi que les serveurs d'applications.
 
 Direction du matériel (DM)
 --------------------------------------------------
 
 - La Direction du matériel joue un rôle de fournisseur (location du matériel) vis-à-vis des chantiers. Elle est chargée de différents missions :
 
-	- La mise à la disposition du matériel aux chantier.
-	- L’organisation de la maintenance du matériel (entretien, rénovation et réparations).
-	- L’organisation de le stock de pièces pour les réparations.
-	- Facturer l'utilisation du matériel aux chantiers.
+	- la mise à la disposition du matériel aux chantier.
+	- l’organisation de la maintenance du matériel (entretien, rénovation et réparations).
+	- l’organisation du stock de pièces pour les réparations.
+	- facturer l'utilisation du matériel aux chantiers.
 
-- Elle est décomposée en trois départements qui sont décomposé à son tour en services:
+- Elle est décomposée en trois départements qui sont décomposés à leur tour en services:
 
 	* Département Matériel
 		- Service Gestion du Matériel
@@ -111,7 +110,7 @@ Direction du matériel (DM)
 Direction travaux, études et méthodes (DTEM)
 --------------------------------------------------
 
-- La DTEM est responsable de l’exécution des travaux d’un ou de plusieurs chantiers. C'est le pivot de l'organisation et de l'exploitation dirigée par les chefs de chantier. Le responsable de travaux exerce son métier directement sur les chantiers. Il dirige et organise le chantier, compose les équipes dirigées par le chef de chantier, surveille l'avancement des travaux, rédige les rapports, dialogue avec les ingénieurs et les riverains du chantier. Il est responsable vis-à-vis de son client du respect des délais et de la qualité de l’ouvrage. Il est également responsable du respect des règles d’hygiène et de sécurité sur le chantier. Réactif et communiquant, il a une forte charge de travail.
+- La DTEM est responsable de l’exécution des travaux d’un ou de plusieurs chantiers. C'est le pivot de l'organisation et de l'exploitation des chantiers dirigés par les chefs de chantier. Le responsable de travaux exerce son métier directement sur les chantiers. Il dirige et organise le chantier, compose les équipes dirigées par le chef de chantier, surveille l'avancement des travaux, rédige les rapports, dialogue avec les ingénieurs et les riverains du chantier. Il est responsable vis-à-vis de son client du respect des délais et de la qualité de l’ouvrage. Il est également responsable du respect des règles d’hygiène et de sécurité sur le chantier. Réactif et communiquant, il a une forte charge de travail.
 
 
 Zoom sur le domaine d'étude 
