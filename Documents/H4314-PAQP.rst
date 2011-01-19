@@ -5,10 +5,16 @@ Plan d'assurance qualité projet
 .. contents:: Sommaire
 .. sectnum::
 
+
+.. page::
+
+Objectif du Plan d'assurance qualité
+####################################
+
 Présentation du document
-########################
-Ce document présente les mécanismes qualités qui seront mis en œuvre par la
-maitrise d'ouvrage, pour satisfaire les besoins de la maitrise d'œuvre.
+------------------------
+Ce document présente les mécanismes qualités qui seront mis en oeuvre par la
+maitrise d'ouvrage, pour satisfaire les besoins de la maitrise d'oeuvre.
 
 Ce document servira de référence, du point de vu qualité, pour cadrer la
 réalisation du projet.
@@ -23,8 +29,8 @@ D'autres documents pourront être considérés comme référence lors de ce proj
 - La documentation officielle de Redmine, l'outil de gestion de projet libre (http://www.redmine.org/guide)
 - Le lexique des règles typographiques en usage à l'imprimerie nationale, pour tout ce qui concerne la typographie
 
-Équipe
-######
+Partenaire
+----------
 L'équipe de projet est constitué de :
 
 - Paul ADENOT (Responsable Qualité)
@@ -35,11 +41,22 @@ L'équipe de projet est constitué de :
 - Yoann BUCH
 - Pierrick GRANDJER
 
-Cette équipe constitue la MOE, qui répond à l'appel d'offre de la societé GSTP
+Cette équipe constitue la MOE, qui répond à l'appel d'offre de la societé GSTP.
 
-Relation avec la MOE
+La maîtrise d'ouvrage est une équipe de l'entreprise GSTP, entité porteuse du
+besoin. L'entreprise est représenté par :
+
+- Y Amghar
+- A Legait
+- PA Millet
+- M Ou-halima
+
+Les deux entités MOE ET MOA devront ainsi travailler ensemble afin de mener à bien le
+projet.
+
+Relation avec la MOA
 --------------------
-La relation avec la MOE se fera principalement par le chef de projet et le
+La relation avec la MOA se fera principalement par le chef de projet et le
 responsable qualité, ces deux acteurs ayant une bonne vision globale du projet.
 
 En cas de besoin, cependant, il pourra être demandé à un autre membre de
@@ -56,6 +73,218 @@ acteurs doivent être disponibles, afin de garantir une bonne réactivité, en c
 de changement de situation du côté MOA comme du côté MOE.
 
 
+Critère et procédure d'évolution du PAQP
+----------------------------------------
+
+Le présent document pourra être amener à évoluer, pour refléter un changement de
+situation au sein du projet (pouvant être une simple mise en conformité des
+informations contenues dans ce document après un changement dans une équipe,
+jusqu'au changement dans les résultats attendus).
+
+Dès que le besoin de changement se fera sentir, et si le changement n'est pas
+trivial, une réunion aura lieu, réunissant la MOE, et éventuellement la MOA si
+le changement impacte cette équipe. Le responsable qualité expliquera alors la
+situation, et l'équipe tentera de résoudre le problème, ou validera l'évolution.
+
+Procédure de dérogation au PAQP
+-------------------------------
+
+Il pourra être autorisé une dérogation au PAQP, ponctuelle, si, pour une tâche,
+celui-ci diminue trop l'agilité du projet, au sens flexibilité et interactivité.
+Si pour une tâche, la méthode est considérée trop lourde ou inadéquate, il ne
+faudra pas hésiter à se baser sur une méthode plus légère.
+
+Cela ne veut en aucun cas dire qu'on peut se passer de méthode. Il s'agira juste
+de s'affranchir, par exemple, d'un mécanisme de validation lourd pour un
+livrable devant être revu à plusieurs étapes du projet, faisant perdre du temps
+aux acteurs validant le projet.
+
+Une exception à cette règle de dérogation est à mentionner. Les dérogations ne
+peuvent être faites sur les aspects de gestion du temps et des tâches. Le chef
+de projet doit pouvoir effectuer le suivi correctement, et donc cet aspect ne
+peut pas être sacrifié.
+
+.. page::
+
+Terminologie
+############
+
+Abréviations utilisées
+----------------------
+
+CdP
+    Chef de Projet
+RQ
+    Responsable Qualité
+GSTP
+    Entreprise de travaux de notre étude de cas
+PAQ
+    Plan d'assurance Qualité
+PAQP
+    Plan d'assurance qualité projet
+MOA
+    Maîtrise d'Ouvrage
+MOE
+    Maîtrise d'Oeuvre
+SI
+    Système d'information
+    
+Glossaire des termes
+--------------------
+Draft
+    Littéralement, *brouillon*, état d'un document, non terminé, dans lequel
+    l'accent est mis sur le fond plutôt que la forme. C'est un document de
+    travail.
+Livrable
+    Comme son nom l'indique, c'est un document prêt à être livré au client. Il a
+    le même fond que le draft associé, mais la forme est soignée.
+Tâche
+    Unité atomique de réalisation d'un projet. Les tâches sont hiérarchisables
+    sous forme de sous-tâches. Une tâche est assignée à une ou plusieurs
+    personne, possède un état (Nouveau, En cours, Attente de revue, Fermée,
+    etc.), et un avancement.
+Non-conformité
+    Problème décelé dans le projet. Il doit être résolu en utilisant la
+    procédure disponible dans ce document.
+Demande d'évolution
+    Demande faite par le client, concernant l'évolution du périmètre du projet.
+    Peut être rejeté ou accepté, et traité au cas par cas.
+Template de document
+    Squelette de document, permettant de fixer une fois pour toute la structure
+    de document. Souvent il est copié collé, puis complété, afin de produire
+    le document final.
+RSS
+    Littéralement *Really Simple Syndication*, flux XML largement utilisé en
+    syndicat ion de contenu permettant à des acteurs de s'abonner à une source de
+    donnée, et d'être mis à jour d'une évolution.
+Wiki
+    Page web éditable librement, ou par des acteurs identifiés, permettant une
+    collaboration rapide sur un document. Utilise souvent un langage de balisage
+    léger pour la mise en forme.
+
+
+.. page::
+
+
+Objectifs et engagement qualité
+###############################
+
+Résultats attendus
+------------------
+
+Le résultat attendu est double. D'une part, un audit de la solution actuelle
+employée par GSTP en ce qui concerne sa gestion interne devra être effectué, en
+mettant en évidence les goulet d'étranglement de performance. D'autre part, deux
+(2) solutions devront être proposées, pour résoudre ces problème, à l'aide d'un
+système d'information.
+
+Engagement qualité
+------------------
+
+La MOA s'engage à fournir les informations nécessaire à la bonne réalisation du
+projet par la MOE, notamment, mais non limités à l'organisation, les processus
+organisationnels actuels, et autres méthodes de travail.
+
+La MOE s'engage à respecter un politique de discrétion dans le cadre de
+d'éventuelles information confidentielles nécessaire à la bonne exécution du
+projet.
+
+La MOA s'engage à mettre à disposition des employés, et à accueillir du
+personnel de la MOA pour d'éventuelles interview, afin de pouvoir formaliser les
+processus directement sur le terrain, et de capter au mieux l'existant.
+ 
+.. page::
+
+Organisation du projet
+######################
+
+
+
+Structure de pilotage du projet
+-------------------------------
+
+Schéma représentant la structure de pilotage de projet entre les deux équipes :
+
+.. image:: images/comite.png
+    :scale: 70%
+
+
+
+La structure de pilotage du projet est composée de membres de l'entreprise GSTP,
+et de membres de l'équipe de projet. Le regroupement de ces deux équipes est
+appelé « Comité de pilotage », et sera responsable en terme de guidage pour le
+projet.
+
+En cas de décisions, c'est ces personnes qui discuterons ensembles de la
+solution la plus bénéfique pour le projet, éventuellement aidées d'experts, des
+deux entreprises.
+
+Organisation de l'équipe de projet
+----------------------------------
+
+Les membres de l'équipe sont organisés comme suit :
+
+- Paul ADENOT (Responsable qualité, communication)
+    - Responsable de la qualité des documents, des moyens techniques de suivi de projet, et de la communication interne. Membre du comité de pilotage.
+- Étienne GUÉRIN (Chef de projet)
+    - Responsable de l'équipe, de la création des plannings, de l'assignation des tâches.
+- Martin RICHARD (Expert technique SI)
+    - Étudie et détermine les aspects informatiques de l'existant, et propose des solutions techniques.
+- Yi Quan ZHOU (Expert technique matériel)
+    - Étudie l'aspect gestion du matériel dans l'entreprise GSTP.
+- Arturo Mayor (Expert technique matériel)
+    - Idem
+- Yoann BUCH (Expert technique organisationnel)
+    - Étudie les aspects organisationnels dans l'entreprise GSTP.
+- Pierrick GRANDJER (Expert technique BTP)
+    - Étudie les aspects spécifiques à une entreprise de BTP tel que GSTP
+
+Sous-traitance
+--------------
+
+L'équipe assurera tous les aspects de l'étude, et s'engage à ne pas déléguer de
+tâches à un éventuel sous-traitant.
+
+Planification du projet
+-----------------------
+
+La planification prévisionnel a été effectué dans le dossier d'initialisation,
+par le chef de projet. Cette planification de projet est reporté progressivement
+dans l'outil de gestion de projet, permettant une interaction facilité avec
+l'équipe de projet.
+
+À chaque fois que des tâches sont assignées à un acteur, un flux RSS, suivi par
+les membres du projet, est mis à jour, permettant de le tenir au courant en
+temps réel. Un email lui est aussi envoyé, par le chef de projet, permettant de
+clarifier éventuellement certains points de la tâche.
+
+Le suivi des tâches est intégré dans l'outil de gestion de projet. Il est de la
+responsabilité des membres de l'équipe de projet de mettre à jour leurs tâches
+(temps passé, avancement, remarques, etc.) sur l'outil de gestion de projet.
+Un accès a été fourni à la MOA dans un but de transparence et de facilité de
+suivi.
+
+La mesure de l'avancement est double. D'une part, les experts techniques
+indiquent leur avancement sur la plateforme de gestion de projet, et d'autre
+part, le responsable qualité pourra juger de l'avancement lors des revues de
+documents.
+
+Les réunions de projet se font une fois par séance de travail. Un compte rendu
+normalisé à l'aide des *templates* de compte rendu de réunion est placé dans le
+wiki de l'outil de gestion de projet, consultable par la MOA. À la fin de chaque
+réunion, la prochaine est planifiée. Les compte rendu de réunion sont rédigé de
+manière à résumer tout ce qu'il s'est dit pendant la réunion, sans synthèse, de
+manière à refléter de manière fidèle le dialogue de l'équipe.
+
+En ce qui concerne le suivi prévisionnel, le chef de projet dresse après chaque
+session de travail un indicateur de l'état du projet. L'outil de gestion de
+projet permet aussi d'avoir des statistiques globales sur le projet, incluant le
+nombre d'heure passé par acteur sur chaque catégorie de tâche, permettant
+d'avoir une vue d'ensemble du projet.
+
+
+.. page::
+
 Gestion de la documentation
 ###########################
 
@@ -68,9 +297,9 @@ documentation dans ce projet.
 Gestion des drafts
 ------------------
 Les *drafts* seront placés sous le gestionnaire de version décentralisé
-**Git**. Le dépôt sera placé sur le site Github, et tous les membres de
+**Git**. Le dépôt sera placé sur le site GitHub, et tous les membres de
 l'équipe pourront effectuer des modifications (commit et push) et accéder aux
-modifications effectuer par les autres personnes de l'équipe (pull).
+modifications effectuées par les autres personnes de l'équipe (pull).
 
 Un document pourra avoir plusieurs états, en fonction de la tâche qui lui est
 associé dans l'outil de gestion de projet Redmine.
@@ -126,10 +355,8 @@ de ne pas perdre le lecteur.
 Sauvegardes et versionning
 --------------------------
 L'outil de gestion de projet, *Redmine* est hébergé sur le serveur du BdE de l'INSA de
-Lyon, qui dispose de disques en redondance (RAID 1), pour parer à une éventuelle
-défaillance matérielle. De plus, la base de donnée du logicielle est sauvegardée
-tous les jours à minuit sur un NAS hors-site, disposant lui aussi de disques en
-redondance. Cet outil dispose en outre de capacité de journalisation, permettant
+Lyon, dont la politique de sauvegarde est très rigoureuse (redondance,
+sauvegardes off-site). Cet outil dispose en outre de capacité de journalisation, permettant
 de retracer dans des fichier de log les activités ayant été effectuées sur le
 logiciel, et permet donc implicitement un versionning des action.
 
@@ -157,6 +384,9 @@ formation leur a été donnée en début de projet, et des référents technique
 - Git et GitHub : Paul ADENOT et Martin RICHARD.
 - Redmine : Paul ADENOT et Etienne GUÉRIN.
 
+
+.. page::
+
 Gestion des modifications
 #########################
 
@@ -174,11 +404,13 @@ indiquant une procédure pour :
 
 Dans le cadre de la découverte d'une non-conformité:
 ----------------------------------------------------
+
 #. Informer la MOA, si le changement est important.
 #. Placer une demande, du type *anomalie*, dans le logiciel de gestion de projet, dans la catégorie adéquate.
 #. Effectuer la modification dans le document racine, c'est à dire le document où se trouve la principale modification à faire.
 #. Propager cette modification dans les différents documents impactés. On veillera à utiliser au mieux les capacités d'inclusions de documents du logiciel utilisé, afin de ne garder qu'en un seul endroit l'information : une information à plusieurs endroit doit être modifiée plusieurs fois en cas de réponse à une non conformité.
 #. Informer les différents acteurs concernés du changement, afin qu'il puissent adapter leur travail futur, en prenant en compte cette évolution. Les autres acteurs, non directement informés, pourront se tenir au courant de la situation en consultant l'outil de gestion de projet.
+
 
 Dans le cadre d'une demande d'évolution émanant de la MOA
 ---------------------------------------------------------
@@ -186,6 +418,8 @@ Dans le cadre d'une demande d'évolution émanant de la MOA
 #. Si la demande est accepté, procéder comme pour une non-conformité.
 #. Si la demande est refusée, en informer la MOA, en expliquant les raison, de manière clair. Il peut être possible de négocier, mais cela sort du cadre de la procédure à suivre lors d'une demande d'évolution.
 
+
+.. page::
 
 Gestion de la qualité globale d'un document
 ###########################################
@@ -207,3 +441,12 @@ Forme
 - Grammaire : les fautes de grammaires en tout genre doivent être évitées.
 - Typographie : la typographie devra respecter les standards français, afin de produire des document agréables et facile à lire, sans détourner le lecteur du contenu.
 
+
+.. page
+
+Gestion de l'application du PAQ
+###############################
+
+Le responsable qualité, assisté par le chef de projet, est responsable de la
+bonne application du plan d'assurance qualité. Chaque membre de projet devra
+s'y référer pendant toute la durée du projet.
