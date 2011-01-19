@@ -37,7 +37,7 @@ Environnement logiciel
 ----------------------
 Les postes de l'entreprises sont équipés de différentes versions de Microsoft
 Windows (de la version XP SP3 à Seven). Toutes les licences sont déclinées en
-versions "*Professional*. Le serveur de l'entreprise est un serveur sons
+versions "*Professional*. Le serveur de l'entreprise est un serveur sous
 Windows 2008 Server (à jour) avec les services Active Directory et Outlook
 Exchange.
 
