@@ -88,6 +88,8 @@ mise à jour du parc).
 Communication, système d'informations
 -------------------------------------
 
+**TO BE DONE**
+
  - communication hasardeuse et non formalisée entre chantiers et le reste
  - pas de garanties sur cette communication
  - au siège, pas de capitalisation des connaissances, d'échanges formalisés
