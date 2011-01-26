@@ -47,6 +47,12 @@ C'est un logiciel qui permet de gérer l'ensemble des processus opérationnels d
 Choix des cibles
 ==================
 
+Le traitement de l’information dans l’entreprise est en pleine mutation. Aujourd’hui, toutes les entreprises, aussi bien nationales et internationales que les PME et les PMI sont confrontées aux besoins changeant du marché tels que : acquisitions, fusions, solutions collaboratives, monnaie unique européenne, extension européenne à 25 pays, etc. Ces enjeux sont tels qu’ils nécessitent une remise en question complète des systèmes existants.
+
+Lors de cette migration, bon nombre d’entreprises choisissent d’abandonner leurs solutions applicatives "sur mesure" pour se tourner vers le monde des ERP "prêts à implanter".
+
+Caractéristiques :
+
  - S'adresse aux PME du secteur du bâtiment pour analyser en temps réel la rentabilité de leurs chantiers.
  - Fiable et éprouvée
  - Simple et efficace
@@ -56,17 +62,33 @@ Choix des cibles
 Bonnes pratiques
 ==================
 
-- Fonctions Commerciales
-	- Prospect
-	- Etude de Prix
-	- Situation de Travaux et Suivi économique
+- Fonctions Commerciales :
+
+	- Prospect : Gestion des courriers, Gestion des Alertes.
+	- Étude de Prix, Devis
+	- Situation de Travaux et Suivi économique : Travaux supplémentaires, Approvisionnements, Avances sur travaux, Révisions de prix, Actualisation, Paiement direct des sous-traitants, Retenues de garantie et Cautions bancaires, Acomptes et leur décompte automatique.
 	- Facturation Négoce
 
+ - Fonctions Production :
 
-Critères de selection
+	- Suivi de Chantier
+	- Gestion de Production
+	- Planning
+	- Parc matériel et Logistique des chantiers : gestion des moyens matériels.
+	- Gestion des Achats
+	- Gestion des Stocks
+	- SAV
+        - Suivi de la main d'œuvre
+
+- Fonctions Administratives :
+
+	- Compta générale
+	- Paye/Personnel
+
+Critères de sélection
 ======================
 
-pourquoi pas lister les critères de selection attendus
+pourquoi pas lister les critères de sélection attendus
 
 Progiciels de Gestion Intégrés Transversaux
 ############################################
