@@ -57,16 +57,28 @@ Bonnes pratiques
 ==================
 
 - Fonctions Commerciales
-	- Prospect
-	- Etude de Prix
-	- Situation de Travaux et Suivi économique
+	- Prospect : Gestion des courriers, Gestion des Alertes
+	- Étude de Prix, Devis
+	- Situation de Travaux et Suivi économique : Travaux supplémentaires, Approvisionnements, Avances sur travaux, Révisions de prix, Actualisation, Paiement direct des sous-traitants, Retenues de garantie et Cautions bancaires, Acomptes et leur décompte automatique
 	- Facturation Négoce
 
+ - Fonctions Production
+	- Suivi de Chantier
+	- Gestion de Production
+	- Planning
+	- Parc matériel
+	- Gestion des Achats
+	- Gestion des Stocks
+	- SAV
 
-Critères de selection
+- Fonctions Administratives
+	- Compta générale
+	- Paye/Personnel
+
+Critères de sélection
 ======================
 
-pourquoi pas lister les critères de selection attendus
+pourquoi pas lister les critères de sélection attendus
 
 Progiciels de Gestion Intégrés Transversaux
 ############################################
