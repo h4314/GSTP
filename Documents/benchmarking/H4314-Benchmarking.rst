@@ -42,10 +42,11 @@ Progiciels de Gestion Intégrés Métiers
 Définition
 ===========
 
-Ce qu'on sous entend par PGI *Métier*
+C'est un logiciel qui permet de gérer l'ensemble des processus opérationnels d'une entreprise, en intégrant l'ensemble des fonctions de cette dernière comme la gestion des ressources humaines, la gestion comptable, financière, mais aussi la vente, la distribution, l'approvisionnement, le commerce électronique. 
 
 Choix des cibles
 ==================
+
  - S'adresse aux PME du secteur du bâtiment pour analyser en temps réel la rentabilité de leurs chantiers.
  - Fiable et éprouvée
  - Simple et efficace
@@ -55,7 +56,12 @@ Choix des cibles
 Bonnes pratiques
 ==================
 
-fonctionnalités récurrentes à travers les solutions (donc pas forcément classer par solution)
+- Fonctions Commerciales
+	- Prospect
+	- Etude de Prix
+	- Situation de Travaux et Suivi économique
+	- Facturation Négoce
+
 
 Critères de selection
 ======================
