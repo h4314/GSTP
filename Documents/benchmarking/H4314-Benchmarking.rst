@@ -72,6 +72,7 @@ Bonnes pratiques
 	- Gestion des Achats
 	- Gestion des Stocks
 	- SAV
+        - Suivi de la main d'œuvre
 
 - Fonctions Administratives :
 
