@@ -56,22 +56,25 @@ Choix des cibles
 Bonnes pratiques
 ==================
 
-- Fonctions Commerciales
-	- Prospect : Gestion des courriers, Gestion des Alertes
+- Fonctions Commerciales :
+
+	- Prospect : Gestion des courriers, Gestion des Alertes.
 	- Étude de Prix, Devis
-	- Situation de Travaux et Suivi économique : Travaux supplémentaires, Approvisionnements, Avances sur travaux, Révisions de prix, Actualisation, Paiement direct des sous-traitants, Retenues de garantie et Cautions bancaires, Acomptes et leur décompte automatique
+	- Situation de Travaux et Suivi économique : Travaux supplémentaires, Approvisionnements, Avances sur travaux, Révisions de prix, Actualisation, Paiement direct des sous-traitants, Retenues de garantie et Cautions bancaires, Acomptes et leur décompte automatique.
 	- Facturation Négoce
 
- - Fonctions Production
+ - Fonctions Production :
+
 	- Suivi de Chantier
 	- Gestion de Production
 	- Planning
-	- Parc matériel
+	- Parc matériel : gestion des moyens matériels.
 	- Gestion des Achats
 	- Gestion des Stocks
 	- SAV
 
-- Fonctions Administratives
+- Fonctions Administratives :
+
 	- Compta générale
 	- Paye/Personnel
 
