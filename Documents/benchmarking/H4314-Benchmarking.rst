@@ -46,8 +46,11 @@ Ce qu'on sous entend par PGI *Métier*
 
 Choix des cibles
 ==================
-
-pourquoi eux ?
+ - S'adresse aux PME du secteur du bâtiment pour analyser en temps réel la rentabilité de leurs chantiers.
+ - Fiable et éprouvée
+ - Simple et efficace
+ - Opérationnelle en moins de 3 mois
+ - Adaptée aux entreprises de 50 salariés et plus
 
 Bonnes pratiques
 ==================
