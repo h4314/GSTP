@@ -68,7 +68,7 @@ Bonnes pratiques
 	- Suivi de Chantier
 	- Gestion de Production
 	- Planning
-	- Parc matériel : gestion des moyens matériels.
+	- Parc matériel et Logistique des chantiers : gestion des moyens matériels.
 	- Gestion des Achats
 	- Gestion des Stocks
 	- SAV
