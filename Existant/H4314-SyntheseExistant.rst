@@ -381,6 +381,7 @@ Facturation du matériel pour un chantier
   - Un calcul de valorisation de matériel : 
   - Un calcul de coût de maintenance.
 	
+	
 - Un calcul de valorisation de matériel est effectué régulièrement
 
 - Un calcul de coût de maintenance peut être effectué pour plusieurs raisons.
