@@ -34,3 +34,9 @@ Critères fonctionnels :
     qu'il a subi. 
 
 Critères non fonctionnels :
+
+  * **Travail à distance** : les acteurs de l'entreprise travaillent sur
+	plusieurs sites, il faut donc pouvoir accéder à certains outils et
+    documents à distance.
+  * **Évolutivité**
+  * **Coût**
