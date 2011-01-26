@@ -47,6 +47,12 @@ C'est un logiciel qui permet de gérer l'ensemble des processus opérationnels d
 Choix des cibles
 ==================
 
+Le traitement de l’information dans l’entreprise est en pleine mutation. Aujourd’hui, toutes les entreprises, aussi bien nationales et internationales que les PME et les PMI sont confrontées aux besoins changeant du marché tels que : acquisitions, fusions, solutions collaboratives, monnaie unique européenne, extension européenne à 25 pays, etc. Ces enjeux sont tels qu’ils nécessitent une remise en question complète des systèmes existants.
+
+Lors de cette migration, bon nombre d’entreprises choisissent d’abandonner leurs solutions applicatives "sur mesure" pour se tourner vers le monde des ERP "prêts à implanter".
+
+Caractéristiques :
+
  - S'adresse aux PME du secteur du bâtiment pour analyser en temps réel la rentabilité de leurs chantiers.
  - Fiable et éprouvée
  - Simple et efficace
