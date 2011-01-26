@@ -377,8 +377,8 @@ Facturation du matériel pour un chantier
 
 - Un calcul de facture pour un matériel donné est effectué après plusieurs rapports :
   - Le pointage du matériel : son utilisation est terminée et il faut déterminer ce qu'il à coûté.
-  - Un avis de valorisation de structure (?)
-  - Un calcul de valorisation de matériel : 
+  - Un avis de valorisation de structure
+  - Un calcul de valorisation de matériel
   - Un calcul de coût de maintenance.
 	
 	
