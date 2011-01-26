@@ -420,6 +420,7 @@ Facturation du matériel pour un chantier
 - Une facture résulte d'un calcul de facture de matériel.
 
 ::
+
   TODO : Finir cette partie
 
 - Un calcul de facture pour un matériel donné est effectué après plusieurs rapports :
