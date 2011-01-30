@@ -200,20 +200,12 @@ Location du matériel
 Caractéristiques des chantiers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-::
-    
-    TODO : À préciser, ce paragraphe est incompréhensible
-
-Centre de profit
-Les principaux postes de coûts sont :
+Les chantiers se déroulent en moyenne sur 1 an. Ceux sont le centre de profit de GSTP. Ils sont autonomes financièrement et fonctionnellemennt. Leurs principaux postes de coûts sont :
 - Main d'oeuvre
 - Matériaux
 - Matériel (30% à 40% du coût global)
-Les chantiers sont autonomes financièrement et fonctionnellement.
-La durée moyenne d'un chantier est de 12 mois
 
-**La relation entre le fournisseur et le client se fait respectivement entre la DM et la DTEM**
-
+Les chantiers effectuent des demandes d'approvisionnement en matériel à la DM. On observe donc une relation de client-fournisseur entre les chantiers (DTEM) et la DM respectivement.
 
 Organisation géographique
 =========================	
