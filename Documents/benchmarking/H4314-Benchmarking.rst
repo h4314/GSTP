@@ -1,11 +1,30 @@
 Objectifs
 ##########
 
-Ce document fait suite à l'analyse du système existant, de la mise en relief de ses dysfonctionnements et donc des axes de progrès. L'accent était donc porté sur le fonctionnement actuel de GSTP au niveau de la gestion du matériel. Il s'agit maintenant de se tourner vers l'objectif du projet : la définition d'une solution cible qui prendra en compte les spécificités de GSTP et des axes de progrès dégagés. Mais avant de se plonger directement dans l'élaboration de cette cible, il convient dans un premier temps de prendre du recul et d'analyser ce qu'il se fait à l'extérieur par un étalonnage industriel ou benchmarking, objet de ce document.
+Ce document fait suite à l'analyse du système existant, de la mise en relief de
+ses dysfonctionnements et donc des axes de progrès. L'accent était donc porté
+sur le fonctionnement actuel de GSTP au niveau de la gestion du matériel. Il
+s'agit maintenant de se tourner vers l'objectif du projet : la définition d'une
+solution cible qui prendra en compte les spécificités de GSTP et des axes de
+progrès dégagés. Mais avant de se plonger directement dans l'élaboration de
+cette cible, il convient dans un premier temps de prendre du recul et d'analyser
+ce qu'il se fait à l'extérieur par un étalonnage industriel ou benchmarking,
+objet de ce document.
 
-Ce document représente l'étude de l'existant externe, autrement dit, la recherche de bonnes pratiques mis en place par des organisations externes reconnues. Ces organisations peuvent être des concurrents directs à GSTP et donc occuper le même métier. Mais il est tout à fait légitime d'étudier d'autres entreprises dont le cœur de métier n'est pas le BTP à partir du moment où elles possèdent des processus en commun.
+Ce document représente l'étude de l'existant externe, autrement dit, la
+recherche de bonnes pratiques mis en place par des organisations externes
+reconnues. Ces organisations peuvent être des concurrents directs à GSTP et donc
+occuper le même métier. Mais il est tout à fait légitime d'étudier d'autres
+entreprises dont le cœur de métier n'est pas le BTP à partir du moment où elles
+possèdent des processus en commun.
 
-Il s'agit donc de s'inspirer de bonne pratiques, de modèles, de normes et de processus courants afin de considérer leur application à GSTP. L'idée est donc d'extraire ce qu'elles ont de meilleur et de plus pertinent par rapport au métier et fonctionnement de GSTP. Une simple application de ces éléments ne suffit pas, il faudra tenir compte des spécificités de GSTP afin d'élaborer une solution cible qui colle à la fois aux axes d'améliorations ciblés mais aussi aux spécificités d'organisation et de fonctionnement de GSTP.
+Il s'agit donc de s'inspirer de bonne pratiques, de modèles, de normes et de
+processus courants afin de considérer leur application à GSTP. L'idée est donc
+d'extraire ce qu'elles ont de meilleur et de plus pertinent par rapport au
+métier et fonctionnement de GSTP. Une simple application de ces éléments ne
+suffit pas, il faudra tenir compte des spécificités de GSTP afin d'élaborer une
+solution cible qui colle à la fois aux axes d'améliorations ciblés mais aussi
+aux spécificités d'organisation et de fonctionnement de GSTP.
 
 Les finalités du benchmarking réalisé à partir des entreprises externes :
 
@@ -26,28 +45,59 @@ Cibles de recherche
 Limitations
 ============
 
-Idéalement ce benchmarking devrait être effectué à partir de l'étude d'entreprises ayant les mêmes processus que GSTP. Or cela reviendrait à connaître le fonctionnement interne des concurrents (ex. Bouygues Construction) ou d'entreprises renommées pour la maîtrise de certains processus communs à GSTP. Étant donné les contraintes, notamment la difficulté d'accès à ces informations pour des raisons de confidentialité, ces entreprises ne seront pas considérées pour cette étude. Par contre, une toute autre approche permettra d'obtenir des résultats équivalents et a les avantages d'être moins chère et beaucoup plus rapide : il s'agit d'analyser les solutions logicielles existantes qu'utilisent ces entreprises pour gérer leur fonctionnement de manière globale. De nombreuses entreprises du secteur les utilisent et donc leur sont a priori adaptées. Généralement ce sont des Progiciels de Gestion Intégrés (PGI), ERP (Enterprise Resource Planning) en anglais.
+Idéalement ce benchmarking devrait être effectué à partir de l'étude
+d'entreprises ayant les mêmes processus que GSTP. Or cela reviendrait à
+connaître le fonctionnement interne des concurrents (ex. Bouygues Construction)
+ou d'entreprises renommées pour la maîtrise de certains processus communs à
+GSTP. Étant donné les contraintes, notamment la difficulté d'accès à ces
+informations pour des raisons de confidentialité, ces entreprises ne seront pas
+considérées pour cette étude. Par contre, une toute autre approche permettra
+d'obtenir des résultats équivalents et a les avantages d'être moins chère et
+beaucoup plus rapide : il s'agit d'analyser les solutions logicielles existantes
+qu'utilisent ces entreprises pour gérer leur fonctionnement de manière globale.
+De nombreuses entreprises du secteur les utilisent et donc leur sont a priori
+adaptées. Généralement ce sont des Progiciels de Gestion Intégrés (PGI), ERP
+(Enterprise Resource Planning) en anglais.
 
-En résumé un PGI est une solution logicielle qui permet de gérer l'ensemble des processus opérationnels d'une entreprise en intégrant l'ensemble de ses fonctions (RH, finance, vente, distribution, etc.). Nous nous intéresserons donc à ce type de solutions complètes mais également à des solutions plus spécifiques qui se cantonnent à la gestion d'un sous ensemble.
+En résumé un PGI est une solution logicielle qui permet de gérer l'ensemble des
+processus opérationnels d'une entreprise en intégrant l'ensemble de ses
+fonctions (RH, finance, vente, distribution, etc.). Nous nous intéresserons donc
+à ce type de solutions complètes mais également à des solutions plus spécifiques
+qui se cantonnent à la gestion d'un sous ensemble.
 
-Parmi les solutions logicielles utilisées par les entreprises du secteur du BTP, deux grandes catégories émergent :
+Parmi les solutions logicielles utilisées par les entreprises du secteur du BTP,
+deux grandes catégories émergent :
 
 - les PGI métier du BTP
 - les PGI généralistes ou transversaux
 
-L'intérêt de ces solutions est qu'elles intègrent les processus formalisés, les normes et les bonnes pratiques que nous recherchons.
+L'intérêt de ces solutions est qu'elles intègrent les processus formalisés, les
+normes et les bonnes pratiques que nous recherchons.
 
 PGI métier
 ===========
 
-Les PGI métier ont pour avantages d'être particulièrement adaptés au secteur du BTP et donc ont de fortes chances de donner des indications précises et applicables à ce secteur. Ils sont utilisés par les concurrents directs de GSTP et se présentent donc comme une bonne base d'inspiration pour se mettre à leur niveaux et détecter les points de différenciation qui apporteraient un avantage compétitif.
+Les PGI métier ont pour avantages d'être particulièrement adaptés au secteur du
+BTP et donc ont de fortes chances de donner des indications précises et
+applicables à ce secteur. Ils sont utilisés par les concurrents directs de GSTP
+et se présentent donc comme une bonne base d'inspiration pour se mettre à leur
+niveaux et détecter les points de différenciation qui apporteraient un avantage
+compétitif.
 
 PGI généralistes ou transversaux
 =================================
 
-Les PGI généralistes ne présenteront que peu d'intérêt pour les processus spécifiques mais par contre se révèleront comme de parfaites références pour les processus courants de l'entreprise. Ils sont totalement transversaux car ils intègrent l'ensemble des fonctions de l'entreprises contrairement aux PGI métiers. Ils présentent donc des processus supplémentaires non développés dans les PGI métiers mais qui pourraient se révéler importants pour GSTP.
+Les PGI généralistes ne présenteront que peu d'intérêt pour les processus
+spécifiques mais par contre se révèleront comme de parfaites références pour les
+processus courants de l'entreprise. Ils sont totalement transversaux car ils
+intègrent l'ensemble des fonctions de l'entreprise contrairement aux PGI
+métiers. Ils présentent donc des processus supplémentaires non développés dans
+les PGI métiers mais qui pourraient se révéler importants pour GSTP.
 
-Leur étude est également importante pour s'inspirer de processus et bonnes pratiques génériques qui pourront être ensuite adaptées à GSTP. Cette généricité est importante car il est généralement plus facile d'adapter une solution générique à un système cible qu'une solution spécialisée.
+Leur étude est également importante pour s'inspirer de processus et bonnes
+pratiques génériques qui pourront être ensuite adaptées à GSTP. Cette généricité
+est importante car il est généralement plus facile d'adapter une solution
+générique à un système cible qu'une solution spécialisée.
 
 Progiciels de Gestion Intégrés Métiers
 #######################################
@@ -55,20 +105,37 @@ Progiciels de Gestion Intégrés Métiers
 Choix des cibles
 ==================
 
-L'objectif n'est pas de réaliser une liste exhaustive des solutions logicielles dédiées au secteur du BTP mais de repérer ce qu'elles proposent en général en termes de fonctionnalités et de bonnes pratiques.
-Notre recherche s'est basée sur une sélection de PGI reconnus et utilisés par de nombreuses PME françaises, et plus particulièrement à partir de leurs sites web :
+L'objectif n'est pas de réaliser une liste exhaustive des solutions logicielles
+dédiées au secteur du BTP mais de repérer ce qu'elles proposent en général en
+termes de fonctionnalités et de bonnes pratiques.
+
+Notre recherche s'est basée sur une sélection de PGI reconnus et utilisés par de
+nombreuses PME françaises, et plus particulièrement à partir de leurs sites web
+:
 
 - Pharos (source : www.brz-pharos.fr)
 - Batpro (source : www.batpro.com)
 - Onaya (source : www.onaya.com)
 - LSE (source : www.lse.fr)
 
-Toutefois cette étude reste limitée car ces sites ont pour défauts d'être extrêmement peu précis, les démonstrations sont inaccessibles directement, le discours est très commercial, et les copies d'écrans en faible quantités et peu visibles (ce qui reste valable pour les autres solutions du marché). Il ne faut donc pas s'attendre à apprendre de bonnes pratiques ni à extraire des modèles et normes utiles pour être appliqués dans l'élaboration de la solution cible. Toutefois ces sources d'information présentent l'avantage de fournir les fonctionnalités des offres et des indicateurs de performance. Le benchmarking de ces solutions se limitera donc à déterminer les fonctionnalités communes aux solutions et qui sont donc considérées comme importantes pour gérer convenablement une PME du secteur BTP. Les processus sous-jacents pourraient en être déduits.
+Toutefois cette étude reste limitée car ces sites ont pour défauts d'être
+extrêmement peu précis, les démonstrations sont inaccessibles directement, le
+discours est très commercial, et les copies d'écrans en faible quantités et peu
+visibles (ce qui reste valable pour les autres solutions du marché). Il ne faut
+donc pas s'attendre à apprendre de bonnes pratiques ni à extraire des modèles et
+normes utiles pour être appliqués dans l'élaboration de la solution cible.
+Toutefois ces sources d'information présentent l'avantage de fournir les
+fonctionnalités des offres et des indicateurs de performance. Le benchmarking de
+ces solutions se limitera donc à déterminer les fonctionnalités communes aux
+solutions et qui sont donc considérées comme importantes pour gérer
+convenablement une PME du secteur BTP. Les processus sous-jacents pourraient en
+être déduits.
 
 Fonctionnalités d'un PGI du BTP 
 ================================
 
-Seront listées par la suite les fonctionnalités générales et spécifiques relevées parmi les différentes solutions.
+Seront listées par la suite les fonctionnalités générales et spécifiques
+relevées parmi les différentes solutions.
 
 - Fonctions commerciales :
 
@@ -98,12 +165,17 @@ Seront listées par la suite les fonctionnalités générales et spécifiques re
 	- Paye et ressources humaines
 	- Gestion électronique de documents
 
-Quelques unes de ces fonctionnalités nécessitent d'être détaillées car en lien direct avec le domaine de l'étude, le métier des départements achats, matériel et maintenance.
+Quelques unes de ces fonctionnalités nécessitent d'être détaillées car en lien
+direct avec le domaine de l'étude, le métier des départements achats, matériel
+et maintenance.
 
 Gestion du matériel
 ---------------------------
 
-L'objectif est d'avoir un suivi précis du matériel (véhicules, engins, outillage) par une saisie simple et rapide. Le Suivi Administratif et Technique du véhicule est organisé autour de la **fiche matériel** et de son **carnet d’entretien**.
+L'objectif est d'avoir un suivi précis du matériel (véhicules, engins,
+outillage) par une saisie simple et rapide. Le Suivi Administratif et Technique
+du véhicule est organisé autour de la **fiche matériel** et de son **carnet
+d’entretien**.
 
 Parc matériel :
 
@@ -144,7 +216,9 @@ Stock
 Approvisionnements
 ---------------------
 
-L'objectif est de mettre en place une réelle politique d’achat et de gestion des fournisseurs afin de minimiser les coûts, augmenter la qualité du matériel et réduire les délais d'approvisionnement.
+L'objectif est de mettre en place une réelle politique d’achat et de gestion des
+fournisseurs afin de minimiser les coûts, augmenter la qualité du matériel et
+réduire les délais d'approvisionnement.
 
 Gestion des fournisseurs :
 
@@ -168,11 +242,12 @@ Gestion des achats :
 Saisie nomade
 --------------
 
-L'objectif est d'alimenter le système d'information depuis les chantiers à partir de PDA ou smartphones connectés via le réseau 3G.
+L'objectif est d'alimenter le système d'information depuis les chantiers à
+partir de PDA ou smartphones connectés via le réseau 3G.
 C'est une garantie d'un gain de temps et de fiabilité en termes de saisie :
 
 - des heures, qui propose les rapports des temps passés de chaque ouvrier.
-- des demandes d’approvisionnement, qui met à disposition de l’acheteur les besoins en matériaux des chantiers.
+- des demandes d’approvisionnement, qui met à disposition de l'acheteur les besoins en matériaux des chantiers.
 - des bons de livraison
 - des rapports matériels
 
@@ -188,8 +263,7 @@ Critères fonctionnels :
 - **Gestion des achats** : l'entreprise a mis en place des procédures de gestion des achats, ceci démontre le besoin d'un outil de gestion qui permet de rationaliser les acquisitions de matériels dans l'entreprise, la tenue d'un catalogue de fournisseurs, etc.
 - **Gestion des stocks** : un outil de gestion des stocks permettrait d'optimiser les stocks et l'approvisionnement avec le service des achats.
 - **Logiciels spécifiques** : selon les besoins de l'entreprise ou des chantiers, des logiciels spécifiques offrant une assistance pour effectuer des relevés, métrés seront utiles.
-- **CRM, gestion de la clientèle** : le *Customer Relationship Management* permet à l'entreprise de fiabiliser et crédibiliser le suivi de sa
-    clientèle et de sa prospection.
+- **CRM, gestion de la clientèle** : le *Customer Relationship Management* permet à l'entreprise de fiabiliser et crédibiliser le suivi de sa clientèle et de sa prospection.
 - **Suivi de chantiers** : l'entreprise a besoin d'outils formalisant l'activité de ses équipes sur les chantiers.
 - **Planification du travail des employés** : un module de planification permet de tracer l'activité des employés et d'imputer directement sur le budget d'un projet.
 - **Gestion des ressources matérielles** : ce module permettra de suivre l'immobilisation du matériel, son état et les opérations de maintenance qu'il a subi. 
