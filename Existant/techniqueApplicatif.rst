@@ -88,9 +88,17 @@ mise à jour du parc).
 Communication, système d'informations
 -------------------------------------
 
-**TO BE DONE**
+L'organisation des informations de GSTP n'est pas réfléchie globalement,
+l'entreprise n'a en effet pas de système d'information complet et cohérent.
+Cette lacune entraîne des problèmes existants ou potentiels qui risquent de
+fortement pénaliser l'entreprise.
 
- - communication hasardeuse et non formalisée entre chantiers et le reste
- - pas de garanties sur cette communication
- - au siège, pas de capitalisation des connaissances, d'échanges formalisés
-   entre les différents services (achat, matériel etc) -> comment on va faire ?
+GSTP ne capitalise pas réellement les connaissances acquises durant son
+activité, les différents services conservent les informations localement et ne
+les échangent que rarement avec les autres services. Des informations pourtant
+pertinentes peuvent manquer à d'autres services voisins.
+
+D'autre part, la communication entre les chantiers, les services délocalisés
+(ateliers) et le siègle ne sont pas formalisés. Cette communication n'est pas
+toujours correctement tracée et n'est pas fiable. Des informations importantes
+peuvent être perdues !
