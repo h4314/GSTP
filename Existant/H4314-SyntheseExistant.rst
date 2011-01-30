@@ -294,67 +294,34 @@ Compétence
 - Bureautique de base dans les chantiers (Excel...)
 
 
-Procédures par département
-==========================
+Procédures 
+===========
 
-Transversalités des études
----------------------------
+Transversalités des procédures
+--------------------------------
 
-::
+Différents services de GSTP travaillent et communiquent ensemble à différents niveaux en vue de gérer le matériel. Des procédures formalisées ont été mises en place pour déterminer précisemment les étapes de traitement et les flux d'information.
 
-    _TODO, faire un tableau croisé service/procédures-activités ?_
-    Et finir, aussi, c'est incomplet.
-
-On observe de nombreux flux d'informations concernant :
-- facturation des chantiers
-
-  - départements concernés :
-
- 	  - Source : Département du matériel, service Facturation du Matériel
- 	  - Intérmédiaire : DFC
-
- 		  - Destination : Chantier
-
-	  - information : demande de facturation
-
-- affectation 
-
-  - départements concernés :
-
- 	  - Source : Chantier ou Département Matériel/Gestion du parc matériel
-
- 		  - Destination : Département Matériel/Gestion du parc matériel ou Chantier
-
-  - information : matériel
-
-- maintenance
-
-  - départements concernés :
-
- 	  - Source : Chantier
-
-    - Destination : Département maintenance, ateliers
-
-  - information : matériel
-
-- achats de matériel
-
-  - départements concernés :
-
-    - Source : demande effectuée par la Direction du Matériel
-    - Intermédiaire : Département achat, services gestion des fournisseurs et achat du matériel
-    - Intermédiaire : fournisseurs
-    - Destination  : Direction du matériel/Gestion du parc matériel
-
-  - informations : demande d'achat, matériel acheté
-
-- achats de pièces de rechange
-- location de matériel
-- pièces de rechange
-
-  - départements concernés :
-  - Source : Chantier
-  - Destination : Département maintenance, ateliers
++--------------------------------+--------------------------------------------------------+
+| Procédure                      | Services concernés            			  |                                           
++================================+========================================================+
+| Facturation des chantiers      | - Service Gestion du matériel                          |                   
+|				 | - DFC                                                  |                               
+|				 | - Chantier                                             |                                           
++--------------------------------+--------------------------------------------------------+
+| Affectation du matériel        | - Chantier                                             | 
+|				 | - Gestion du parc matériel                             |
+|                                | - Service Gestion du matériel                          |                  
++--------------------------------+--------------------------------------------------------+
+| Maintenance                    | - Chantier                                             |         
+|				 | - Parc matériel                                        |
+|                                | - Département maintenance                              |
+|                                | - Gestion des pièces de rechange                       |                                         
++--------------------------------+--------------------------------------------------------+
+| Achat/Location de              | - Direction du Matériel                                |                      
+| matériels/Pièces de rechange   | - Département achat                                    |           
+|                                | - Département maintenance                              |       
++--------------------------------+--------------------------------------------------------+
 
 Détails des procédures
 -----------------------
