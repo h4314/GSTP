@@ -3,35 +3,35 @@ Attentes Clients
 Objet:
 ------
 
-Dans le monde compétitif d’aujourd’hui, la satisfaction des clients est la clé de la réussite. Car un client perdu, c’est d’abord une perte d’image pour notre entreprise. 
+Dans le monde compÃ©titif dâ€™aujourdâ€™hui, la satisfaction des clients est la clÃ© de la rÃ©ussite. Car un client perdu, câ€™est dâ€™abord une perte dâ€™image pour notre entreprise. 
 
-La connaissance intuitive des besoins des clients est insuffisante, alors on doit la compléter par des observations plus objectives. 
+La connaissance intuitive des besoins des clients est insuffisante, alors on doit la complÃ©ter par des observations plus objectives. 
 
 Principalement :
 
- - Améliorer les délais notamment lors des attributions de matériel et des maintenances
- - Diminuer les coûts
- - Améliorer la qualité à tous les niveaux
+ - AmÃ©liorer les dÃ©lais notamment lors des attributions de matÃ©riel et des maintenances
+ - Diminuer les coÃ»ts
+ - AmÃ©liorer la qualitÃ© Ã  tous les niveaux
 
-Département Matériel:
+DÃ©partement MatÃ©riel:
 ---------------------
- - Coût de location materiel élevé (Anticiper demandes).
- - Formaliser l'entrée du materiel au parc (creer un bon d'entrée standar pour traiter le plus vite posible le materiel).
- - Ameliorer la Planification du materiel.
- - Créer une procedure pour la transférence du materiel de chantier à chantier (maintenant passe par le siège)
- - Réduire l'inmobilisation du travail
+ - CoÃ»t de location matÃ©riel Ã©levÃ© (Anticiper demandes).
+ - Formaliser l'entrÃ©e du matÃ©riel au parc (crÃ©er un bon d'entrÃ©e standard pour traiter le plus vite possible le matÃ©riel).
+ - AmÃ©liorer la Planification du matÃ©riel.
+ - CrÃ©er une procedure pour la transfÃ©rence du matÃ©riel de chantier Ã  chantier (maintenant passe par le siÃ¨ge)
+ - RÃ©duire l'inmobilisation du travail
  
-Département Achat:
+DÃ©partement Achat:
 ------------------
- - Reduire coût des achats
+ - Reduire coÃ»t des achats
  - Creer un outil pour relier les fournisseurs avec les produits
- - Creer un outil pour pouvoir identifier les fournisseurs potentiels et qui peut elaborer une cartographie en fonction des differentes variables
- - Améliorer la formalisation des contrats
- - Obtenir réduction des délais de livraison
+ - Creer un outil pour pouvoir identifier les fournisseurs potentiels et qui peut Ã©laborer une cartographie en fonction des diffÃ©rentes variables
+ - AmÃ©liorer la formalisation des contrats
+ - Obtenir rÃ©duction des dÃ©lais de livraison
 
-Département Maintenance:
+DÃ©partement Maintenance:
 ------------------------
- - Améliorer la maintenance péventive (planification des révisions) pour diminuer le taux de pannes.
- - Realiser une meilleur planification pour réduire le temps pour les opérations de maintenance
- - Réduire les coûts de maintenance qui sont élevés à cause du long temps d'intervention et la mauvaise définition des gammes opératoires
+ - AmÃ©liorer la maintenance prÃ©ventive (planification des rÃ©visions) pour diminuer le taux de pannes.
+ - RÃ©aliser une meilleur planification pour rÃ©duire le temps pour les opÃ©rations de maintenance
+ - RÃ©duire les coÃ»ts de maintenance qui sont Ã©levÃ©s Ã  cause du long temps d'intervention et la mauvaise dÃ©finition des gammes opÃ©ratoires
  - 
