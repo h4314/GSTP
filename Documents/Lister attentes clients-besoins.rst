@@ -15,23 +15,23 @@ Principalement :
 
 Département Matériel:
 ---------------------
- - Coût de location matériel élevé (Anticiper demandes).
+ - Coût de location matériel élevé (anticiper demandes).
  - Formaliser l'entrée du matériel au parc (créer un bon d'entrée standard pour traiter le plus vite possible le matériel).
  - Améliorer la Planification du matériel.
- - Créer une procedure pour la transférence du matériel de chantier à chantier (maintenant passe par le siège)
- - Réduire l'inmobilisation du travail
+ - Créer une procédure pour la transference du matériel de chantier à chantier car maintenant passe par le siège.
+ - Réduire l'immobilisation du travail.
  
 Département Achat:
 ------------------
- - Reduire coût des achats
- - Creer un outil pour relier les fournisseurs avec les produits
- - Creer un outil pour pouvoir identifier les fournisseurs potentiels et qui peut élaborer une cartographie en fonction des différentes variables
- - Améliorer la formalisation des contrats
- - Obtenir réduction des délais de livraison
+ - Réduire coût des achats.
+ - Créer un outil pour relier les fournisseurs avec les produits.
+ - Créer un outil pour pouvoir identifier les fournisseurs potentiels et qui peut élaborer une cartographie en fonction des différentes variables.
+ - Améliorer la formalisation des contrats.
+ - Obtenir réduction des délais de livraison.
 
 Département Maintenance:
 ------------------------
  - Améliorer la maintenance préventive (planification des révisions) pour diminuer le taux de pannes.
- - Réaliser une meilleur planification pour réduire le temps pour les opérations de maintenance
- - Réduire les coûts de maintenance qui sont élevés à cause du long temps d'intervention et la mauvaise définition des gammes opératoires
- - 
+ - Réaliser une meilleur planification pour réduire le temps pour les opérations de maintenance.
+ - Réduire les coûts de maintenance qui sont élevés à cause du long temps d'intervention et la mauvaise définition des gammes opératoires.
+ - Il faut gérer mieux les pièces de rechange parce qu'à cause d'eux il existe de retarde des opérations, aussi il existe de sur-commandes et sous-comandes.
