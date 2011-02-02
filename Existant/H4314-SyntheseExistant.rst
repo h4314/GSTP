@@ -374,20 +374,6 @@ La planification du matériel concernent son affectation aux chantiers, sa locat
 Modèle conceptuel de traitement associé : ``MCT-Planification``.
 
 
-Facturation du matériel pour un chantier
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- Une facture résulte d'un calcul de facture de matériel.
-
-::
-
-  TODO : Finir cette partie
-
-- Un calcul de facture pour un matériel donné est effectué après plusieurs rapports :
-	- Le pointage du matériel : son utilisation est terminée et il faut déterminer ce qu'il à coûté.
-	- ??
-
-Modèle conceptuel de traitement associé : ``MCT-Facturer-chantier``.
 
 Approvisionnement en pièces de rechange
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
