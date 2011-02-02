@@ -303,18 +303,18 @@ Transversalités des procédures
 Différents services de GSTP travaillent et communiquent ensemble à différents niveaux en vue de gérer le matériel. Des procédures formalisées ont été mises en place pour déterminer précisemment les étapes de traitement et les flux d'information.
 
 +--------------------------------+--------------------------------------------------------+
-| Procédure                      | Services concernés            			  |                                           
+| Procédure                      | Services concernés                             			  |                                           
 +================================+========================================================+
 | Facturation des chantiers      | - Service Gestion du matériel                          |                   
-|				 | - DFC                                                  |                               
-|				 | - Chantier                                             |                                           
+|				                         | - DFC                                                  |                               
+|				                         | - Chantier                                             |                                           
 +--------------------------------+--------------------------------------------------------+
 | Affectation du matériel        | - Chantier                                             | 
-|				 | - Gestion du parc matériel                             |
+| 	                      			 | - Gestion du parc matériel                             |
 |                                | - Service Gestion du matériel                          |                  
 +--------------------------------+--------------------------------------------------------+
 | Maintenance                    | - Chantier                                             |         
-|				 | - Parc matériel                                        |
+|			                        	 | - Parc matériel                                        |
 |                                | - Département maintenance                              |
 |                                | - Gestion des pièces de rechange                       |                                         
 +--------------------------------+--------------------------------------------------------+

@@ -1,3 +1,7 @@
+============
+Benchmarking
+============
+
 Objectifs
 ##########
 
@@ -139,31 +143,31 @@ relevées parmi les différentes solutions.
 
 - Fonctions commerciales :
 
-	- CRM 
-	- Etudes de prix
-	- Devis
-	- Achats
-	- Suivi commercial  
-	- Facturation 
-	- SAV
+  - CRM 
+  - Etudes de prix
+  - Devis
+  - Achats
+  - Suivi commercial  
+  - Facturation 
+  - SAV
 
 - Fonctions de production :
 
-	- Suivi de chantiers
-	- Approvisionnements
-	- Sous-traitance
-	- Parc matériel et Logistique des chantiers : gestion des moyens matériels.
-	- Gestion des stocks
-	- Planification
-	- Saisie nomade
-	- Suivi de la main d'œuvre
+  - Suivi de chantiers
+  - Approvisionnements
+  - Sous-traitance
+  - Parc matériel et Logistique des chantiers : gestion des moyens matériels.
+  - Gestion des stocks
+  - Planification
+  - Saisie nomade
+  - Suivi de la main d'œuvre
 
 - Fonctions administrative :
 
-	- Analyse et tableaux de bord
-	- Comptabilité
-	- Paye et ressources humaines
-	- Gestion électronique de documents
+  - Analyse et tableaux de bord
+  - Comptabilité
+  - Paye et ressources humaines
+  - Gestion électronique de documents
 
 Quelques unes de ces fonctionnalités nécessitent d'être détaillées car en lien
 direct avec le domaine de l'étude, le métier des départements achats, matériel
@@ -243,18 +247,20 @@ Saisie nomade
 --------------
 
 L'objectif est d'alimenter le système d'information depuis les chantiers à
-partir de PDA ou smartphones connectés via le réseau 3G.
-C'est une garantie d'un gain de temps et de fiabilité en termes de saisie :
+partir de PDA ou Smartphones connectés via le réseau 3G.
+C'est la garantie d'un gain de temps et de fiabilité en termes de saisie :
 
-- des heures, qui propose les rapports des temps passés de chaque ouvrier.
-- des demandes d’approvisionnement, qui met à disposition de l'acheteur les besoins en matériaux des chantiers.
+- des heures, qui propose les rapports des temps passés de chaque ouvrier
+- des demandes d’approvisionnement, qui met à disposition de l'acheteur les besoins en matériaux des chantiers
 - des bons de livraison
 - des rapports matériels
 
 Critères de sélection d'un PGI du BTP
 ======================================
 
-Notre recherche nous a également mené à découvrir quels étaient les critères de sélection d'un PGI pour une PME du BTP. C'est donc un bon indicateur de ce que tout entreprise du BTP se doit d'informatiser et de maîtriser.
+Notre recherche nous a également mené à découvrir quels étaient les critères de
+sélection d'un PGI pour une PME du BTP. C'est donc un bon indicateur de ce que
+tout entreprise du BTP se doit d'informatiser et de maîtriser.
 
 Critères fonctionnels :
 
@@ -280,9 +286,23 @@ Progiciels de Gestion Intégrés Transversaux
 Choix des cibles
 ==================
 
-De nombreuses solutions standards existent. Certaines sont plus adaptées à de grandes entreprises, d'autres à des PME mais présentent la particularité d'être génériques et applicable à un grand nombre d'entreprises quel que soit leur secteur. Pour cette étude nous retiendrons qu'un seul éditeur de PGI : SAP. Il est premièrement leader de ce marché et donc référent incontesté. De plus il possède une documentation publique bien renseignée et comprend dans son catalogue deux solutions génériques potentiellement adaptées aux besoins de GSTP. 
+De nombreuses solutions standards existent. Certaines sont plus adaptées à de
+grandes entreprises, d'autres à des PME mais présentent la particularité d'être
+génériques et applicable à un grand nombre d'entreprises quel que soit leur
+secteur. Pour cette étude nous retiendrons qu'un seul éditeur de PGI : SAP. Il
+est premièrement leader de ce marché et donc référent incontesté. De plus il
+possède une documentation publique bien renseignée et comprend dans son
+catalogue deux solutions génériques potentiellement adaptées aux besoins de
+GSTP. 
 
-L'objectif de ce benchmarking n'est pas d'étudier la possibilité d'utiliser une solution SAP comme solution cible mais d'étudier le savoir-faire qu'a acquérit SAP dans les processus inter- et intra-sectoriel. Au sein de sa solution haute gamme SAP All-in-One se trouve une composante, SAP Best Practices, rassemblant de la documentation et des processus métier formalisés à partir des connaissances accumulés de SAP sur près de 40 années et plus de 40 000 clients. Ce qui nous intéresse dans ces modules pré-configurés sont donc ces processus rodés qui ont fait leurs preuves et dont on peut largement en tirer parti.
+L'objectif de ce benchmarking n'est pas d'étudier la possibilité d'utiliser une
+solution SAP comme solution cible mais d'étudier le savoir-faire qu'a acquit
+SAP dans les processus inter- et intra-sectoriel. Au sein de sa solution haut de
+gamme SAP All-in-One se trouve une composante, SAP Best Practices, rassemblant
+de la documentation et des processus métier formalisés à partir des
+connaissances accumulés de SAP sur près de 40 années et plus de 40 000 clients.
+Ce qui nous intéresse dans ces modules pré-configurés sont donc ces processus
+rodés qui ont fait leurs preuves et dont on peut largement en tirer parti.
 
 Nous nous attacherons, ici, à deux bonnes pratiques SAP :
 
@@ -292,7 +312,7 @@ Nous nous attacherons, ici, à deux bonnes pratiques SAP :
 Bonnes pratiques - SAP for Services Industries
 ===============================================
 
-SAP for Services Industries rassemble les bonnes pratiques que l'on retrouve dans les industries de services dont GSTP fait partie. Bien qu'ultra génériques ces recommandations peuvent être utiles pour GSTP car elles sont transversales et donc applicables à travers l'ensemble des services et fonctions.
+SAP for Services Industries rassemble les bonnes pratiques que l'on retrouve dans les industries de services dont GSTP fait partie. Bien que extrêmement génériques, ces recommandations peuvent être utiles pour GSTP car elles sont transversales et donc applicables à travers l'ensemble des services et fonctions.
 
 Familles de scénarios :
 
@@ -305,7 +325,7 @@ Familles de scénarios :
  - Gestion des services
  - Gestion comptable
  - Processus d'intégration
- - Analyse	
+ - Analyse  
 
 Carte des familles de scénario et scénarios associés : http://bit.ly/dPjtts
 
@@ -314,107 +334,107 @@ L'objectif de ce benchmarking étant tout de même borné par les limites du pro
 Gestion des projets
 ---------------------
 
-=============        ========================================================================
- 433 - Projet avec commande client à prix fixe et facturation temps/article                    
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Bonne pratique utile pour gérer la relation client-fournisseur entre
-			la DM et les chantiers. Adaptée car tient compte des saisies de temps et basée sur charges réelles en plus des coûts fixes.
-
-Source		     	http://bit.ly/hCOlOT
-
-=============        ========================================================================
++--------------------------------------------------------------------------------------------+
+|433 - Projet avec commande client à prix fixe et facturation temps/article                  |  
++--------------+-----------------------------------------------------------------------------+
+| Intérêts     |     Bonne pratique utile pour gérer la relation client-fournisseur entre    |
+|              |     la DM et les chantiers. Adaptée car tient compte des saisies de temps et|
+|              |     basée sur charges réelles en plus des coûts fixes.                      |
++--------------+-----------------------------------------------------------------------------+
+|Source        |    http://bit.ly/hCOlOT                                                     |
++--------------+-----------------------------------------------------------------------------+
 
 Gestion du temps et des dépenses
 ----------------------------------
 
-=============        ========================================================================
- 211 - Saisie des temps                   
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Utile pour enregistrer les heures travaillées. Utilisée pour les employés mais pourrait être utilisé également pour le matériel.
-
-Source		     	http://bit.ly/hqY9Om
-
-=============        ========================================================================
++---------------------------------------------------------------------------------------------+
+| 211 - Saisie des temps                                                                      |
++----------+----------------------------------------------------------------------------------+
+| Intérêts |  Utile pour enregistrer les heures travaillées. Utilisée pour les employés mais  |
+|          |  pourrait être utilisé également pour le matériel.                               |
++----------+----------------------------------------------------------------------------------+
+| Source   |      http://bit.ly/hqY9Om                                                        |
++----------+----------------------------------------------------------------------------------+
 
 Gestion des services
 ---------------------
 
-=============        ========================================================================
- 193 - Maintenance interne               
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Maintenance interne d'un équipement traitée par un salarié. Concerne également l'approvisionnement en services externes et articles et les saisies de temps.
++---------------------------------------------------------------------------------------------+
+|   193 - Maintenance interne                                                                 |
++----------+----------------------------------------------------------------------------------+
+| Intérêts |  Maintenance interne d'un équipement traitée par un salarié. Concerne également  | 
+|          |  l'approvisionnement en services externes et articles et les saisies de temps.   |
++----------+----------------------------------------------------------------------------------+
+| Source   |  http://bit.ly/estL2s                                                            |
++----------+----------------------------------------------------------------------------------+
 
-Source		     	http://bit.ly/estL2s
++---------------------------------------------------------------------------------------------+
+|   208 - Achats et ressources externes                                                       |
++----------+----------------------------------------------------------------------------------+
+| Intérêts |  Gestion générique des achats (commande, entrée de marchandise, facture). Pour   | 
+|          |  GSTP : matériels et pièces de rechanges.                                        |
++----------+----------------------------------------------------------------------------------+
+| Source   |    http://bit.ly/hQ2TwW                                                          |
++----------+----------------------------------------------------------------------------------+
 
-=============        ========================================================================
++---------------------------------------------------------------------------------------------+
+| 209 - Achats de services externes                                                           |
++----------+----------------------------------------------------------------------------------+
+| Intérêts | Gestion générique de services auprès d'un tiers. Pour GSTP : location de         |
+|          | matériel                                                                         |
++----------+----------------------------------------------------------------------------------+
+| Source   |http://bit.ly/dXT5u9                                                              |
++----------+----------------------------------------------------------------------------------+
 
-=============        ========================================================================
- 208 - Achats de ressources externes                 
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Gestion générique des achats (commande, entrée de marchandise, facture). Pour GSTP : matériels et pièces de rechanges.
 
-Source		     	http://bit.ly/hQ2TwW
++---------------------------------------------------------------------------------------------+
+|  211 - Services avec facturation basée sur temps article                                    |
++----------+----------------------------------------------------------------------------------+
+| Intérêts | Idem que 433 mais encore plus complète et mieux adaptée à GSTP                   |
+|          |                                                                                  |
++----------+----------------------------------------------------------------------------------+
+| Source   | http://bit.ly/hbONgR                                                             |
++----------+----------------------------------------------------------------------------------+
 
-=============        ========================================================================
 
-=============        ========================================================================
- 209 - Achats de services externes                 
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Gestion générique de services auprès d'un tiers. Pour GSTP : location de matériel.
++---------------------------------------------------------------------------------------------+
+|  217 - Réparation en atelier                                                                |
++----------+----------------------------------------------------------------------------------+
+| Intérêts | Du signalement du problème juqu'à la facturation (stocks, réparations, saisies   |
+|          | de temps, charges réelles, etc.)                                                 |
++----------+----------------------------------------------------------------------------------+
+| Source   |    http://bit.ly/fiUPWm                                                          |
++----------+----------------------------------------------------------------------------------+
 
-Source		     	http://bit.ly/dXT5u9
 
-=============        ========================================================================
++---------------------------------------------------------------------------------------------+
+| 274 - Gestion de la maintenance et des articles                                             |
++----------+----------------------------------------------------------------------------------+
+| Intérêts | Idem 217 mais plus complète                                                      |
+|          |                                                                                  |
++----------+----------------------------------------------------------------------------------+
+| Source   |  http://bit.ly/iaLTws                                                            |
++----------+----------------------------------------------------------------------------------+
 
-=============        ========================================================================
- 211 - Services avec facturation basée sur temps article                 
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Idem que 433 mais encore plus complète et mieux adaptée à GSTP 
++---------------------------------------------------------------------------------------------+
+|  276 - Approvisionnement Matériel de remplacement                                           |
++----------+----------------------------------------------------------------------------------+
+| Intérêts |  Utile pour remplacer un équipement nécessitant une maintenance prolongée.       |
+|          |                                                                                  |
++----------+----------------------------------------------------------------------------------+
+| Source   |  http://bit.ly/hFa6zC                                                            |
++----------+----------------------------------------------------------------------------------+
 
-Source		     	http://bit.ly/hbONgR
-
-=============        ========================================================================
-
-=============        ========================================================================
- 217 - Réparation en atelier                  
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Du signalement du problème juqu'à la facturation (stocks, réparations, saisies de temps, charges réelles, etc.)
-
-Source		     	http://bit.ly/fiUPWm
-
-=============        ========================================================================
-
-=============        ========================================================================
- 274 - Gestion de la maintenance et des articles               
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Idem 217 mais plus complète
-
-Source		     	http://bit.ly/iaLTws
-
-=============        ========================================================================
-
-=============        ========================================================================
- 276 - Approvisionnement Matériel de remplacement            
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Utile pour remplacer un équipement nécessitant une maintenance prolongée.
-
-Source		     	http://bit.ly/hFa6zC
-
-=============        ========================================================================
 
 Bonnes pratiques - SAP for Engineering Construction and Operations
 ===================================================================
 
-SAP for Engineering Construction and Operations a été conçu pour les petites et moyennes entreprises dont leur métier principal est la construction et qui utilise pour une grande partie du projet de la main d'œuvre. Elle inclut des scénarios de bases comme la comptabilité mais surtout des processus centrés sur le métier de la construction. Il s'agit donc des recommandations SAP les plus proches du métier de GSTP et donc les plus importantes de ce benchmarking.
+SAP for Engineering Construction and Operations a été conçu pour les petites et
+moyennes entreprises dont leur métier principal est la construction et qui
+utilise pour une grande partie du projet de la main d'œuvre. Elle inclut des
+scénarios de bases comme la comptabilité mais surtout des processus centrés sur
+le métier de la construction. Il s'agit donc des recommandations SAP les plus
+proches du métier de GSTP et donc les plus importantes de ce benchmarking.
 
 Familles de scénarios :
 
@@ -437,123 +457,126 @@ Seront présentés par la suite uniquement les scénarios ayant attrait au domai
 Project Management
 --------------------
 
-=============        ========================================================================
- 439 - Project setup for engineering construction          
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Gestion d'un projet de construction généraliste
++--------------------------------------------------------------------------------------------+
+|439 - Project setup for engineering construction                                            |
++---------+----------------------------------------------------------------------------------+
+|Intérêts |  Gestion d'un projet de construction généraliste                                 |
++---------+----------------------------------------------------------------------------------+
+|Source   |      http://bit.ly/fuAebE                                                        |
++---------+----------------------------------------------------------------------------------+
 
-Source		     	http://bit.ly/fuAebE
-=============        ========================================================================
++--------------------------------------------------------------------------------------------+
+|  440 - Project Budgeting for engineering and construction                                  |
++---------+----------------------------------------------------------------------------------+
+|Intérêts | Budget et planning préliminaire.                                                 |
++---------+----------------------------------------------------------------------------------+
+|Source   |    http://bit.ly/h1QFsp                                                          |
++---------+----------------------------------------------------------------------------------+
 
-=============        ========================================================================
- 440 - Project Budgeting for engineering and construction    
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Budget et planning préliminaire.
 
-Source		     	http://bit.ly/h1QFsp
-=============        ========================================================================
++--------------------------------------------------------------------------------------------+
+| 441 - Project Planning for engineering and construction                                    |
++---------+----------------------------------------------------------------------------------+
+|Intérêts | Planification de projet (production, sous traitance, équipements, matériaux, etc)|
++---------+----------------------------------------------------------------------------------+
+|Source   |  http://bit.ly/hGv4Hx                                                            |
++---------+----------------------------------------------------------------------------------+
 
-=============        ========================================================================
- 441 - Project Planning for engineering and construction  
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Planification de projet (production, sous traitance, équipements, matériaux, etc.)
++--------------------------------------------------------------------------------------------+
+| 445 - Project forecasting & earned value management                                        |
++---------+----------------------------------------------------------------------------------+
+|Intérêts |  Suivi et contrôle du projet (santé en termes de coûts et de délais)             |
++---------+----------------------------------------------------------------------------------+
+|Source   |     http://bit.ly/eUbGrq                                                         |
++---------+----------------------------------------------------------------------------------+
 
-Source		     	http://bit.ly/hGv4Hx
-=============        ========================================================================
++--------------------------------------------------------------------------------------------+
+| 449 - Time entry for construction                                                          |
++---------+----------------------------------------------------------------------------------+
+|Intérêts | Suivi du travail des employés à travers les projets.                             |
++---------+----------------------------------------------------------------------------------+
+|Source   | http://bit.ly/fAZCVj                                                             |
++---------+----------------------------------------------------------------------------------+
 
-=============        ========================================================================
- 445 - Project forecasting & earned value management
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Suivi et contrôle du projet (santé en termes de coûts et de délais)
-
-Source		     	http://bit.ly/eUbGrq
-=============        ========================================================================
-
-=============        ========================================================================
- 449 - Time entry for construction
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Suivi du travail des employés à travers les projets.
-
-Source		     	http://bit.ly/fAZCVj
-=============        ========================================================================
-
-=============        ========================================================================
- 446 - Revenue recognition for projects
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Analyse des performances, des résultats (utile car les projets sont longs sur ce secteur)
-
-Source		     	http://bit.ly/hlfR7S
-=============        ========================================================================
++---------------------------------------------------------------------------------------------+
+| 446 - Revenue recognition for projects                                                      |
++----------+----------------------------------------------------------------------------------+
+| Intérêts | Analyse des performances, des résultats (utile car les projets sont longs sur    |
+|          | ce secteur)                                                                      |
++----------+----------------------------------------------------------------------------------+
+|Source    | http://bit.ly/hlfR7S                                                             |
++----------+----------------------------------------------------------------------------------+
 
 Equipement et tools management
 ---------------------------------
 
-=============        ========================================================================
- 444 - Equipment & Tools Management for Construction
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Gestion des équipements dans le temps (location inclus). 
-			Bien consommables et non consommables (pour GSTP matériels et pièces de rechanges).
-			Amélioration de la disponibilité, de la traçabilité, optimisation de l'utilisation.
-
-Source		     	http://bit.ly/gutZdX
-=============        ========================================================================
++----------------------------------------------------------------------------------------------+
+|444 - Equipment & Tools Management for Construction                                           |
++---------+------------------------------------------------------------------------------------+
+| Intérêts| Gestion des équipements dans le temps (location inclus).                           |
+|         | Bien consommables et non consommables (pour GSTP matériels et pièces de rechanges).|
+|         | Amélioration de la disponibilité, de la traçabilité, optimisation de l'utilisation.|
++---------+------------------------------------------------------------------------------------+
+|Source   | http://bit.ly/gutZdX                                                               |
++---------+------------------------------------------------------------------------------------+
 
 Accounting
 -----------
 
-=============        ========================================================================
- 447 - Contract Billing for Engineering and Construction
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Gestion de la facturation propre au secteur du BTP (pourcentage de complétion, nombre d'unités réalisées ou basé sur le temps et les matériels)
-
-Source		     	http://bit.ly/gDS8mQ
-=============        ========================================================================
++--------------------------------------------------------------------------------------------+
+| 447 - Contract Billing for Engineering and Construction                                    |
++---------+----------------------------------------------------------------------------------+
+| Intérêts| Gestion de la facturation propre au secteur du BTP (pourcentage de complétion,   |
+|         | nombre d'unités réalisées ou basé sur le temps et les matériels)                 |
++---------+----------------------------------------------------------------------------------+
+|Source   | http://bit.ly/gDS8mQ                                                             |
++---------+----------------------------------------------------------------------------------+
 
 Procurement
 ------------
 
-=============        ========================================================================
- 442 - RFQs for Project-based Procurement
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Approvisionnement en matériel. Comparaison des prix fournisseurs pour l'achat ou la location au meilleur prix.
++--------------------------------------------------------------------------------------------+
+| 442 - RFQs for Project-based Procurement                                                   |
++---------+----------------------------------------------------------------------------------+
+| Intérêts| Approvisionnement en matériel. Comparaison des prix fournisseurs pour l'achat ou |
+|         | la location au meilleur prix.                                                    |
++---------+----------------------------------------------------------------------------------+
+|Source   | http://bit.ly/eI0Bgx                                                             |
++---------+----------------------------------------------------------------------------------+
 
-Source		     	http://bit.ly/eI0Bgx
-=============        ========================================================================
-
-=============        ========================================================================
- 443 - Purchase Orders for Project-based Procurement
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Réservation de matériels, ordre d'achat, réception, suivi des temps d'utilisation (contrat au temps), paiement. 
-
-Source		     	http://bit.ly/fed5qN
-=============        ========================================================================
++--------------------------------------------------------------------------------------------+
+| 443 - Purchase Orders for Project-based Procurement                                        |
++---------+----------------------------------------------------------------------------------+
+| Intérêts| Réservation de matériels, ordre d'achat, réception, suivi des temps d'utilisation|
+|         | (contrat au temps), paiement.                                                    |
++---------+----------------------------------------------------------------------------------+
+|Source   | http://bit.ly/fed5qN                                                             |
++---------+----------------------------------------------------------------------------------+
 
 Analytics
 -------------------
 
-=============        ========================================================================
- 448 - Project Reporting for Engineering and Construction
----------------------------------------------------------------------------------------------
-=============        ========================================================================
-Intérêts		Vue d'ensemble de la santé du projet (pendant et une fois le projet fini) : état d'avancement, analyse en termes de coûts, charge de travail, etc.
-
-Source		     	http://bit.ly/fuvoah
-=============        ========================================================================
++--------------------------------------------------------------------------------------------+
+|448 - Project Reporting for Engineering and Construction                                    |
++---------+----------------------------------------------------------------------------------+
+| Intérêts| Vue d'ensemble de la santé du projet (pendant et une fois le projet fini) : état |
+|         | d'avancement, analyse en termes de coûts, charge de travail, etc.                |
+|         |                                                                                  |
++---------+----------------------------------------------------------------------------------+
+|Source   | http://bit.ly/fuvoah                                                             |
++---------+----------------------------------------------------------------------------------+
 
 Bilan 
 =======
 
-Cette présentation des bonnes pratiques SAP se veut volontairement superficielle. L'idée était de mettre en évidence leur existence et leurs intérêts. L'ensemble des sources listées sont de véritables points d'appuis en vue d'analyser les écarts entre les normes du secteur et le fonctionnement de GSTP. Elles renforceront les thèmes de progrès et se présenteront comme d'excellents outils pour établir la solution cible. Une attention particulière devra prêtée à l'analyse des bonnes pratiques en fort lien avec l'objet de cette étude, la gestion du matériel :
+Cette présentation des bonnes pratiques SAP se veut volontairement
+superficielle. L'idée était de mettre en évidence leur existence et leurs
+intérêts. L'ensemble des sources listées sont de véritables points d'appuis en
+vue d'analyser les écarts entre les normes du secteur et le fonctionnement de
+GSTP. Elles renforceront les thèmes de progrès et se présenteront comme
+d'excellents outils pour établir la solution cible. Une attention particulière
+devra prêtée à l'analyse des bonnes pratiques en fort lien avec l'objet de cette
+étude, la gestion du matériel :
 
 - 211 - Services avec facturation basée sur temps article: http://bit.ly/hbONgR  
 - 217 - Réparation en atelier: http://bit.ly/fiUPWm
@@ -566,9 +589,20 @@ Cette présentation des bonnes pratiques SAP se veut volontairement superficiell
 Synthèse
 ##########
 
-Ce benchmarking s'est voulu complet pour une entreprise de BTP. Certains processus et bonnes pratiques ne rentrent donc pas forcément dans le cadre de l'étude. Il a permis néanmoins de mettre en avant l'existence de bonnes pratiques et de processus formalisés au sein du secteur du BTP. Ils ont été présenté et analysé brièvement par un souci de concision. Cependant ce document présente l'avantage d'être un excellent point de départ car il donne un accès rapide aux sources d'informations sur lesquelles l'étude de la solution cible pourra s'appuyer. 
+Ce benchmarking s'est voulu complet pour une entreprise de BTP. Certains
+processus et bonnes pratiques ne rentrent donc pas forcément dans le cadre de
+l'étude. Il a permis néanmoins de mettre en avant l'existence de bonnes
+pratiques et de processus formalisés au sein du secteur du BTP. Ils ont été
+présenté et analysé brièvement par un souci de concision. Cependant ce document
+présente l'avantage d'être un excellent point de départ car il donne un accès
+rapide aux sources d'informations sur lesquelles l'étude de la solution cible
+pourra s'appuyer. 
 
-Il est important de noter toutefois que même si ces bonnes pratiques sont des références communément acceptées il faudra être particulièrement attentif lors de leur application à GSTP. En effet, il faudra vérifier préalablement que les impacts qui en découlent soient en accord avec les axes de progrès retenus et les spécificités propres à GSTP.
+Il est important de noter toutefois que même si ces bonnes pratiques sont des
+références communément acceptées il faudra être particulièrement attentif lors
+de leur application à GSTP. En effet, il faudra vérifier préalablement que les
+impacts qui en découlent soient en accord avec les axes de progrès retenus et
+les spécificités propres à GSTP.
 
 
 

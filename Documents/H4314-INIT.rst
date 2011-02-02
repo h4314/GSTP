@@ -27,6 +27,7 @@ SI
 
 Objet, contexte et positionnement du projet
 ###########################################
+
 Objet
 -----
 Ce projet consiste à l'étude préalable de la refonte d'une partie du Système d'Information du domaine "gestion de matériel" de l'entreprise GSTP.
@@ -50,7 +51,7 @@ GSTP en quelques chiffres:
 
 GSTP est une entreprise d'envergure nationale: la distance et l'ampleur de ses chantiers nécessitent une organisation interne efficace. Elle fait appel à la sous-traitance (travaux et location de matériel) pour environ 15% de son activité.
 
-La Direction du Materiel est un des secteurs les plus important de l'entreprise. Les enjeux de l'efficacité de l'activité de GSTP sont d'avoir un matériel opérationel et performant, et d'avoir une bonne gestion de ce dernier.
+La Direction du Matériel est un des secteurs les plus important de l'entreprise. Les enjeux de l'efficacité de l'activité de GSTP sont d'avoir un matériel opérationnel et performant, et d'avoir une bonne gestion de ce dernier.
 C'est pourquoi la gestion du matériel (achat, maintenance, équipement) a une part importante dans le fonctionnement de GSTP.
 
 Positionnement
@@ -70,14 +71,13 @@ Livrables relatifs à la Gestion de Projet:
 - Fiches de suivi (4 fiches de suivi: global, par livrable, par sous-phase, par personne)
 - Dossier bilan
 
-Livrable relatif à l'Assurance Qualité:
+Livrable relatif à l'assurance Qualité:
 ---------------------------------------
 - Dossier qualité ou Plan d'Assurance Qualité (PAQ)
-	!!!!!! A FAIRE !!!!
 	#. Résultats attendus
 	#. Conditions d'acceptation des résultats
 	#. Modalités de contrôle
-	#. Plannification projet
+	#. Planification projet
 	#. Organisation de l'équipe
 	#. Relations entre acteurs
 	#. Méthodes, normes et outils utilisés
@@ -86,7 +86,7 @@ Livrable relatif à l'Assurance Qualité:
 Livrables relatifs à la production:
 -----------------------------------
 - Dossier d'expression des besoins
-	#. Etude de l'existant
+	#. Étude de l'existant
 	#. Normes et benchmarking
 	#. Cibles fonctionnelles
 	#. Thèmes de progrès
@@ -100,64 +100,66 @@ Livrables relatifs à la production:
 - Dossier d'évaluation des solutions et mise en oeuvre
 	#. Adéquation avec la stratégie d'entreprise
 	#. Adéquation aux besoins fonctionnels
-	#. Evaluation des délais
-	#. Evaluation des coûts
-	#. Evaluation des risques
+	#. Évaluation des délais
+	#. Évaluation des coûts
+	#. Évaluation des risques
 
 - Présentation finale
 
 Méthodes - Modes Opératoires - Phasage
 ######################################
+
 Durant notre étude, nous utiliserons les méthodes MERISE et ARIS.
 
 L'étude sera décomposée de la manière suivante:
 
-#. Phase 1: Initialisation
-#. Phase 2: Expression des besoins
-#. Phase 3: Expression des solutions
-#. Phase 4: Evaluation des solutions
+*Phase 1:* Initialisation
+*Phase 2:* Expression des besoins
+*Phase 3:* Expression des solutions
+*Phase 4:* Évaluation des solutions
 
 Chaque phase sera décomposé de la manière suivante:
 
-* Phase 1: Initialisation
+- Phase 1: Initialisation
 	- Rédaction du Dossier d'Initialisation
 	- Rédaction du PAQ
 
-* Phase 2: Expression des besoins
-	- Etude de l'existant: rédaction d'une synthèse de l'existant
-	- Etude des normes et benchmark: rédaction synthèse études des normes et benchmark
+- Phase 2: Expression des besoins
+	- Étude de l'existant: rédaction d'une synthèse de l'existant
+	- Étude des normes et benchmark : rédaction synthèse études des normes et benchmark
 	- Spécification Cible: rédaction Dossier Expression des Besoins
 
-* Phase 3: Expression des solutions
+- Phase 3: Expression des solutions
 	- Solution spécifique: rédaction du dossier de la solution 1
 	- Solution standard: rédaction du dossier de la solution 2
 	- Modélisation et configuration des solutions: dossier de modélisation et configuration standard
 
-* Phase 4: Evaluation des solutions
+- Phase 4: Evaluation des solutions
 	- Dossier de choix de solution
 
 Ce phasage suivra le planning suivant (il nous a été imposé par la MoA):
 
-=======		=====
-Semaine		Phase
-=======		=====
-s1		Initialisation du projet
-s2		Etude de l'existant
-s3		Normes et Benchmark
-s4		Spécification Cible
-s5		Solution Spécifique
-s6		Solution Standard
-s7		Modélisation et Configuration Solution
-s8		Evalutation Solutions
-s9		Soutenance
-=======		=====
+=======    ========================================
+Semaine    Phase
+=======    ========================================
+S1         Initialisation du projet
+S2         Étude de l'existant
+S3         Normes et Benchmark
+S4         Spécification Cible
+S5         Solution Spécifique
+S6         Solution Standard
+S7         Modélisation et Configuration Solution
+S8         Évaluation Solutions
+S9         Soutenance
+=======    ========================================
 
 Identification des activités et taches
 ######################################
+
 Les activités et les tâches sont identifiées par le CdP. C'est le CdP qui affecte les tâches aux membres de l'équipe, et qui s'assure du bon accomplissement de ces dernières.
 
-On considère qu'une tâche est affectée à une seule personnne (sauf cas particulier), et qu'elle dure une semaine.
-Une personne peut avoir plusieurs tâches la même semaine. (parallèlisation des tâches).
+On considère qu'une tâche est affectée à une seule personne (sauf cas particulier), et qu'elle dure une semaine.
+Une personne peut avoir plusieurs tâches la même semaine. (parallélisation des tâches).
 
 Notre étude comportera 4 types d'activités principales:
 - Rédaction
@@ -167,7 +169,9 @@ Notre étude comportera 4 types d'activités principales:
 
 Ci-dessous, vous avez le détail de la décomposition en tâches pour toutes les phases du projet:
 
+::
 
+  TODO : Insérer ici la décomposition en tâches
 
 
 Plan de charges (voir document spécifique)
@@ -175,8 +179,12 @@ Plan de charges (voir document spécifique)
 
 Planning (diagramme de Gantt)
 #############################
-À l’aide d’un outil de gestion de projet : MS Project, Redmine, etc. (Voir
-        Paul pour Redmine).
+
+::
+  
+  TODO : Finir cette partie
+
+À l’aide d’un outil de gestion de projet : MS Project, Redmine, etc. (Voir Paul pour Redmine).
 
 
 
@@ -184,39 +192,61 @@ Planning (diagramme de Gantt)
 Organisation de l’equipe
 ########################
 
-* Chef de projet: **Etienne GUERIN (EG)**
-	Il plannifie l'ensemble du déroulement du projet. Son rôle est d'identifier les tâches à effectuer, d'évaluer les charges de travail, et de s'assurer du bon déroulement (suivi) du projet et de son exécution. Il met en place les outils de suivi, et communique régulièrement avec son équipe pour avoir un aperçu de l'avancement des tâches.
-Il est le principal interlocuteur avec la MoA.
+- Chef de projet: **Etienne GUERIN (EG)**
+	Il planifie l'ensemble du déroulement du projet. Son rôle est d'identifier les tâches à effectuer, d'évaluer les charges de travail, et de s'assurer du bon déroulement (suivi) du projet et de son exécution. Il met en place les outils de suivi, et communique régulièrement avec son équipe pour avoir un aperçu de l'avancement des tâches.  Il est le principal interlocuteur avec la MoA.
 
-* Responsable Qualité et Communication: **Paul ADENOT (PA)**
-	Il est chargé de mettre en place le PAQ. Il est également chargé de veiller au respect et à l'application de ce PAQ tout au long du projet. Il intervient lors de la validation des tâches.
-Il est un interlocuteur privilégié avec la MoA.
+- Responsable Qualité et Communication: **Paul ADENOT (PA)**
+	Il est chargé de mettre en place le PAQ. Il est également chargé de veiller au respect et à l'application de ce PAQ tout au long du projet. Il intervient lors de la validation des tâches.  Il est un interlocuteur privilégié avec la MoA.
 
-* Consultants: ils sont experts dans leur domaine et apportent leurs compétences et savoir-faire. Ils sont chargés de produire l'étude préalable sous la direction du CdP, en collaboration avec le RQ
-	* Experts ERP et modélisation: Yoann BUCH (YB) et Yi Quan ZHOU (YQZ)
-	* Expert Métier (BTP), Méthodes et Outils: Pierrick GRANDJER (PB), Arturo MAYOR (AM)
-	* Expert Développement Système d'Information: Martin RICHARD (MR)
+- Consultants: ils sont experts dans leur domaine et apportent leurs compétences et savoir-faire. Ils sont chargés de produire l'étude préalable sous la direction du CdP, en collaboration avec le RQ
+	- Experts ERP et modélisation: Yoann BUCH (YB) et Yi Quan ZHOU (YQZ)
+	- Expert Métier (BTP), Méthodes et Outils: Pierrick GRANDJER (PB), Arturo MAYOR (AM)
+	- Expert Développement Système d'Information: Martin RICHARD (MR)
 
-Analyse des risques (1 page max)
---------------------------------
+Analyse des risques
+-------------------
 
++-----------------+---------------+------------------+------------------+----------------------+------------------------------------+
+|Risque           | Type          |Cause             | Probabilité      | Conséquence          |  Mesure à prendre                  |
++=================+===============+==================+==================+======================+====================================+
+|Dépassement délai| Organisation  |Laxisme           |  Peu probable    |  Non respect des     |  Cdp: vérifier le niveau           |
+|                 |               |                  |                  |  engagements, prise  |  d'activité des membres            |
+|                 |               |                  |                  |  de retard,          |                                    |
+|                 |               |                  |                  |  mécontentement      |                                    |
+|                 |               |                  |                  |  client              |                                    |
++-----------------+---------------+------------------+------------------+----------------------+------------------------------------+
+|                 |               |                  |                  |                      |                                    |
+|Dépassement délai| Organisation  |Charge            |  Probable        |  Non respect des     |  Mise en place d'un planning       |
+|                 |               |trop lourde       |                  |  engagements, prise  |  précis, réaliste et               |
+|                 |               |pour un membre    |                  |  de retard,          |  ajustable                         |
+|                 |               |                  |                  |  mécontentement      |                                    |
+|                 |               |                  |                  |  client              |                                    |
++-----------------+---------------+------------------+------------------+----------------------+------------------------------------+
+|Serveurs en panne| Défection     |panne             |  peu probable    |  Travail de projet   |  Choisir un hébergeur avec         |
+|                 | matérielle    |                  |                  |  beaucoup plus       |  une bonne qualité de service      |
+|                 |               |                  |                  |  difficile à mener,  |                                    |
+|                 |               |                  |                  |  du fait de la       |                                    |
+|                 |               |                  |                  |  dépendance des      |                                    |
+|                 |               |                  |                  |  serveurs            |                                    |
+|                 |               |                  |                  |                      |                                    |
++-----------------+---------------+------------------+------------------+----------------------+------------------------------------+
+|Perte de contact | Social        |Problème          |  Moyen           |  Risque de perte de  |  Essayer de prévenir l'équipe      |
+|avec un membre   |               |de santé          |                  |  temps               |  lorsque maladie                   |
+|de l'équipe      |               |                  |                  |                      |                                    |
++-----------------+---------------+------------------+------------------+----------------------+------------------------------------+
+|Solution         | Technologie   |Lacunes dans la   |  Moyen           |  Solution proposée   |  Assurer une bonne assimilation    |
+|inadaptée        |               |connaissances     |                  |  inadéquate          |  des ERP et des nouveaux modèles,  |
+|                 |               |des ERP           |                  |                      |  contacter les professeurs         |
+|                 |               |                  |                  |                      |                                    |
++-----------------+---------------+------------------+------------------+----------------------+------------------------------------+
+|Mauvaise         | Production    |Mauvaise cohésion |  Moyen           |  Mauvaise cohérence  |    Adopter une attitude de travail |
+|cohésion         |               |Mauvais travail   |                  |  des livrables       |    collectif, organisation de      |
+|                 |               |d'équipe          |                  |  Mauvaise qualité    |    réunions de travail             |
+|                 |               |                  |                  |  d'ensemble          |    régulières, etc.                |
+|                 |               |                  |                  |                      |                                    |
++=================+===============+==================+==================+======================+====================================+
 
-Risque	Type	Cause: probabilité	Conséquence	Mesure à prendre
-
-Dépassement délai	Organisation	Laxisme: peu probable	non respect des engagements, prise de retard, mécontentement client	Cdp: vérifier le niveau d'activité des membres
-
-Dépassement délai	Organisation	Charge trop lourde pour un membre: probable	non respect des engagements, prise de retard, mécontentement client	Mise en place d'un planning précis, réaliste et ajustable
-
-Serveurs en panne	Défection matérielle	panne: peu probable	travail de projet beaucoup plus difficile à mener, du fait de la forte dépendance des serveurs	Choisir un hébergeur avec une bonne qualité de service
-
-Perte de contact avec un membre de l'équipe 	Social		problème de santé: moyen	risque de perte de temps	essayer de prévenir l'équipe lorsque maladie
-
-Solution inadaptée	Technologie	Lacunes dans la connaissances des ERP: moyen	solution proposée inadéquate	Assurer une bonne assimilation des ERP et des nouveaux modèles, contacter les professeurs
-
-mauvaise cohésion	production	mauvaise cohésion, mauvais travail d'équipe: moyen	mauvaise cohérence des livrables, mauvaise qualité d'ensemble	adopter une attitude de travail collectif, organisation de réunions de travail régulières, etc.
-
-
-Dans notre cas, il n'y a pas de risques financier, car nous sommes dans un projet "fictif". Cependant, si jamais nous gérons mal le projet, nous pouvons être pénalisés d'une autre façon: beaucoup de temps de travail hors séance, pénalités au niveau de la note, etc.
+Dans notre cas, il n'y a pas de risques financier, car nous sommes dans un projet « fictif ». Cependant, si jamais nous gérons mal le projet, nous pouvons être pénalisés d'une autre façon: beaucoup de temps de travail hors séance, pénalités au niveau de la note, etc.
 
 
 Modalites de validation et de recette
