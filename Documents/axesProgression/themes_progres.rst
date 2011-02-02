@@ -45,3 +45,30 @@ Risques
 ~~~~~~~
 
 Le risque ici est de ne pas réussir à temps à trouver suffisamment de clients à qui louer le nouveau matériel pour contrebalancer les dépenses occasionnées par cette opération. C'est là que le nouveau service commercial a un rôle important. Il faut aussi jouer de la notoriété de GSTP et s'appuyer sur ses accords passés afin de les renouveler avec la filiale gérant le matériel.
+
+
+Adapter la logique des processus en s'appuyant sur l'architecture de référence
+==============================================================================
+
+Département matériel
+--------------------
+
+Formaliser l'entrée de matériel. Regrouper les événements tels que les avis de livraison, restitution de matériel, avis de maintenance sous un intitulé strict "entrée de matériel".
+
+Autoriser le transfert de matériel de chantier à chantier lorsqu'un retour au parc central n'est pas obligatoire ou plus pratique. (Chantier plus près que le site central, maintenance inutile). => Mettre en place des révisions rapides sur les chantiers afin de déterminer si un retour au parc central est nécessaire.
+
+Département achat
+-----------------
+
+Automatiser la sauvegarder des données concernant les fournisseurs et faciliter leur consultation. Dans un sens plus général, faciliter l'accès à toutes les informations concernant les fournisseurs, qu'ils soient potentiels, avérés et que cela concerne leur entreprise générale ou plus spécifiquement les produits qu'ils fournissent.
+
+Département maintenance
+-----------------------
+
+Avoir un meilleur dynamisme au niveau de la commande des pièces de rechange afin de ne plus avoir de stock trop important en ce qui concerne certaines pièces, ni de rupture de stock pour d'autres.
+
+La mise en place de révisions rapides en fin d'utilisation du matériel sur un chantier permet d'éviter que les opérations de maintenance plus lourdes n'immobilisent trop longtemps le matériel, sans néanmoins fermer les yeux face aux nécessités de maintenance.
+
+
+
+
