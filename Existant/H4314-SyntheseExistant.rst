@@ -8,10 +8,13 @@ Synthèse de l'existant
 
 Introduction
 ============
-    
-::
 
-    TODO : rédiger l'introduction
+Ce projet consiste à l'étude préalable de la refonte d'une partie du système
+d'information du domaine "gestion de matériel" de l'entreprise GSTP.
+Les objectifs de cette refonte sont d'améliorer les délais, de diminuer les
+coûts et d'améliorer la qualité à tous les niveaux.
+Ce document présente l'état actuel de l'entreprise GSTP en vue de détecter les
+anomalies de fonctionnement, et donc de proposer par la suite des solutions.
 
 Domaine d'étude
 ===============
@@ -126,7 +129,7 @@ Elle est décomposée en trois départements qui sont décomposés à leur tour 
   - Service d'achat du matériel
   - Service d'achat des pièces de rechange
   - Service location du matériel
-		
+    
 Direction travaux, études et méthodes (DTEM)
 --------------------------------------------------
 
@@ -208,7 +211,7 @@ Les chantiers se déroulent en moyenne sur 1 an. Ceux sont le centre de profit d
 Les chantiers effectuent des demandes d'approvisionnement en matériel à la DM. On observe donc une relation de client-fournisseur entre les chantiers (DTEM) et la DM respectivement.
 
 Organisation géographique
-=========================	
+========================= 
 
 L'entreprise GSTP a une organisation géographique assez complexe. Voici les
 différents lieux où se situe l'entreprise, et une brève descriptions.
@@ -303,18 +306,18 @@ Transversalités des procédures
 Différents services de GSTP travaillent et communiquent ensemble à différents niveaux en vue de gérer le matériel. Des procédures formalisées ont été mises en place pour déterminer précisemment les étapes de traitement et les flux d'information.
 
 +--------------------------------+--------------------------------------------------------+
-| Procédure                      | Services concernés                             			  |                                           
+| Procédure                      | Services concernés                                     |                                           
 +================================+========================================================+
 | Facturation des chantiers      | - Service Gestion du matériel                          |                   
-|				                         | - DFC                                                  |                               
-|				                         | - Chantier                                             |                                           
+|                                | - DFC                                                  |                               
+|                                | - Chantier                                             |                                           
 +--------------------------------+--------------------------------------------------------+
 | Affectation du matériel        | - Chantier                                             | 
-| 	                      			 | - Gestion du parc matériel                             |
+|                                | - Gestion du parc matériel                             |
 |                                | - Service Gestion du matériel                          |                  
 +--------------------------------+--------------------------------------------------------+
 | Maintenance                    | - Chantier                                             |         
-|			                        	 | - Parc matériel                                        |
+|                                | - Parc matériel                                        |
 |                                | - Département maintenance                              |
 |                                | - Gestion des pièces de rechange                       |                                         
 +--------------------------------+--------------------------------------------------------+
@@ -339,19 +342,19 @@ Facturation du matériel pour un chantier
   - Un avis de valorisation de structure
   - Un calcul de valorisation de matériel
   - Un calcul de coût de maintenance.
-	
-	
+  
+  
 - Un calcul de valorisation de matériel est effectué régulièrement
 
 - Un calcul de coût de maintenance peut être effectué pour plusieurs raisons.
   - Régulièrement, sans élément déclencheur.
   - Après un calcul de valorisation des pièces de rechange, lui-même effectué régulièrement
   - Après réception d'un avis de valorisation de personnel.
-	
+  
 Il ressort de cette procédure que les facturations découlent souvent
 d'opérations effectuées régulièrement, ou bien suite à la fin d'utilisation d'un
 matériel.
-	
+  
 Modèle conceptuel de traitement associé : ``MCT-Facturer-chantier``
 
 Planification de l'affectation du matériel
@@ -369,7 +372,7 @@ La planification du matériel concernent son affectation aux chantiers, sa locat
   - Une planification régulièrement effectuée pour vérifier le bon fonctionnement.
   - Une programmation d'utilisation de matériel : tel ou tel chantier va avoir besoin de tel type de matériel...
 - La demande d'achat de matériel est effectuée suite à la programmation d'utilisation de matériel.
-- La programmation d'utilisation du matériel découle soit d'une maintenance préventive, soit d'une vérification régulière.	
+- La programmation d'utilisation du matériel découle soit d'une maintenance préventive, soit d'une vérification régulière.  
 
 Modèle conceptuel de traitement associé : ``MCT-Planification``.
 
@@ -389,7 +392,7 @@ Un calcul des besoins peut résulter de plusieurs événements.
 - Prévision d'une consommation future (par exemple un chantier prévu, non urgent)
 - Si aucun besoin ne se fait ressentir, on effectue néanmoins régulièrement un nouveau calcul des besoins.
 - En cas de variation de stock.
-	
+  
 Une variation de stock est détectée à la suite d'un calcul du stock.
 
 On peut calculer le stock après plusieurs événements.
@@ -442,7 +445,7 @@ L'existant est source de nombreux dysfonctionnements qui impactent négativement
 l'entreprise : délais dépassés, dépenses inutiles, qualité non contrôlée, etc.
 Ils représentent donc des axes d'améliorations majeurs qui devront être pris en
 compte prioritairement dans l'élaboration de la solution cible.
-	
+  
 Département Matériel
 ---------------------
 
