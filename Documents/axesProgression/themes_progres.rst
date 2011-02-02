@@ -7,27 +7,6 @@ Décliner la stratégie de l'entreprise au niveau des processus existants
 
 Le but de ce document est de présenter succinctement certaines modifications envisagées par GSTP dans son organisation.
 
-Sous-traiter la maintenance
----------------------------
-
-GSTP considère que les opérations de maintenance sont trop lourdes à gérer en interne. Dans un soucis de gain de temps et de meilleure utilisation des compétences du personnel, il est envisagé de confier les opérations de maintenance à une entreprise spécialisée.
-On pourra ainsi observer un gain de temps en ce qui concerne les opérations de maintenance en elles-mêmes, mais aussi en ce qui concerne l'achat de pièces de rechange qui sera effectué par l'entreprise spécialisée en meilleure connaissance de cause.
-Au final, seuls des employés spécialement formés à la maintenance s'en occuperont.
-
-Changements entrainés
-~~~~~~~~~~~~~~~~~~~~~
-
-Bien entendu, pour pouvoir tirer tous les avantages de cette amélioration, GSTP devra posséder un bon service commercial afin de trouver un arrangement avantageux avec une entreprise spécialisée.
-On ne tiendra plus compte, dans le processus d'achat et de location de matériel, de l'achat de pièces de rechange.
-
-Risques
-~~~~~~~
-
-Le principal risque de cette évolution est celui de tomber sur une entreprise peu consciencieuse qui n'aurait pas à coeur les intérêts de GSTP et qui présenterait des délais trop longs entre la demande de maintenance et sa mise en oeuvre. L'effet serait alors contraire et entrainerait une perte de temps et d'argent.
-C'est pourquoi il est crucial de bien choisir l'entreprise à qui sous-traiter ces opérations, ou encore d'en sélectionner plusieurs, chacune spécialisée dans un type de matériel différent.
-
-
-
 
 Séparer la direction du matériel
 --------------------------------
