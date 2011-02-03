@@ -1,59 +1,59 @@
 Gestion des projets
 ###################
 
-433 - Projet avec commande client à prix fixe et facturation temps/article
+433 - Projet avec commande client Ã  prix fixe et facturation temps/article
 ==========================================================================
 
 +----------------------------------------------------------------------------------+---------------------+
-| Étape de processus                                                               | Code de transaction |
+| Ã‰tape de processus                                                               | Code de transaction |
 +==================================================================================+=====================+
-| Création d'une offre                                                             | VA21                |
+| CrÃ©ation d'une offre                                                             | VA21                |
 +----------------------------------------------------------------------------------+---------------------+
-| Création d'une commande client                                                   | VA01                |
+| CrÃ©ation d'une commande client                                                   | VA01                |
 +----------------------------------------------------------------------------------+---------------------+
-| Gestion du % de réalisation sur la ligne du poste de commande                    | VK11                |
+| Gestion du % de rÃ©alisation sur la ligne du poste de commande                    | VK11                |
 +----------------------------------------------------------------------------------+---------------------+
-| Génération de la règle d'imputation                                              | CJB2                |
+| GÃ©nÃ©ration de la rÃ¨gle d'imputation                                              | CJB2                |
 +----------------------------------------------------------------------------------+---------------------+
 | Modification du projet                                                           | CJ20N               |
 +----------------------------------------------------------------------------------+---------------------+
-|Planification des natures comptables/prises en charge d'activités                 | CJR2                |
+|Planification des natures comptables/prises en charge d'activitÃ©s                 | CJR2                |
 +----------------------------------------------------------------------------------+---------------------+
-| Création du document de facturation à prix fixe                                  | VF01                |
+| CrÃ©ation du document de facturation Ã  prix fixe                                  | VF01                |
 +----------------------------------------------------------------------------------+---------------------+
-| Création d’une demande de paiement acompte                                       | VA01/VF01           |
+| CrÃ©ation dâ€™une demande de paiement acompte                                       | VA01/VF01           |
 +----------------------------------------------------------------------------------+---------------------+
-| Création d'une demande de facturation sur charges réelles                        | DP90                |
+| CrÃ©ation d'une demande de facturation sur charges rÃ©elles                        | DP90                |
 +----------------------------------------------------------------------------------+---------------------+
 | Traitement de la demande de facture dans le Responsable de la demande de facture | WD-App              |
 +----------------------------------------------------------------------------------+---------------------+
 
-Gestion du temps et des dépenses
+Gestion du temps et des dÃ©penses
 ################################
 
 211 - Saisie des temps
 ======================
 
 +----------------------------------------------------------------------------------+---------------------+
-| Étape de processus                                                               | Code de transaction |
+| Ã‰tape de processus                                                               | Code de transaction |
 +==================================================================================+=====================+
-| Création d'une offre                                                             | VA21                |
+| CrÃ©ation d'une offre                                                             | VA21                |
 +----------------------------------------------------------------------------------+---------------------+
-| Création d'une commande client                                                   | VA01                |
+| CrÃ©ation d'une commande client                                                   | VA01                |
 +----------------------------------------------------------------------------------+---------------------+
-| Gestion du % de réalisation sur la ligne du poste de commande                    | VK11                |
+| Gestion du % de rÃ©alisation sur la ligne du poste de commande                    | VK11                |
 +----------------------------------------------------------------------------------+---------------------+
-| Génération de la règle d'imputation                                              | CJB2                |
+| GÃ©nÃ©ration de la rÃ¨gle d'imputation                                              | CJB2                |
 +----------------------------------------------------------------------------------+---------------------+
 | Modification du projet                                                           | CJ20N               |
 +----------------------------------------------------------------------------------+---------------------+
-|Planification des natures comptables/prises en charge d'activités                 | CJR2                |
+|Planification des natures comptables/prises en charge d'activitÃ©s                 | CJR2                |
 +----------------------------------------------------------------------------------+---------------------+
-| Création du document de facturation à prix fixe                                  | VF01                |
+| CrÃ©ation du document de facturation Ã  prix fixe                                  | VF01                |
 +----------------------------------------------------------------------------------+---------------------+
-| Création d’une demande de paiement acompte                                       | VA01/VF01           |
+| CrÃ©ation dâ€™une demande de paiement acompte                                       | VA01/VF01           |
 +----------------------------------------------------------------------------------+---------------------+
-| Création d'une demande de facturation sur charges réelles                        | DP90                |
+| CrÃ©ation d'une demande de facturation sur charges rÃ©elles                        | DP90                |
 +----------------------------------------------------------------------------------+---------------------+
 | Traitement de la demande de facture dans le Responsable de la demande de facture | WD-App              |
 +----------------------------------------------------------------------------------+---------------------+
