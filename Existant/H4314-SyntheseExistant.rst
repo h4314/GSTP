@@ -60,6 +60,9 @@ Actions :
 Directions et Services de GSTP
 ================================
 
+.. image:: images/global.png
+  :width: 100%
+
 Direction générale (DG)
 -------------------------
 
@@ -148,9 +151,8 @@ forte charge de travail.
 Zoom sur le domaine d'étude 
 ---------------------------
 
-::
-
-    _ TODO: schéma détaillé sous visio _
+.. image:: images/zoom.png
+  :width: 100%
 
 Département Matériel
 ~~~~~~~~~~~~~~~~~~~~
@@ -234,7 +236,7 @@ Ressources Humaines
 --------------------
 
 .. image:: images/rh.png
-    :scale: 50%
+    :width: 100%
 
 Ressources matérielles
 -----------------------
@@ -474,7 +476,7 @@ d'abord passer par le siège.
 Département Achat
 -----------------
 
-Le coût des achats est élevés. Le département achat ne possède pas de solution SRM
+Le coût des achats est élevé. Le département achat ne possède pas de solution SRM
 (Supplier Relationship Management). Les informations sur les fournisseurs sont
 sauvegardées et gérées dans un fichier Excel. 
 

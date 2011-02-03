@@ -2,6 +2,9 @@
 Benchmarking
 ============
 
+.. contents:: Sommaire
+.. sectnum::
+
 Objectifs
 ##########
 

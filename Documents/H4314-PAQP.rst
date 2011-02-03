@@ -6,30 +6,29 @@ Plan d'assurance qualité projet
 .. sectnum::
 
 
-.. page::
 
 Terminologie
 #############
 
 CdP
-	Chef de Projet
+  Chef de Projet
 RQ
-	Responsable Qualité
+  Responsable Qualité
 
 GSTP
-	Entreprise de travaux de notre étude de cas
+  Entreprise de travaux de notre étude de cas
 
 PAQP
-	Plan d'assurance Qualité Projet
+  Plan d'assurance Qualité Projet
 
 MoA
-	Maîtrise d'Ouvrage
+  Maîtrise d'Ouvrage
 
 MoE
-	Maîtrise d'Oeuvre
+  Maîtrise d'Oeuvre
 
 SI
-	Système d'information
+  Système d'information
 
 Préliminaires
 #################
@@ -50,17 +49,17 @@ Le PAQP est rédigé pour remplir deux objectifs:
 
 Le PAQP définit:
 
-	- la feuille de route du projet de réalisation du système, en précisant:
-		- les responsabilités
-		- les processus de développement (de la spécification à la validation)
-		- de fournitures associées à la réalisation
-		- les objectifs de la qualité
+  - la feuille de route du projet de réalisation du système, en précisant:
+    - les responsabilités
+    - les processus de développement (de la spécification à la validation)
+    - de fournitures associées à la réalisation
+    - les objectifs de la qualité
 
-	- les relations entre:
-		- les différentes équipes de la réalisation
-		- le client (GSTP, MOA)
-		- le Service Qualité du ou des organismes participant à la réalisation
-		- la hierarchie
+  - les relations entre:
+    - les différentes équipes de la réalisation
+    - le client (GSTP, MOA)
+    - le Service Qualité du ou des organismes participant à la réalisation
+    - la hierarchie
 
 Domaines d'application
 ========================
@@ -73,15 +72,15 @@ Responsablités associées au PAQP
 Tous les membres du projet sont concernés par le PAQP. Pour la bonne conduite du projet, il est obligatoire que le PAQP soit pris en connaissance par tous, et qu'il soit appliqué. 
 Cependant, chaque personne a un rôle différent vis-à-vis du PAQP, qui sera précisé par la suite de ce document.
 
-===================	=============================================
-Acteur			Responsabilités
-===================	=============================================
-CdP			Valider le PAQP, l'appliquer et le faire respecter
+====================  =============================================
+Acteur                Responsabilités
+====================  =============================================
+CdP                   Valider le PAQP, l'appliquer et le faire respecter
+  
+RQ                    Rédiger et améliorer le PAQP, garantir son application
 
-RQ			Rédiger et améliorer le PAQP, garantir son application
-
-Experts, Consultants	Appliquer le PAQP, et apporter les corrections nécessaires pour être en conformité avec le PAQP
-===================	=============================================
+Experts, Consultants  Appliquer le PAQP, et apporter les corrections nécessaires pour être en conformité avec le PAQP
+====================  =============================================
 
 
 
@@ -171,22 +170,21 @@ Rôles des différents acteurs du projet vis-à-vis du PAQP
 =========================================================
 
 +-------------------------------+---------------------------------------------------------------------------------------+
-| Acteur			| Responsabilités									|
-|				|											|
+| Acteur                        | Responsabilités                                                                       |
 +-------------------------------+---------------------------------------------------------------------------------------+
-| GSTP (client)         	| Lanceur de la demande d'étude préalable "Conception de SI"				| 
+| GSTP (client)                 | Lanceur de la demande d'étude préalable "Conception de SI"                            | 
 +-------------------------------+---------------------------------------------------------------------------------------+
-| MOE (Maîtrise d'Oeuvre) 	| Il s'agit de l'hexanôme H4314. Il est chargé de répondre à la demande d'étude		|
-|				| préalable lancée par GSTP. 										|
-|				| La MOE est responsable du déroulement du projet et de la solution proposée, tout en	|
-|				| tenant compte des contraintes du CdC et des délais fixés par la MOA.			|
+| MOE (Maîtrise d'Oeuvre)       | Il s'agit de l'hexanôme H4314. Il est chargé de répondre à la demande d'étude         |
+|                               | préalable lancée par GSTP.                                                            |
+|                               | La MOE est responsable du déroulement du projet et de la solution proposée, tout en   |
+|                               | tenant compte des contraintes du CdC et des délais fixés par la MOA.                  |
 +-------------------------------+---------------------------------------------------------------------------------------+
-| MOA (Maîtrise d'Ouvrage) 	| La MOA dépend de GSTP. Elle est responsable du CdC, et veille à son respect 		|
-|				| par la MOE. Elle valide le travail de la MOE.						|
+| MOA (Maîtrise d'Ouvrage)      | La MOA dépend de GSTP. Elle est responsable du CdC, et veille à son respect           |
+|                               | par la MOE. Elle valide le travail de la MOE.                                         |
 +-------------------------------+---------------------------------------------------------------------------------------+
-| Comité de Pilotage       	| Fixe les contraintes et les finalités du projet. Vérifie la politique qualité de la	|
-|				| MOE. Analyse, Planifie et décide des actions à entamer. Prévoit des réunions		| 
-|				| intermédiaires d'avancement de projet.						|
+| Comité de Pilotage            | Fixe les contraintes et les finalités du projet. Vérifie la politique qualité de la   |
+|                               | MOE. Analyse, Planifie et décide des actions à entamer. Prévoit des réunions          | 
+|                               | intermédiaires d'avancement de projet.                                                |
 +-------------------------------+---------------------------------------------------------------------------------------+
 
 Relations entre la MOE et la MOA
@@ -207,7 +205,6 @@ tous les acteurs du projet aient la plus grande transparence possible. Les
 acteurs doivent être disponibles, afin de garantir une bonne réactivité, en cas
 de changement de situation du côté MOA comme du côté MOE.
 
-.. page::
     
 Glossaire des termes liés au PAQP
 ======================================================
@@ -243,14 +240,13 @@ Wiki
     léger pour la mise en forme.
 
 
-.. page::
 
 
 Objectifs et engagement qualité
 ###############################
 
 Résultats attendus
-------------------
+==================
 
 Le résultat attendu est double. D'une part, un audit de la solution actuelle
 employée par GSTP en ce qui concerne sa gestion interne devra être effectué, en
@@ -259,7 +255,7 @@ mettant en évidence les goulet d'étranglement de performance. D'autre part, de
 système d'information.
 
 Engagement qualité
-------------------
+==================
 
 La MOA s'engage à fournir les informations nécessaire à la bonne réalisation du
 projet par la MOE, notamment, mais non limités à l'organisation, les processus
@@ -273,7 +269,6 @@ La MOA s'engage à mettre à disposition des employés, et à accueillir du
 personnel de la MOA pour d'éventuelles interview, afin de pouvoir formaliser les
 processus directement sur le terrain, et de capter au mieux l'existant.
  
-.. page::
 
 Outils utilisés pour le projet
 #################################
@@ -282,7 +277,7 @@ Outils de conduite de projet
 ==============================
 
 La plateforme de gestion de projet *Redmine* sera utilisée.
-	
+  
 http://bde.insa-lyon.fr:3000/projects/gstp
 
 Outil de gestion de documentation
@@ -299,12 +294,12 @@ Organisation du projet
 
 
 Structure de pilotage du projet
--------------------------------
+===============================
 
 Schéma représentant la structure de pilotage de projet entre les deux équipes :
 
 .. image:: images/comite.png
-    :scale: 70%
+    :width: 100%
 
 
 
@@ -318,7 +313,7 @@ solution la plus bénéfique pour le projet, éventuellement aidées d'experts, 
 deux entreprises.
 
 Organisation de l'équipe de projet
-----------------------------------
+==================================
 
 Les membres de l'équipe sont organisés comme suit :
 
@@ -338,13 +333,13 @@ Les membres de l'équipe sont organisés comme suit :
     - Étudie les aspects spécifiques à une entreprise de BTP tel que GSTP
 
 Sous-traitance
---------------
+==============
 
 L'équipe assurera tous les aspects de l'étude, et s'engage à ne pas déléguer de
 tâches à un éventuel sous-traitant.
 
 Planification du projet
------------------------
+=======================
 
 La planification prévisionnel a été effectué dans le dossier d'initialisation,
 par le chef de projet. Cette planification de projet est reporté progressivement
@@ -381,19 +376,18 @@ nombre d'heure passé par acteur sur chaque catégorie de tâche, permettant
 d'avoir une vue d'ensemble du projet.
 
 
-.. page::
 
 Gestion de la documentation
 ###########################
 
 Objet
------
+=====
 Cette section présentera les outils et les processus de la gestion de
 documentation dans ce projet.
 
 
 Gestion des drafts
-------------------
+==================
 Les *drafts* seront placés sous le gestionnaire de version décentralisé
 **Git**. Le dépôt sera placé sur le site GitHub, et tous les membres de
 l'équipe pourront effectuer des modifications (commit et push) et accéder aux
@@ -421,7 +415,7 @@ sur les différents outils.
 Les *drafts* sont placés dans le dossier /Documents.
 
 Gestion des livrables
------------------------
+=======================
 Les livrables seront générés à partir des *drafts*, et auront le même contenu,
 mais un fond différent, indiquant précisément l'état du document. La mise en
 page sera alors soignée.
@@ -434,7 +428,7 @@ de relire le document avant le dépôt.
 Les livrables sont placés dans le dossier /Documents/Livrables.
 
 Structuration des documents
------------------------------
+=============================
 Les documents auront une page de titre, indiquant clairement le type du
 document, l'équipe, et le projet associé à ce document.
 
@@ -451,7 +445,7 @@ Les documents auront une forme unifiée, permettant d'augmenter la cohérence, e
 de ne pas perdre le lecteur.
 
 Sauvegardes et versionning
---------------------------
+==========================
 L'outil de gestion de projet, *Redmine* est hébergé sur le serveur du BdE de l'INSA de
 Lyon, dont la politique de sauvegarde est très rigoureuse (redondance,
 sauvegardes off-site). Cet outil dispose en outre de capacité de journalisation, permettant
@@ -483,7 +477,6 @@ formation leur a été donnée en début de projet, et des référents technique
 - Redmine : Paul ADENOT et Etienne GUÉRIN.
 
 
-.. page::
 
 Gestion des modifications
 #########################
@@ -501,7 +494,7 @@ Il est donc nécessaire de formaliser la réponse à un problème de ce type, en
 indiquant une procédure pour :
 
 Dans le cadre de la découverte d'une non-conformité:
-----------------------------------------------------
+====================================================
 
 #. Informer la MOA, si le changement est important.
 #. Placer une demande, du type *anomalie*, dans le logiciel de gestion de projet, dans la catégorie adéquate.
@@ -511,13 +504,12 @@ Dans le cadre de la découverte d'une non-conformité:
 
 
 Dans le cadre d'une demande d'évolution émanant de la MOA
----------------------------------------------------------
+=========================================================
 #. Discuter de l'acceptation de la demande d'évolution. Les critères pouvant être pris en compte sont (liste non exhaustive) : la taille des modifications à apporter, la complexité des modifications à apporter, le nombre de demande d'évolution déjà acceptées durant le projet, la disponibilité de la MOE, la criticité de la demande d'évolution.
 #. Si la demande est accepté, procéder comme pour une non-conformité.
 #. Si la demande est refusée, en informer la MOA, en expliquant les raison, de manière clair. Il peut être possible de négocier, mais cela sort du cadre de la procédure à suivre lors d'une demande d'évolution.
 
 
-.. page::
 
 Gestion de la qualité globale d'un document
 ###########################################
@@ -527,7 +519,7 @@ projet, le responsable qualité devra commencer à effectuer une relecture, qui
 devra être faite en considérant plusieurs aspects :
 
 Fond
-----
+====
 - Si possible, le responsable qualité devra mettre en regard différents document, et tenter de déceler d'éventuelles incohérences. En fonction de la taille d'une éventuelle erreur, il pourra décider de faire une demande d'anomalie, qu'il pourra s'assigner, ou assigner à une autre personne de l'équipe (se référer à la section *Gestion des modification*). 
 - La cohérence au sein d'un même document doit être vérifiée. Cela passe notamment par :
 
@@ -535,12 +527,11 @@ Fond
     - La vérification de la non contradiction au sein d'un même document (Exemple : le rédacteur a changé d'opinion sur un point précis du projet entre le début et la fin du document)
 
 Forme
------
+=====
 - Grammaire : les fautes de grammaires en tout genre doivent être évitées.
 - Typographie : la typographie devra respecter les standards français, afin de produire des document agréables et facile à lire, sans détourner le lecteur du contenu.
 
 
-.. page
 
 Suivi de l'application du Plan Qualité 
 #########################################
@@ -568,6 +559,6 @@ Conclusion
 
 Ce PAQP est un document et un outil qui permet de garantir une solution finale de qualité, à condition qu'il soit bien appliqué.
 
-Il permet également d'assurer que les attentes du client (COPEVUE) vont être prises en compte.
+Il permet également d'assurer que les attentes du client (GSTP) vont être prises en compte.
 
 La Qualité est toujours en évolution, et a pour vocation d'être toujours améliorée. C'est pourquoi le PAQP (le présent document) peut être sujet à modification.

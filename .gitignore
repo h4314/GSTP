@@ -1,2 +1,7 @@
 *.swp
 *.log
+*.aux
+*.tex
+*.toc
+*.out
+*.build_temp
