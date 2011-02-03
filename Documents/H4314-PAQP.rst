@@ -8,13 +8,126 @@ Plan d'assurance qualité projet
 
 .. page::
 
-Objectif du Plan d'assurance qualité
-####################################
+Terminologie
+#############
 
-Présentation du document
-------------------------
+CdP
+	Chef de Projet
+RQ
+	Responsable Qualité
+
+GSTP
+	Entreprise de travaux de notre étude de cas
+
+PAQP
+	Plan d'assurance Qualité Projet
+
+MoA
+	Maîtrise d'Ouvrage
+
+MoE
+	Maîtrise d'Oeuvre
+
+SI
+	Système d'information
+
+Préliminaires
+#################
+
+Cadre du PAQP
+===============
+
+Le PAQP est mis en place dans le cadre de la réponse par l'hexanôme H4314 (MOE) à l'appel d'offre d'étude préalable de "Conception de système d'information" lancé par GSTP (MOA), entreprise de travaux, pour le domaine de gestion du matériel.
+
+Objectifs du PAQP
+====================
+
+Le PAQP est rédigé pour remplir deux objectifs:
+
+- définir l'itinéraire du projet: mise en place d'un contexte et d'un système de qualité tout au long de la conduite du projet. Ce PAQP doit être mis en oeuvre par la MOE afin de satisfaire la MOA.
+
+- assurer la cohérence et l'homogénéité des documents et livrables produits par la MOE. Ainsi, le PAQP est mis en place pour assurer la qualité du produit obtenu.
+
+Le PAQP définit:
+
+	- la feuille de route du projet de réalisation du système, en précisant:
+		- les responsabilités
+		- les processus de développement (de la spécification à la validation)
+		- de fournitures associées à la réalisation
+		- les objectifs de la qualité
+
+	- les relations entre:
+		- les différentes équipes de la réalisation
+		- le client (GSTP, MOA)
+		- le Service Qualité du ou des organismes participant à la réalisation
+		- la hierarchie
+
+Domaines d'application
+========================
+
+Toute la documentation fournie par la MOE durant le projet est concernée par ce PAQP. Ainsi, toute décomposition en sous-projet de ce projet est concernée par ce PAQP.
+
+Responsablités associées au PAQP
+===================================
+
+Tous les membres du projet sont concernés par le PAQP. Pour la bonne conduite du projet, il est obligatoire que le PAQP soit pris en connaissance par tous, et qu'il soit appliqué. 
+Cependant, chaque personne a un rôle différent vis-à-vis du PAQP, qui sera précisé par la suite de ce document.
+
+===================	=============================================
+Acteur			Responsabilités
+===================	=============================================
+CdP			Valider le PAQP, l'appliquer et le faire respecter
+
+RQ			Rédiger et améliorer le PAQP, garantir son application
+
+Experts, Consultants	Appliquer le PAQP, et apporter les corrections nécessaires pour être en conformité avec le PAQP
+===================	=============================================
+
+
+
+Procédure d'évolution du PAQP
+================================
+
+Tout le monde peut-être force de proposition pour faire évoluer le PAQP.
+Le PAQP est un document qui par nature est régulièrement amélioré. L'objectif de ce document est d'assurer la bonne qualité du projet, et d'approcher le "Zero Defaut".
+
+Le PAQP peut-être amené à évoluer pour plusieurs raisons:
+- détection d'un défaut, d'une imprécision ou d'une faille dans le PAQP
+- découverte d'une "Best-Practice" qui peut être source d'inspiration et de modèle pour le présent PAQP
+- réflexion et mise en place d'une nouvelle idée.
+
+Toute procédure d'évolution du PAQP doit être soumise au RQ, qui la prendra en considération, et qui devra être validée par le CdP.
+
+Lorsqu'une procédure d'évolution du PAQP aboutie, tous les membres du projet sont avertis et informés.
+
+Procédure à suivre en cas de non-application du PAQP
+======================================================
+
+Procédure en cas de non-application
+--------------------------------------
+
+Lorsqu'un document, résultat ou livrable produit par l'équipe du projet ne respecte pas le PAQP, il ne pourra pas être validé. Ceci est une règle essentielle.
+
+L'auteur de la non-conformité ou de l'écart par rapport à la référence sera averti par le RQ et/ou le CdP, et il lui sera fourni les éléments et informations nécessaires à la correction.
+Ce dernier devra alors prendre en compte ces informations, et procéder aux modifications nécessaires, pour que le document, résultat ou livrable produit puisse être définitivement validé. 
+
+Procédure de dérogation
+--------------------------
+
+Un PAQP a pour objectif de mettre en place des règles de rigueur, et non pas du rigorisme.
+
+Ainsi, il peut y avoir de la flexibilité dans l'application du PAQP.
+
+De ce fait, si un membre de l'équipe du projet, pour un document, résultat ou livrable en cours de production, juge opportuniste pour des raisons données de ne pas appliquer des règles du PAQP, il peut en faire part au RQ, avec des justification.
+
+En fonction des justifications, le RQ prend la décision d'accorder ou pas la dérogation. En cas de dérogation, il en averti le CdP.
+Si le membre du projet se voit refuser sa dérogation, il peut, s'il le juge opportun, solliciter le CdP, qui tranchera.
+
+
+Documents de référence
+=======================
 Ce document présente les mécanismes qualités qui seront mis en oeuvre par la
-maitrise d'ouvrage, pour satisfaire les besoins de la maitrise d'oeuvre.
+maitrise d'oeuvre, pour satisfaire les besoins de la maitrise d'oeuvrage.
 
 Ce document servira de référence, du point de vu qualité, pour cadrer la
 réalisation du projet.
@@ -24,38 +137,60 @@ D'autres documents pourront être considérés comme référence lors de ce proj
 - Cours de 3 et 4IF de Régis AUBRY (Génie Logiciel, Qualité Logiciel)
 - Cours de 4IF de Youssef AMGHAR (Système d'information)
 - Cours de 4IF de Mohamed OU-HALIMA (Gestion de projet)
-- Le guide du responsable qualité, fourni en début de projet
+- Cours de 4IF de Pierre-Alain MILLET (ERP)
 - Le livre Pro-Git, traitant de l'utilisation de l'outil de gestion de version décentralisé Git (http://progit.org/)
 - La documentation officielle de Redmine, l'outil de gestion de projet libre (http://www.redmine.org/guide)
 - Le lexique des règles typographiques en usage à l'imprimerie nationale, pour tout ce qui concerne la typographie
 
-Partenaire
-----------
+Membres de l'équipe projet
+============================
 L'équipe de projet est constitué de :
 
 - Paul ADENOT (Responsable Qualité)
 - Étienne GUÉRIN (Chef de projet)
-- Martin RICHARD
-- Yi Quan ZHOU
-- Arturo Mayor
-- Yoann BUCH
-- Pierrick GRANDJER
+- Martin RICHARD (Expert Développement SI)
+- Yi Quan ZHOU (Expert ERP et Modélisation)
+- Arturo Mayor (Expert Métier (BTP), Méthodes et Outils)
+- Yoann BUCH (Expert ERP et Modélisation)
+- Pierrick GRANDJER (Expert Métier (BTP), Méthodes et Outils)
 
 Cette équipe constitue la MOE, qui répond à l'appel d'offre de la societé GSTP.
 
 La maîtrise d'ouvrage est une équipe de l'entreprise GSTP, entité porteuse du
 besoin. L'entreprise est représenté par :
 
-- Y Amghar
-- A Legait
-- PA Millet
-- M Ou-halima
+- Youssef AMGHAR
+- Anne LEGAIT
+- Pierre-Alain MILLET
+- Mohamed OU-HALIMA
 
 Les deux entités MOE ET MOA devront ainsi travailler ensemble afin de mener à bien le
 projet.
 
-Relation avec la MOA
---------------------
+Rôles des différents acteurs du projet vis-à-vis du PAQP
+=========================================================
+
++-------------------------------+---------------------------------------------------------------------------------------+
+| Acteur			| Responsabilités									|
+|				|											|
++-------------------------------+---------------------------------------------------------------------------------------+
+| GSTP (client)         	| Lanceur de la demande d'étude préalable "Conception de SI"				| 
++-------------------------------+---------------------------------------------------------------------------------------+
+| MOE (Maîtrise d'Oeuvre) 	| Il s'agit de l'hexanôme H4314. Il est chargé de répondre à la demande d'étude		|
+|				| préalable lancée par GSTP. 										|
+|				| La MOE est responsable du déroulement du projet et de la solution proposée, tout en	|
+|				| tenant compte des contraintes du CdC et des délais fixés par la MOA.			|
++-------------------------------+---------------------------------------------------------------------------------------+
+| MOA (Maîtrise d'Ouvrage) 	| La MOA dépend de GSTP. Elle est responsable du CdC, et veille à son respect 		|
+|				| par la MOE. Elle valide le travail de la MOE.						|
++-------------------------------+---------------------------------------------------------------------------------------+
+| Comité de Pilotage       	| Fixe les contraintes et les finalités du projet. Vérifie la politique qualité de la	|
+|				| MOE. Analyse, Planifie et décide des actions à entamer. Prévoit des réunions		| 
+|				| intermédiaires d'avancement de projet.						|
++-------------------------------+---------------------------------------------------------------------------------------+
+
+Relations entre la MOE et la MOA
+-----------------------------------
 La relation avec la MOA se fera principalement par le chef de projet et le
 responsable qualité, ces deux acteurs ayant une bonne vision globale du projet.
 
@@ -72,65 +207,10 @@ tous les acteurs du projet aient la plus grande transparence possible. Les
 acteurs doivent être disponibles, afin de garantir une bonne réactivité, en cas
 de changement de situation du côté MOA comme du côté MOE.
 
-
-Critère et procédure d'évolution du PAQP
-----------------------------------------
-
-Le présent document pourra être amener à évoluer, pour refléter un changement de
-situation au sein du projet (pouvant être une simple mise en conformité des
-informations contenues dans ce document après un changement dans une équipe,
-jusqu'au changement dans les résultats attendus).
-
-Dès que le besoin de changement se fera sentir, et si le changement n'est pas
-trivial, une réunion aura lieu, réunissant la MOE, et éventuellement la MOA si
-le changement impacte cette équipe. Le responsable qualité expliquera alors la
-situation, et l'équipe tentera de résoudre le problème, ou validera l'évolution.
-
-Procédure de dérogation au PAQP
--------------------------------
-
-Il pourra être autorisé une dérogation au PAQP, ponctuelle, si, pour une tâche,
-celui-ci diminue trop l'agilité du projet, au sens flexibilité et interactivité.
-Si pour une tâche, la méthode est considérée trop lourde ou inadéquate, il ne
-faudra pas hésiter à se baser sur une méthode plus légère.
-
-Cela ne veut en aucun cas dire qu'on peut se passer de méthode. Il s'agira juste
-de s'affranchir, par exemple, d'un mécanisme de validation lourd pour un
-livrable devant être revu à plusieurs étapes du projet, faisant perdre du temps
-aux acteurs validant le projet.
-
-Une exception à cette règle de dérogation est à mentionner. Les dérogations ne
-peuvent être faites sur les aspects de gestion du temps et des tâches. Le chef
-de projet doit pouvoir effectuer le suivi correctement, et donc cet aspect ne
-peut pas être sacrifié.
-
 .. page::
-
-Terminologie
-############
-
-Abréviations utilisées
-----------------------
-
-CdP
-    Chef de Projet
-RQ
-    Responsable Qualité
-GSTP
-    Entreprise de travaux de notre étude de cas
-PAQ
-    Plan d'assurance Qualité
-PAQP
-    Plan d'assurance qualité projet
-MOA
-    Maîtrise d'Ouvrage
-MOE
-    Maîtrise d'Oeuvre
-SI
-    Système d'information
     
-Glossaire des termes
---------------------
+Glossaire des termes liés au PAQP
+======================================================
 Draft
     Littéralement, *brouillon*, état d'un document, non terminé, dans lequel
     l'accent est mis sur le fond plutôt que la forme. C'est un document de
@@ -195,6 +275,24 @@ processus directement sur le terrain, et de capter au mieux l'existant.
  
 .. page::
 
+Outils utilisés pour le projet
+#################################
+
+Outils de conduite de projet
+==============================
+
+La plateforme de gestion de projet *Redmine* sera utilisée.
+	
+http://bde.insa-lyon.fr:3000/projects/gstp
+
+Outil de gestion de documentation
+==================================
+
+L'outil de gestion de documentation sera **Git** avec la plateforme **GitHub**
+
+http://www.github.com/
+
+
 Organisation du projet
 ######################
 
@@ -227,7 +325,7 @@ Les membres de l'équipe sont organisés comme suit :
 - Paul ADENOT (Responsable qualité, communication)
     - Responsable de la qualité des documents, des moyens techniques de suivi de projet, et de la communication interne. Membre du comité de pilotage.
 - Étienne GUÉRIN (Chef de projet)
-    - Responsable de l'équipe, de la création des plannings, de l'assignation des tâches.
+    - Responsable de l'équipe, de la création des plannings, de l'assignation des tâches et des relations avec la MOA.
 - Martin RICHARD (Expert technique SI)
     - Étudie et détermine les aspects informatiques de l'existant, et propose des solutions techniques.
 - Yi Quan ZHOU (Expert technique matériel)
@@ -444,9 +542,32 @@ Forme
 
 .. page
 
-Gestion de l'application du PAQ
-###############################
+Suivi de l'application du Plan Qualité 
+#########################################
 
-Le responsable qualité, assisté par le chef de projet, est responsable de la
-bonne application du plan d'assurance qualité. Chaque membre de projet devra
-s'y référer pendant toute la durée du projet.
+Principes
+============
+
+L'application du plan qualité est primordiale si l'on souhaite effectuer un travail de qualité et produire des livrables respectant une certaine homogénéité et cohérence.
+
+L'assurance qualité concerne toutes les procédures qualité établies par le RQ.
+
+Interventions du RQ sur la démarche de développement du projet
+=================================================================
+
+Lors des différentes phases de développement du projet, le RQ a pour principales responsabilités:
+- Le support qualité auprès de l'équipe projet
+- la validation de la forme des documents produits et livrés selon les règles énoncées dans la Gestion de la Documentation.
+- la vérification du suivi et de l'application du PAQP par l'équipe projet
+- la création, le maintien et l'évolution du Système Qualité.
+
+
+
+Conclusion
+#############
+
+Ce PAQP est un document et un outil qui permet de garantir une solution finale de qualité, à condition qu'il soit bien appliqué.
+
+Il permet également d'assurer que les attentes du client (COPEVUE) vont être prises en compte.
+
+La Qualité est toujours en évolution, et a pour vocation d'être toujours améliorée. C'est pourquoi le PAQP (le présent document) peut être sujet à modification.
