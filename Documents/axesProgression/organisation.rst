@@ -13,13 +13,13 @@ concurence.
 
 L'externalisation ne nous semble pas être la solution à conserver :
 
-  * GSTP a acquis un parc de matériel et de véritables compétences pour cette
-    activité, 
-  * L'impact sur le personnel serait fort et son acceptation difficile (GSTP
-    licencierait près de 60 personnes),
-  * La proximité entre les deux services offre de nombreux avantages
-	(organisation, délais de réponse) qui sont favorables à l'entreprise. Les
-    perdre serait préjudiciable.
+* GSTP a acquis un parc de matériel et de véritables compétences pour cette
+  activité, 
+* L'impact sur le personnel serait fort et son acceptation difficile (GSTP
+  licencierait près de 60 personnes),
+* La proximité entre les deux services offre de nombreux avantages
+(organisation, délais de réponse) qui sont favorables à l'entreprise. Les
+  perdre serait préjudiciable.
 
 Nous pensons donc que GSTP doit progressivement séparer ses deux activités et
 ouvrir son parc de matériel à la location. Le pôle "matériel" de GSTP sera en
@@ -32,11 +32,11 @@ travailler et s'organiser de manière autonome.
 La réorganisation des deux entités permettra notamment d'améliorer les points
 noirs que nous avons relevé :
 
-  * Il est courant que du matériel soit sous-utilisé et mis à disposition
-    pendant des périodes de plusieurs mois.
-  * Tout matériel loué doit passer par un site de l'entreprise entre deux
-    chantier, ce qui est coûteux en temps et en argent.
-  * La localisation géographique des sites d'entrepôt et maintenance du
-	matériel pourrait être modifiée pour couvrir plus intelligement la carte du
-    secteur d'intervention de GSTP.
+* Il est courant que du matériel soit sous-utilisé et mis à disposition
+  pendant des périodes de plusieurs mois.
+* Tout matériel loué doit passer par un site de l'entreprise entre deux
+  chantier, ce qui est coûteux en temps et en argent.
+* La localisation géographique des sites d'entrepôt et maintenance du
+  matériel pourrait être modifiée pour couvrir plus intelligement la carte du
+  secteur d'intervention de GSTP.
 

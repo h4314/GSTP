@@ -1,4 +1,4 @@
-Nous alons maintenant nous intéresser à la mise en place d'outils récents à
+Nous allons maintenant nous intéresser à la mise en place d'outils récents à
 forte valeur ajoutée qui ne sont pas nécessairement déployés chez les autres
 acteurs du secteur et peuvent apporter à GSTP un avantage concurrentiel.
 

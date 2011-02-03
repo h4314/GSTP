@@ -1,3 +1,15 @@
 ================================
 Dossier d'expression des besoins
 ================================
+
+.. contents::Sommaire
+.. sectnum
+
+Synthèse de l'existant
+######################
+
+Benchmarking
+############
+
+Cibles fonctionnelles, et axes de progrès
+#########################################
