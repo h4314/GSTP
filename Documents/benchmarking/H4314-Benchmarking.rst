@@ -5,7 +5,7 @@ Benchmarking
 Objectifs
 ##########
 
-Ce document fait suite à l'analyse du système existant, de la mise en relief de
+Cette partie fait suite à l'analyse du système existant, de la mise en relief de
 ses dysfonctionnements et donc des axes de progrès. L'accent était donc porté
 sur le fonctionnement actuel de GSTP au niveau de la gestion du matériel. Il
 s'agit maintenant de se tourner vers l'objectif du projet : la définition d'une
@@ -13,9 +13,9 @@ solution cible qui prendra en compte les spécificités de GSTP et des axes de
 progrès dégagés. Mais avant de se plonger directement dans l'élaboration de
 cette cible, il convient dans un premier temps de prendre du recul et d'analyser
 ce qu'il se fait à l'extérieur par un étalonnage industriel ou benchmarking,
-objet de ce document.
+objet de cette partie.
 
-Ce document représente l'étude de l'existant externe, autrement dit, la
+Cette partie représente l'étude de l'existant externe, autrement dit, la
 recherche de bonnes pratiques mis en place par des organisations externes
 reconnues. Ces organisations peuvent être des concurrents directs à GSTP et donc
 occuper le même métier. Mais il est tout à fait légitime d'étudier d'autres
@@ -593,7 +593,7 @@ Ce benchmarking s'est voulu complet pour une entreprise de BTP. Certains
 processus et bonnes pratiques ne rentrent donc pas forcément dans le cadre de
 l'étude. Il a permis néanmoins de mettre en avant l'existence de bonnes
 pratiques et de processus formalisés au sein du secteur du BTP. Ils ont été
-présenté et analysé brièvement par un souci de concision. Cependant ce document
+présenté et analysé brièvement par un souci de concision. Cependant ce benchmarking
 présente l'avantage d'être un excellent point de départ car il donne un accès
 rapide aux sources d'informations sur lesquelles l'étude de la solution cible
 pourra s'appuyer. 
