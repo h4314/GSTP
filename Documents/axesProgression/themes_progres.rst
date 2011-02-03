@@ -5,15 +5,10 @@ Identification des thèmes de progrès
 Décliner la stratégie de l'entreprise au niveau des processus existants
 =======================================================================
 
-Le but de ce document est de présenter succinctement certaines modifications envisagées par GSTP dans son organisation.
-
 Séparer la direction du matériel
 --------------------------------
 
-GSTP prévoit de détacher complètement la direction du matériel afin d'en faire
-une entreprise à part entière, filiale de GSTP. Cela permettrait d'aoir un large
-panel de clients car GSTP ne serait plus l'unique bénéficiaire de la gestion
-effectuée par la Direction du matériel.
+En accord avec GSTP, nous proposons d'ouvrir davantage la direction du matériel afin de la rendre plus autonome et de traiter avec des entreprises extérieures à GSTP.
 
 D'un point de vue commercial c'est un atout car cela implique une
 diversification du type de matériel disponible car les autres entreprises
@@ -25,14 +20,10 @@ plus grand nombre de clients.
 Changements entrainés
 ~~~~~~~~~~~~~~~~~~~~~
 
-Il s'agit d'une opération délicate, car si l'on veut que cette filiale puisse
+Il s'agit d'une opération délicate, car si l'on veut que ce pôle puisse
 avoir plusieurs nouveaux clients, il faudra acheter un certain nombre de
 nouveaux matériels, ou au moins trouver une entreprise à qui les louer à bon
-prix. De plus, il faudra se doter de tout un service commercial, de gestion des
-ressources humaines, en bref c'est une entreprise complète qu'il faut créer. Le
-budget à mettre en place avant de le voir rentabilisé est relativement important
-et GSTP devra compter sur les bénéfices acquis jusqu'ici pour subvenir à ses
-besoins pendant une certaine durée.
+prix. De plus, il faudra se doter d'un nouveau service commercial afin de lier des accords avec les nouveaux clients et une bonne communication devra s'installer entre la direction du matériel et les autres départements comme la facturation. Le budget à mettre en place avant de le voir rentabilisé est relativement important et GSTP devra compter sur les bénéfices acquis jusqu'ici pour subvenir à ses besoins pendant une certaine durée.
 
 Risques
 ~~~~~~~
@@ -41,7 +32,7 @@ Le risque ici est de ne pas réussir à temps à trouver suffisamment de clients
 qui louer le nouveau matériel pour contrebalancer les dépenses occasionnées par
 cette opération. C'est là que le nouveau service commercial a un rôle important.
 Il faut aussi jouer de la notoriété de GSTP et s'appuyer sur ses accords passés
-afin de les renouveler avec la filiale gérant le matériel.
+afin de les renouveler avec le pôle gérant le matériel.
 
 
 Adapter la logique des processus en s'appuyant sur l'architecture de référence
