@@ -1,6 +1,6 @@
-===============================
-Plan d'assurance qualité projet
-===============================
+======================================
+Plan d'assurance qualité projet (PAQP)
+======================================
 
 .. contents:: Sommaire
 .. sectnum::
@@ -16,7 +16,7 @@ RQ
   Responsable Qualité
 
 GSTP
-  Entreprise de travaux de notre étude de cas
+  Entreprise de travaux de la présente étude de cas
 
 PAQP
   Plan d'assurance Qualité Projet
@@ -87,7 +87,7 @@ Experts, Consultants  Appliquer le PAQP, et apporter les corrections nécessaire
 Procédure d'évolution du PAQP
 ================================
 
-Tout le monde peut-être force de proposition pour faire évoluer le PAQP.
+Tout personne peut-être force de proposition pour faire évoluer le PAQP.
 Le PAQP est un document qui par nature est régulièrement amélioré. L'objectif de ce document est d'assurer la bonne qualité du projet, et d'approcher le "Zero Defaut".
 
 Le PAQP peut-être amené à évoluer pour plusieurs raisons:
@@ -117,14 +117,14 @@ Un PAQP a pour objectif de mettre en place des règles de rigueur, et non pas du
 
 Ainsi, il peut y avoir de la flexibilité dans l'application du PAQP.
 
-De ce fait, si un membre de l'équipe du projet, pour un document, résultat ou livrable en cours de production, juge opportuniste pour des raisons données de ne pas appliquer des règles du PAQP, il peut en faire part au RQ, avec des justification.
+De ce fait, si un membre de l'équipe du projet, pour un document, résultat ou livrable en cours de production, juge opportun pour des raisons données de ne pas appliquer des règles du PAQP, il peut en faire part au RQ, avec des justification.
 
 En fonction des justifications, le RQ prend la décision d'accorder ou pas la dérogation. En cas de dérogation, il en averti le CdP.
-Si le membre du projet se voit refuser sa dérogation, il peut, s'il le juge opportun, solliciter le CdP, qui tranchera.
+Si le membre du projet se voit refuser sa dérogation, il peut, s'il le juge nécessaire, solliciter le CdP, qui tranchera.
 
 
 Documents de référence
-=======================
+=========================
 Ce document présente les mécanismes qualités qui seront mis en oeuvre par la
 maitrise d'oeuvre, pour satisfaire les besoins de la maitrise d'oeuvrage.
 
@@ -140,9 +140,10 @@ D'autres documents pourront être considérés comme référence lors de ce proj
 - Le livre Pro-Git, traitant de l'utilisation de l'outil de gestion de version décentralisé Git (http://progit.org/)
 - La documentation officielle de Redmine, l'outil de gestion de projet libre (http://www.redmine.org/guide)
 - Le lexique des règles typographiques en usage à l'imprimerie nationale, pour tout ce qui concerne la typographie
+- La documentation utilisateur de RestructuredText, l'outil de rédaction des documents (http://docutils.sourceforge.net/docs/user/rst/quickref.html)
 
 Membres de l'équipe projet
-============================
+=============================
 L'équipe de projet est constitué de :
 
 - Paul ADENOT (Responsable Qualité)
@@ -155,7 +156,7 @@ L'équipe de projet est constitué de :
 
 Cette équipe constitue la MOE, qui répond à l'appel d'offre de la societé GSTP.
 
-La maîtrise d'ouvrage est une équipe de l'entreprise GSTP, entité porteuse du
+La maîtrise d'ouvrage (MOA) est une équipe de l'entreprise GSTP, entité porteuse du
 besoin. L'entreprise est représenté par :
 
 - Youssef AMGHAR
@@ -266,7 +267,7 @@ d'éventuelles information confidentielles nécessaire à la bonne exécution du
 projet.
 
 La MOA s'engage à mettre à disposition des employés, et à accueillir du
-personnel de la MOA pour d'éventuelles interview, afin de pouvoir formaliser les
+personnel de la MOA pour d'éventuelles interviews, afin de pouvoir formaliser les
 processus directement sur le terrain, et de capter au mieux l'existant.
  
 
@@ -280,12 +281,27 @@ La plateforme de gestion de projet *Redmine* sera utilisée.
   
 http://bde.insa-lyon.fr:3000/projects/gstp
 
+Cette plateforme est un outil de gestion de projet, qui permettra de:
+- gérer les tâches pour les membres du projet
+- suivre l'avancement du projet
+- communiquer et d'échanger entre les membres du projet grâce à l'outil *Wiki*.
+
 Outil de gestion de documentation
 ==================================
 
 L'outil de gestion de documentation sera **Git** avec la plateforme **GitHub**
 
+Cette plateforme contiendra tous les documents de travail relatifs au projet (drafts, livrables finaux, documents ressources etc.)
+
 http://www.github.com/
+git@github.com:h4314/gstp.git
+
+Outil de rédaction de la documentation
+========================================
+
+L'outil **RestructuredText** sera utilisé avec un encodage de caractères en UTF-8.
+
+http://docutils.sourceforge.net/rst.html
 
 
 Organisation du projet
@@ -380,32 +396,54 @@ d'avoir une vue d'ensemble du projet.
 Gestion de la documentation
 ###########################
 
+On conviendra d'appeler **P1** la plateforme **Git** d'hébergement de projet et **P2** la plateforme de gestion de projet **Redmine**.
+
 Objet
 =====
 Cette section présentera les outils et les processus de la gestion de
 documentation dans ce projet.
 
+La documentation d'un projet est essentielle. C'est le support pour la communication et le dialogue entre la maîtrise d'oeuvre (MoE) et la maîtrise d'ouvrage (MoA).
+La documentation permet également la pérennité des informations au sein du projet, tout au long de son cycle de vie.
+
+Règles Générales
+=============================
+
+Les acteurs et leurs responsabilités
+------------------------------------
+
+Responsable Qualité
+	Il supervise la gestion de la documentation et s'assure du respect des règles générales énoncées dans ce document.
+
+Rédacteur
+	Il est chargé de rédiger un document, ou une partie d'un document, conformément aux règles générales énoncées dans ce document. Si besoin, il définit les nouveaux termes dans le glossaire.
+	Si besoin, il peut être chargé de modifier son travail suite à une vérification/validation.
+
+Responsable de la vérification:
+	Il relit attentivement le document rédigé, peut l'enrichir (correction, ajout, modification mineure) et apporter des commentaires au rédacteur.
+
+Responsable de la validation:
+	Il evalue la cohérence et la pertinence du contenu d'un document, et le valide.
 
 Gestion des drafts
-==================
+------------------
 Les *drafts* seront placés sous le gestionnaire de version décentralisé
-**Git**. Le dépôt sera placé sur le site GitHub, et tous les membres de
+**Git** (P1). Le dépôt sera placé sur le site Github, et tous les membres de
 l'équipe pourront effectuer des modifications (commit et push) et accéder aux
-modifications effectuées par les autres personnes de l'équipe (pull).
+modifications effectuer par les autres personnes de l'équipe (pull).
 
 Un document pourra avoir plusieurs états, en fonction de la tâche qui lui est
-associé dans l'outil de gestion de projet Redmine.
-
-- En cours : Le document est commencé, et est en cours de rédaction.  L'avancement peut être visualisé à l'aide de la barre de progression.
-- Besoin de relecture : Le document est bien avancé, et l'auteur estime que la relecture peut commencer. Il s'agit alors pour le responsable qualité de faire des vérification de forme et de fond. La personne chargé de la relecture peut créer des nouvelles demandes associées à la tâche de rédaction du document si celui-ci contient des irrégularités qui ne peuvent pas être corrigées par le relecteur.
-- Fermé : Une fois que le document est en version final, il doit être placé sous cette catégorie.
+associé dans l'outil de gestion de projet **Redmine** (P2):
+- *En cours* : Le document est commencé, et est en cours de rédaction.  L'avancement peut être visualisé à l'aide de la barre de progression dans (P2).
+- *Besoin de relecture* : Le document est bien avancé, et l'auteur estime que la relecture peut commencer. Il s'agit alors pour le responsable qualité de faire des vérification de forme et de fond. La personne chargé de la relecture peut créer des nouvelles demandes associées à la tâche de rédaction du document si celui-ci contient des irrégularités qui ne peuvent pas être corrigées par le relecteur.
+- *Fermé* : Une fois que le document est en version final, il doit être placé sous cette catégorie.
 
 Le versionning ainsi que la sauvegarde des documents est donc assuré par le
-gestionnaire de version. Le suivi de la rédaction est assuré par l'outil de
-gestion de projet.
+gestionnaire de version (P1). Le suivi de la rédaction est assuré par l'outil de
+gestion de projet (P2).
 
-Tout commentaire sur un *draft* doit être faire dans l'outil de gestion de
-projet, ou sur l'interface de GitHub, s'il s'agit d'un commentaire spécifique
+Tout commentaire sur un *draft* doit être fait dans l'outil de gestion de
+projet (P2), ou sur l'interface de GitHub (P1), s'il s'agit d'un commentaire spécifique
 à une portion de document. Sur Redmine, la fonctionnalités *notes* sera
 utilisé, sur une tâche, et pour les commentaire globaux à une tâche. Sur
 Github, les commentaires sur un commit ou une ligne, et uniquement cette
@@ -415,10 +453,11 @@ sur les différents outils.
 Les *drafts* sont placés dans le dossier /Documents.
 
 Gestion des livrables
-=======================
+-----------------------
 Les livrables seront générés à partir des *drafts*, et auront le même contenu,
 mais un fond différent, indiquant précisément l'état du document. La mise en
 page sera alors soignée.
+Cette opération sera réalisée à l'aide de l'outil **rst2pdf**.
 
 La création d'un livrable à partir d'un *draft* devra faire l'objet d'une
 sous-tâche dans l'outil de gestion de projet, afin d'avoir un suivi précis du
@@ -428,15 +467,14 @@ de relire le document avant le dépôt.
 Les livrables sont placés dans le dossier /Documents/Livrables.
 
 Structuration des documents
-=============================
+-----------------------------
 Les documents auront une page de titre, indiquant clairement le type du
 document, l'équipe, et le projet associé à ce document.
 
 La seconde page consistera en un sommaire, qui permettra de mettre en évidence
 la structure utilisé dans le document.
 
-Les document disposeront d'un *header* et d'un *footer*, permettant de repérer le
-nom du document, le nom de l'équipe qui l'a rédigé, et le projet auquel se
+Les document disposeront d'un *header* et d'un *footer*, permettant de repérer le nom du document, le nom de l'équipe qui l'a rédigé, et le projet auquel se
 document se rapporte. Il s'agit en quelque sorte de dupliquer les informations
 de la page de garde de manière discrète, afin de replacer le document dans son
 contexte à tout moment au cours de la lecture.
@@ -445,41 +483,11 @@ Les documents auront une forme unifiée, permettant d'augmenter la cohérence, e
 de ne pas perdre le lecteur.
 
 Sauvegardes et versionning
-==========================
-L'outil de gestion de projet, *Redmine* est hébergé sur le serveur du BdE de l'INSA de
-Lyon, dont la politique de sauvegarde est très rigoureuse (redondance,
-sauvegardes off-site). Cet outil dispose en outre de capacité de journalisation, permettant
-de retracer dans des fichier de log les activités ayant été effectuées sur le
-logiciel, et permet donc implicitement un versionning des action.
-
-L'outil de gestion de version distribué utilisé, *Git*, et le site sur lequel
-sont hébergés les sources des document, *GitHub*, forment une solution réputé
-dans l'industrie. En effet, GitHub gère les sauvegardes, ce point est assuré
-sans intervention. De plus, Git, de par sa nature décentralisée, permet de
-reconstruire le dépôt si seulement un des acteurs du projet dispose d'une copie
-à jour, et ceci sans aucune difficulté, ce qui minimise le travail à fournir
-lors de mauvaises manipulations sur le dépôt, ou autre erreur.
-
-Cet outil de gestion de version distribué, comme son nom l'indique, permet de
-revenir à une version antérieur d'un fichier, et permet de collaborer lors de la
-rédaction d'un document, en gérant les conflits de manière automatique.
-
-Dans le cas exceptionnel où une corruption de donnée se présenterait, comme le
-format utilisé est de type *plain text*, la récupération des données sera donc
-facilité.
-
-La bonne application des paragraphes précédents nécessite donc une maitrise
-parfaite des outils, relativement sophistiqués, par l'équipe de projet. Une
-formation leur a été donnée en début de projet, et des référents technique ont
-été nommés :
-
-- Git et GitHub : Paul ADENOT et Martin RICHARD.
-- Redmine : Paul ADENOT et Etienne GUÉRIN.
-
-
+--------------------------
+Les sauvegardes et versionning de tous les documents, fichiers et produits réalisés dans le cadre de ce projet sont gérées automatiquement par (P1) et (P2) grâce aux configurations initiales de ces plateformes.
 
 Gestion des modifications
-#########################
+=============================
 
 Il peut arriver de déceler, tard dans le projet, la nécessité de modifier une
 partie du projet, ceci impactant plusieurs endroits du projet.
@@ -494,32 +502,29 @@ Il est donc nécessaire de formaliser la réponse à un problème de ce type, en
 indiquant une procédure pour :
 
 Dans le cadre de la découverte d'une non-conformité:
-====================================================
-
+----------------------------------------------------
 #. Informer la MOA, si le changement est important.
-#. Placer une demande, du type *anomalie*, dans le logiciel de gestion de projet, dans la catégorie adéquate.
+#. Placer une demande, du type *anomalie*, dans le logiciel de gestion de projet (P2), dans la catégorie adéquate.
 #. Effectuer la modification dans le document racine, c'est à dire le document où se trouve la principale modification à faire.
 #. Propager cette modification dans les différents documents impactés. On veillera à utiliser au mieux les capacités d'inclusions de documents du logiciel utilisé, afin de ne garder qu'en un seul endroit l'information : une information à plusieurs endroit doit être modifiée plusieurs fois en cas de réponse à une non conformité.
-#. Informer les différents acteurs concernés du changement, afin qu'il puissent adapter leur travail futur, en prenant en compte cette évolution. Les autres acteurs, non directement informés, pourront se tenir au courant de la situation en consultant l'outil de gestion de projet.
-
+#. Informer les différents acteurs concernés du changement, afin qu'il puissent adapter leur travail futur, en prenant en compte cette évolution. Les autres acteurs, non directement informés, pourront se tenir au courant de la situation en consultant l'outil de gestion de projet (P2).
 
 Dans le cadre d'une demande d'évolution émanant de la MOA
-=========================================================
+---------------------------------------------------------
 #. Discuter de l'acceptation de la demande d'évolution. Les critères pouvant être pris en compte sont (liste non exhaustive) : la taille des modifications à apporter, la complexité des modifications à apporter, le nombre de demande d'évolution déjà acceptées durant le projet, la disponibilité de la MOE, la criticité de la demande d'évolution.
 #. Si la demande est accepté, procéder comme pour une non-conformité.
 #. Si la demande est refusée, en informer la MOA, en expliquant les raison, de manière clair. Il peut être possible de négocier, mais cela sort du cadre de la procédure à suivre lors d'une demande d'évolution.
 
 
-
 Gestion de la qualité globale d'un document
-###########################################
+==============================================
 
 Lorsqu'un document a le statut *Besoin de relecture* sur l'outil de gestion de
 projet, le responsable qualité devra commencer à effectuer une relecture, qui
 devra être faite en considérant plusieurs aspects :
 
 Fond
-====
+----
 - Si possible, le responsable qualité devra mettre en regard différents document, et tenter de déceler d'éventuelles incohérences. En fonction de la taille d'une éventuelle erreur, il pourra décider de faire une demande d'anomalie, qu'il pourra s'assigner, ou assigner à une autre personne de l'équipe (se référer à la section *Gestion des modification*). 
 - La cohérence au sein d'un même document doit être vérifiée. Cela passe notamment par :
 
@@ -527,11 +532,66 @@ Fond
     - La vérification de la non contradiction au sein d'un même document (Exemple : le rédacteur a changé d'opinion sur un point précis du projet entre le début et la fin du document)
 
 Forme
-=====
+-----
 - Grammaire : les fautes de grammaires en tout genre doivent être évitées.
 - Typographie : la typographie devra respecter les standards français, afin de produire des document agréables et facile à lire, sans détourner le lecteur du contenu.
 
 
+Vérification/Validation
+-----------------------
+La vérification d'un document, ou d'une sous-partie d'un document se fait obligatoirement par une autre personne que celle qui l'a rédigé.
+La vérification fait l'objet d'une tâche dans la plateforme P2.
+
+La validation d'un document est faite par le CdP et le RQ:
+	- le CdP valide le document au niveau du fond
+	- le RQ valide le document au niveau de la forme. 
+
+Gestion des répertoires
+-----------------------
+L'organisation des répertoires pour les documents dans la plateforme P1 (Github) est la suivante:
+
+:/Documents: contient tous les documents produits par l'équipe de projet
+:/Documents/Livrables: contient tous les livrables produits par l'équipe de projet
+:/Documents/Schemas: contient tous les schémas et leurs fichiers sources
+:/Ressources: contient tous les documents qui ont été fournis à l'équipe de projet (Cahier des charges, documentation, cours etc.)
+:/Divers: contient les fichiers et documents qui sont en dehors du système de gestion de documentation du projet. Chaque personne du projet peut y avoir un répertoire personnel où il peut stocker des fichiers relatifs à son travail.
+	
+
+Gestion du glossaire
+--------------------
+Tout au long du projet, un certain nombre de notions vont apparaître et il est important que l'ensemble de l'équipe soit en accord sur la signification de chacun de ces termes. 
+C'est pourquoi, dès le début du projet, un glossaire commun est initialisé et sera utilisé par l'ensemble de l'équipe projet.
+Ce glossaire contiendra toutes les notions rencontrées ainsi que leur définition. La procédure suivante décrit les modalités pour insérer un nouveau terme dans le glossaire.
+
+Le glossaire se trouve dans */Documents/Glossaire.rst*
+
+#. Insertion d'un nouveau terme dans le glossaire: Si le terme que l'on veut définir est nouveau, on crée une nouvelle entrée dans le fichier glossaire, en respectant l'ordre alphabétique et la syntaxe du fichier existant.
+#. Insertion d'un terme déjà existant dans le glossaire: Deux cas de figure se présentent:
+
+    - soit la personne est d'accord avec la définition existante
+    - soit la personne est en désaccord avec la définition existante. Dans ce cas une tâche devra être crée dans Redmine (P2) pour résoudre ce problème.
+
+Gestion de la documentation papier
+============================================
+Dans le cadre de sa politique éco-responsable, l'équipe H4314 s'engage à limiter au maximum l'utilisation du papier et des impressions.
+
+Tous les documents relatifs au projet seront numériques.
+
+Seuls les livrables finaux pourront être imprimés.
+
+Quelques régles de bonnes pratiques:
+===========================================
+
+#. Un schéma vaut mieux qu'un long discours
+#. Règle des 5 lignes: être capable d'exprimer une idée à une autre personne en 5 lignes
+
+La bonne application des paragraphes précédents nécessite donc une maitrise
+parfaite des outils, relativement sophistiqués, par l'équipe de projet. Une
+formation leur a été donnée en début de projet, et des référents technique ont
+été nommés :
+
+- Git et GitHub : Paul ADENOT et Martin RICHARD.
+- Redmine : Paul ADENOT et Etienne GUÉRIN.
 
 Suivi de l'application du Plan Qualité 
 #########################################

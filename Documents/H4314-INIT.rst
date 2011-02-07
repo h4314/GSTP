@@ -2,6 +2,8 @@
 Dossier d'initialisation
 ========================
 
+Ce document constitue le dossier d'initialisation du projet d'étude préalable de la refonte d'une partie du Système d'Information du domaine "gestion de matériel" de l'entreprise GSTP.
+
 Vocabulaire
 ###########
 
@@ -58,6 +60,21 @@ Positionnement
 --------------
 Pour répondre aux objectifs du projet énoncés précédemment, notre équipe va réaliser une étude approfondie des besoins de l'entreprise, de l'existant et lui proposer deux solutions adaptés à ses besoins: une solution générique et une autre spécifique. Chaque solution sera évaluée en termes de coûts, de délai, de risques et chaque solution se fera en conformité avec les besoins fonctionnels de l'entreprise et avec sa stratégie.
 
+Contraintes
+#############
+
+Confidentialité
+-------------------
+
+Les documents fournis par GSTP et produits par notre équipe sont soumis à
+des règles de confidentialité strictes. Pour des raisons de sécurité,
+l'ensemble des documents, concepts, idées et études obtenus ou produits lors de
+la réalisation de ce projet ne peuvent être communiqués à des tiers. 
+
+Plan d'Assurance Qualité Projet (PAQP)
+########################################
+
+Ce projet sera conduiit sous l'application d'un PAQP. Voir le document correspondant.
 
 Résultats (Livrables) attendus
 ###############################
@@ -127,7 +144,7 @@ Chaque phase sera décomposé de la manière suivante:
 - Phase 2: Expression des besoins
 	- Étude de l'existant: rédaction d'une synthèse de l'existant
 	- Étude des normes et benchmark : rédaction synthèse études des normes et benchmark
-	- Spécification Cible: rédaction Dossier Expression des Besoins
+	- Spécification Cible et thèmes de progrès: rédaction Dossier Expression des Besoins
 
 - Phase 3: Expression des solutions
 	- Solution spécifique: rédaction du dossier de la solution 1
@@ -137,7 +154,7 @@ Chaque phase sera décomposé de la manière suivante:
 - Phase 4: Evaluation des solutions
 	- Dossier de choix de solution
 
-Ce phasage suivra le planning suivant (il nous a été imposé par la MoA):
+Ce phasage suivra le planning suivant
 
 =======    ========================================
 Semaine    Phase
@@ -146,9 +163,9 @@ S1         Initialisation du projet
 S2         Étude de l'existant
 S3         Normes et Benchmark
 S4         Spécification Cible
-S5         Solution Spécifique
-S6         Solution Standard
-S7         Modélisation et Configuration Solution
+S5         Solution Spécifique + Standard (parallélisation travail)
+S6         Solution Spécifique + Standard (parallélisation travail)
+S7         Modélisation et Configuration Solutions
 S8         Évaluation Solutions
 S9         Soutenance
 =======    ========================================
@@ -161,47 +178,95 @@ Les activités et les tâches sont identifiées par le CdP. C'est le CdP qui aff
 On considère qu'une tâche est affectée à une seule personne (sauf cas particulier), et qu'elle dure une semaine.
 Une personne peut avoir plusieurs tâches la même semaine. (parallélisation des tâches).
 
-Notre étude comportera 4 types d'activités principales:
+Notre étude comportera 4 types d'activités principales, qui sont liées aux tâches:
 - Rédaction
 - Relecture
 - Modélisation
 - Technique
 
-Ci-dessous, vous avez le détail de la décomposition en tâches pour toutes les phases du projet:
+Ci-dessous, vous avez le détail de la décomposition en "Macro" tâches pour toutes les phases du projet (ces tâches seront décomposées en sous-tâches lors de l'avancement du projet):
 
 ::
 
-  TODO : Insérer ici la décomposition en tâches
+- Expression des Besoins
+	- Etude de l'Existant
+		- Compréhension contexte projet à l'intérieur de l'Entreprise
+		- Compréhension et diagnostique du SI existant
+			- au niveau organisationnel
+			- au niveau technique et applicatif
+		- Etude des disfonctionnements dans chaque département
+		- Etude des processus et procédures principaux
+	- Normes et Benchmarking
+		- Analyse des contextes métier et technique à l'extérieur de l'Entreprise
+		- Recherche d'informations sur les normes en matières de logiciel de gestion dans le BTP
+	- Cible Fonctionnelle
+		- Etablir l'architecture de la cible fonctionnelle de référence
+		- Définition des objets métiers
+		- Définition des processus et activités
+		- Etablissement du modèle d'organisation type
+	- Thèmes de Progrès
+		- Formalisation des évolutions fonctionnelles sous formes d'objets métiers à gérer, de processus métiers et de cas d'utilisation.
+		- Décliner la stratégie de l'entreprise et adapter la logique des processus
+		- Adapter l'organisation des acteurs
+		- Identification de nouvelles technologies à forte valeur ajoutée
+		- Recensement des besoins et des exigences candidats à la liste des caratéristiques du SI
+		- Validation par le comité de pilotage
+		
+- Expression des Solutions
+	- Solution Spécifique
+		- Analyse de l'architecture applicative cible
+		- Définition des stratégies d'automatisation
+			- Concevoir les développements spécifiques
+		- Conception architecturale
+		- Impacts sur l'organisation
+	- Solution Standard
+		- Analyse de l'architecture applicative cible
+		- Définition des stratégies d'automatisation
+			- Concevoir les parties du systèmes implémentées au moyen d'un "progiciel" (ex. SAP) ou de "composants"
+		- Conception architecturale
+		- Impacts sur l'organisation
+	- Modélisation et Configuration (au niveau organisationnelle, données, gestion, fonctions et prestations)
+		
+- Evaluation des Solutions
+	- aux niveaux stratégie d'Entreprise, besoins fonctionnels
+	- des coûts (investissement, fonctionnement, ROI)
+	- des délais
+	- des risques
+	- récapitulatif, bilan
+
+Modalités de suivi
+#####################
+
+Les règles de suivi
+=====================
+
+Le suivi du projet sera assuré grâce à l'outil de suivi de projet Redmine, dans
+lequel les membres reporteront le temps qu'il ont passé sur chacune des tâches
+et l'état d'avancement. 
+
+Deux réunions de *synchronisation* seront organisées lors de chaque début et fin
+de séance.
 
 
-Plan de charges (voir document spécifique)
-##########################################
 
-Planning (diagramme de Gantt)
-#############################
-
-::
-  
-  TODO : Finir cette partie
-
-À l’aide d’un outil de gestion de projet : MS Project, Redmine, etc. (Voir Paul pour Redmine).
-
+Planning prévisionnel (diagramme de Gantt)
+############################################
 
 
 
 Organisation de l’equipe
 ########################
 
-- Chef de projet: **Etienne GUERIN (EG)**
+- *Chef de projet*: **Etienne GUERIN (EG)**
 	Il planifie l'ensemble du déroulement du projet. Son rôle est d'identifier les tâches à effectuer, d'évaluer les charges de travail, et de s'assurer du bon déroulement (suivi) du projet et de son exécution. Il met en place les outils de suivi, et communique régulièrement avec son équipe pour avoir un aperçu de l'avancement des tâches.  Il est le principal interlocuteur avec la MoA.
 
-- Responsable Qualité et Communication: **Paul ADENOT (PA)**
+- *Responsable Qualité et Communication*: **Paul ADENOT (PA)**
 	Il est chargé de mettre en place le PAQ. Il est également chargé de veiller au respect et à l'application de ce PAQ tout au long du projet. Il intervient lors de la validation des tâches.  Il est un interlocuteur privilégié avec la MoA.
 
-- Consultants: ils sont experts dans leur domaine et apportent leurs compétences et savoir-faire. Ils sont chargés de produire l'étude préalable sous la direction du CdP, en collaboration avec le RQ
-	- Experts ERP et modélisation: Yoann BUCH (YB) et Yi Quan ZHOU (YQZ)
-	- Expert Métier (BTP), Méthodes et Outils: Pierrick GRANDJER (PB), Arturo MAYOR (AM)
-	- Expert Développement Système d'Information: Martin RICHARD (MR)
+- *Consultants*: ils sont experts dans leur domaine et apportent leurs compétences et savoir-faire. Ils sont chargés de produire l'étude préalable sous la direction du CdP, en collaboration avec le RQ
+	- *Experts ERP et modélisation*: Yoann BUCH (YB) et Yi Quan ZHOU (YQZ)
+	- *Expert Métier (BTP), Méthodes et Outils*: Pierrick GRANDJER (PB), Arturo MAYOR (AM)
+	- *Expert Développement Système d'Information*: Martin RICHARD (MR)
 
 Analyse des risques
 -------------------
@@ -267,24 +332,12 @@ Mercredi 23/02/2011
 Mercredi 2/03/2011
 	Dossier d'évaluation des solutions
 
-??? Dossier Bilan
-Dossier pour la présentation du projet
-??? Tableau de bord
-
-
+Toutes les semaines, un Tableau de bord de suivi d'avancement de projet sera édité.
 
 Annexes :
 =========
 
-Plans types des documents à livrer (2 à 3 pages)
-------------------------------------------------
-
-Description succincte des logiciels a livrer
---------------------------------------------
-- Reformulation des spécifications et/ou organigramme technique du produit ou système dans lequel s’inséreront les composants logiciels demandés
-
-Descriptif des taches (document spécifique)
--------------------------------------------
+Plans types des documents à livrer
 
 
 
