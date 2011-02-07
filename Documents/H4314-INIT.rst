@@ -250,8 +250,16 @@ de séance.
 
 
 Planning prévisionnel (diagramme de Gantt)
-############################################
+============================================
 
+Ci-dessous le planning prévisionnel de gestion de projet (au 1/02/11). Il est amené à être retouché hebdomadairement en fonction de l'évolution de l'avancement du projet.
+
+Répartition charges de travail
+===================================
+
+Il sera considéré pour chaque membre de l'équipe une charge de travail de 4h par semaine en séance (8 séances sur 8 semaines), et environ 2h de travail personnel par personne en dehors des séances.
+
+Cela donne un total de 48h par personne à travailler au total pour le projet. Si jamais la charge de travail s'avère trop lourde, la MOE sera avertie, et le comité de pilotage du projet prendra les décisions qui s'imposeront.
 
 
 Organisation de l’equipe
