@@ -11,9 +11,9 @@ Objectifs
 
 Les résultats de l'analyse de l'existant et l'élaboration de la cible fonctionnelle permettent d'identifier des thèmes de progrès, qui seront présentés dans la suite de ce document.
 
-Cette identification des thèmes de progrès s'est faite par une analyse selon quatres axes:
+Cette identification des thèmes de progrès s'est faite par une analyse selon quatre axes:
 
-- Déclinaison de la stratégie de l’Entreprise au niveau du processus existants
+- Déclinaison de la stratégie de l’Entreprise au niveau des processus existants
 - Adaptation de la logique des processus en s’appuyant sur l’architecture de référence
 - Adaptation de l’organisation des acteurs impliqués dans les processus en fonction des principes d’organisation de la référence
 - Identification des nouvelles technologies à forte valeur ajoutée : "killers applications"
@@ -62,8 +62,8 @@ Département Maintenance:
 Déclinaison de la stratégie de l’Entreprise au niveau des processus existants
 ==============================================================================
 
-Séparer la direction du matériel
---------------------------------
+Ouverture de la location du parc matériel aux entreprises externes
+-------------------------------------------------------------------------------------------------
 
 En accord avec GSTP, nous proposons d'ouvrir davantage la direction du matériel afin de la rendre plus autonome et de traiter avec des entreprises extérieures à GSTP.
 
@@ -96,7 +96,7 @@ Adaptation la logique des processus en s'appuyant sur l'architecture de référe
 ==================================================================================
 
 Département matériel
---------------------
+-------------------------------------------
 
 Formaliser l'entrée de matériel. Regrouper les événements tels que les avis de
 livraison, restitution de matériel, avis de maintenance sous un intitulé strict
@@ -104,11 +104,11 @@ livraison, restitution de matériel, avis de maintenance sous un intitulé stric
 
 Autoriser le transfert de matériel de chantier à chantier lorsqu'un retour au
 parc central n'est pas obligatoire ou plus pratique. (Chantier plus près que le
-site central, maintenance inutile). => Mettre en place des révisions rapides sur
+site central, maintenance inutile). Mettre en place des révisions rapides sur
 les chantiers afin de déterminer si un retour au parc central est nécessaire.
 
 Département achat
------------------
+----------------------------------------
 
 Automatiser la sauvegarder des données concernant les fournisseurs et faciliter
 leur consultation. Dans un sens plus général, faciliter l'accès à toutes les
@@ -117,7 +117,7 @@ que cela concerne leur entreprise générale ou plus spécifiquement les produit
 qu'ils fournissent.
 
 Département maintenance
------------------------
+----------------------------------------------
 
 Avoir un meilleur dynamisme au niveau de la commande des pièces de rechange afin
 de ne plus avoir de stock trop important en ce qui concerne certaines pièces, ni
@@ -127,6 +127,11 @@ La mise en place de révisions rapides en fin d'utilisation du matériel sur un
 chantier permet d'éviter que les opérations de maintenance plus lourdes
 n'immobilisent trop longtemps le matériel, sans néanmoins fermer les yeux face
 aux nécessités de maintenance.
+
+Création du Département Commercial
+---------------------------------------------------------------------
+
+Pour développer l'activité de location du parc de matériel à des clients externes, prospecter, gérer et fidéliser les contrats.
 
 Adaptation de l’organisation des acteurs impliqués dans les processus en fonction des principes d’organisation de la référence
 ================================================================================================================================
@@ -155,9 +160,9 @@ L'externalisation ne nous semble pas être la solution à conserver :
 Nous pensons donc que GSTP doit progressivement séparer ses deux activités et
 ouvrir son parc de matériel à la location à l'extérieur. Le pôle "matériel" de GSTP sera en
 mesure d'intervenir sur les chantiers de GSTP comme sur ceux d'autres
-entrerprises.
+entreprises.
 
-Le parc de matériel devient ainsi monétisable, et les deux pôles peuvent
+Le parc de matériel devient ainsi davantage monétisable, et les deux pôles peuvent
 travailler et s'organiser de manière autonome.
 
 La réorganisation des deux entités permettra notamment d'améliorer les points
@@ -168,7 +173,7 @@ noirs que nous avons relevé :
 * Tout matériel loué doit passer par un site de l'entreprise entre deux
   chantier, ce qui est coûteux en temps et en argent.
 * La localisation géographique des sites d'entrepôt et maintenance du
-  matériel pourrait être modifiée pour couvrir plus intelligement la carte du
+  matériel pourrait être modifiée pour couvrir plus intelligemment la carte du
   secteur d'intervention de GSTP.
 
 Identification des nouvelles technologies à forte valeur ajoutée : "killers applications"
@@ -179,7 +184,7 @@ forte valeur ajoutée qui ne sont pas nécessairement déployés chez les autres
 acteurs du secteur et peuvent apporter à GSTP un avantage concurrentiel.
 
 Informatisation
----------------
+-----------------------------------------
 
 Dans une premier temps, nous allons considérer l'informatisation complète de
 l'entreprise comme une première innovation : les entreprises de BTP n'utilisent
@@ -189,28 +194,28 @@ développés spécifiquement pour correspondre à leurs besoins.
 
 L'informatisation complète de l'entreprise lui permettra d'avoir un parc
 matériel à jour, capable de supporter de nombreux outils innovants. C'est donc
-une première étape nécessaire !
+une première étape nécessaire.
 
 L'informatisation de GSTP passe par la mise à disposition pour tous les
-chantiers sur lequels l'entreprise intervient d'un ordinateur portable avec une
+chantiers sur lesquels l'entreprise intervient d'un ordinateur portable avec une
 connexion à internet nomade.
 
 Les chefs de chantiers peuvent être équipés de *smartphones* et accéder à des
 outils permettant d'améliorer leur productivité, comme un emploi du temps en
-ligne ou un annuaire des services de l'entreprise continuellement à jour.
+ligne ou un annuaire des services de l'entreprise continuellement à jour. Cet outil nomade permet également de mettre à jour en temps réel les temps d'utilisation du matériel et d'enregistrer toute opération de maintenance.
 
 CRM : Customer Relationship Management
---------------------------------------
+----------------------------------------------------------------
 
 Le CRM (*Customer Relationship Management*, ou en français, Gestion de la
 relation avec la Clientèle) est une activité qui peut être gérée
 informatiquement par le pôle matériel de GSTP.
 
 Un outil de CRM permet d'observer et de comprendre les attentes des clients et
-permet d'améliorer et de personaliser les prestations de l'entreprise. GSTP
-pourra mettre en place des campagne de recrutement et fidéliser ses clients.
+permet d'améliorer et de personnaliser les prestations de l'entreprise. GSTP
+pourra mettre en place des campagnes de prospection et fidéliser ses clients.
 
-Un support informatique pour l'activité de CRM semble particulièrement intéressant pour que GSTP développe son pôle de location de matériel.
+Un support informatique pour l'activité de CRM semble particulièrement intéressant pour que GSTP développe son pôle de location de matériel aux entreprises extérieures.
 
 
 SRM : Supplier Relationship Management
@@ -226,7 +231,7 @@ outil de SRM pour optimiser ses relations avec ses nombreux fournisseurs (ex: fo
 Conclusion
 ############
 
-Ce document a permis de dégager des thèmes de progrès. Il est à mettre en corrélation avec le document d'élaboration de la cible fonctionnelle.
+Ce document a permis de dégager des thèmes de progrès. Il est à mettre en corrélation avec le document d'élaboration de la cible fonctionnelle (rapport modélisation ARIS).
 
 Pour résumer en une seule phrase les thèmes de progrès, notre proposition pour répondre aux besoins de GSTP est de créer un pôle de Direction du Matériel (DM), qui pourra ouvrir la location de son parc à des clients extérieurs, tout en ayant une meilleure informatisation de son Système d'Information (SI).
 
