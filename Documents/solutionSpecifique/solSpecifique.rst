@@ -100,3 +100,12 @@ nombreux avantages : elle est moderne, pratique et rapide à mettre en place.
 
 Par ailleurs, une vue exécutée à travers un navigateur est rapidement adaptable
 aux nouveaux appareils nomades (smartphones, tablettes).
+
+Analyse de l'architecture applicative cible
+===========================================
+
+Définition des stratégies d'optimisation
+========================================
+
+Impact sur l'organisation
+=========================

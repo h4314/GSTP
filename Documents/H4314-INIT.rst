@@ -2,30 +2,33 @@
 Dossier d'initialisation
 ========================
 
+.. contents:: Sommaire
+.. sectnum::
+
 Ce document constitue le dossier d'initialisation du projet d'étude préalable de la refonte d'une partie du Système d'Information du domaine "gestion de matériel" de l'entreprise GSTP.
 
 Vocabulaire
 ###########
 
 CdP
-	Chef de Projet
+  Chef de Projet
 RQ
-	Responsable Qualité
+  Responsable Qualité
 
 GSTP
-	Entreprise de travaux de notre étude de cas
+  Entreprise de travaux de notre étude de cas
 
 PAQ
-	Plan d'assurance Qualité
+  Plan d'assurance Qualité
 
 MoA
-	Maîtrise d'Ouvrage
+  Maîtrise d'Ouvrage
 
 MoE
-	Maîtrise d'Oeuvre
+  Maîtrise d'Oeuvre
 
 SI
-	Système d'information
+  Système d'information
 
 Objet, contexte et positionnement du projet
 ###########################################
@@ -91,35 +94,35 @@ Livrables relatifs à la Gestion de Projet:
 Livrable relatif à l'assurance Qualité:
 ---------------------------------------
 - Dossier qualité ou Plan d'Assurance Qualité (PAQ)
-	#. Résultats attendus
-	#. Conditions d'acceptation des résultats
-	#. Modalités de contrôle
-	#. Planification projet
-	#. Organisation de l'équipe
-	#. Relations entre acteurs
-	#. Méthodes, normes et outils utilisés
-	#. Gestion de la documentation
+  #. Résultats attendus
+  #. Conditions d'acceptation des résultats
+  #. Modalités de contrôle
+  #. Planification projet
+  #. Organisation de l'équipe
+  #. Relations entre acteurs
+  #. Méthodes, normes et outils utilisés
+  #. Gestion de la documentation
 
 Livrables relatifs à la production:
 -----------------------------------
 - Dossier d'expression des besoins
-	#. Étude de l'existant
-	#. Normes et benchmarking
-	#. Cibles fonctionnelles
-	#. Thèmes de progrès
+  #. Étude de l'existant
+  #. Normes et benchmarking
+  #. Cibles fonctionnelles
+  #. Thèmes de progrès
 
 - Dossier de construction des solutions
-	#. Matrice processus / fonctions
-	#. Dossier de modélisation généré par ARIS
-	#. Dossier de synthèse optionnel
+  #. Matrice processus / fonctions
+  #. Dossier de modélisation généré par ARIS
+  #. Dossier de synthèse optionnel
 
 
 - Dossier d'évaluation des solutions et mise en oeuvre
-	#. Adéquation avec la stratégie d'entreprise
-	#. Adéquation aux besoins fonctionnels
-	#. Évaluation des délais
-	#. Évaluation des coûts
-	#. Évaluation des risques
+  #. Adéquation avec la stratégie d'entreprise
+  #. Adéquation aux besoins fonctionnels
+  #. Évaluation des délais
+  #. Évaluation des coûts
+  #. Évaluation des risques
 
 - Présentation finale
 
@@ -138,21 +141,21 @@ L'étude sera décomposée de la manière suivante:
 Chaque phase sera décomposé de la manière suivante:
 
 - Phase 1: Initialisation
-	- Rédaction du Dossier d'Initialisation
-	- Rédaction du PAQ
+  - Rédaction du Dossier d'Initialisation
+  - Rédaction du PAQ
 
 - Phase 2: Expression des besoins
-	- Étude de l'existant: rédaction d'une synthèse de l'existant
-	- Étude des normes et benchmark : rédaction synthèse études des normes et benchmark
-	- Spécification Cible et thèmes de progrès: rédaction Dossier Expression des Besoins
+  - Étude de l'existant: rédaction d'une synthèse de l'existant
+  - Étude des normes et benchmark : rédaction synthèse études des normes et benchmark
+  - Spécification Cible et thèmes de progrès: rédaction Dossier Expression des Besoins
 
 - Phase 3: Expression des solutions
-	- Solution spécifique: rédaction du dossier de la solution 1
-	- Solution standard: rédaction du dossier de la solution 2
-	- Modélisation et configuration des solutions: dossier de modélisation et configuration standard
+  - Solution spécifique: rédaction du dossier de la solution 1
+  - Solution standard: rédaction du dossier de la solution 2
+  - Modélisation et configuration des solutions: dossier de modélisation et configuration standard
 
 - Phase 4: Evaluation des solutions
-	- Dossier de choix de solution
+  - Dossier de choix de solution
 
 Ce phasage suivra le planning suivant
 
@@ -186,59 +189,77 @@ Notre étude comportera 4 types d'activités principales, qui sont liées aux t�
 
 Ci-dessous, vous avez le détail de la décomposition en "Macro" tâches pour toutes les phases du projet (ces tâches seront décomposées en sous-tâches lors de l'avancement du projet):
 
-::
-
 - Expression des Besoins
-	- Etude de l'Existant
-		- Compréhension contexte projet à l'intérieur de l'Entreprise
-		- Compréhension et diagnostique du SI existant
-			- au niveau organisationnel
-			- au niveau technique et applicatif
-		- Etude des disfonctionnements dans chaque département
-		- Etude des processus et procédures principaux
-	- Normes et Benchmarking
-		- Analyse des contextes métier et technique à l'extérieur de l'Entreprise
-		- Recherche d'informations sur les normes en matières de logiciel de gestion dans le BTP
-	- Cible Fonctionnelle
-		- Etablir l'architecture de la cible fonctionnelle de référence
-		- Définition des objets métiers
-		- Définition des processus et activités
-		- Etablissement du modèle d'organisation type
-	- Thèmes de Progrès
-		- Formalisation des évolutions fonctionnelles sous formes d'objets métiers à gérer, de processus métiers et de cas d'utilisation.
-		- Décliner la stratégie de l'entreprise et adapter la logique des processus
-		- Adapter l'organisation des acteurs
-		- Identification de nouvelles technologies à forte valeur ajoutée
-		- Recensement des besoins et des exigences candidats à la liste des caratéristiques du SI
-		- Validation par le comité de pilotage
-		
+
+  - Etude de l'Existant
+
+    - Compréhension contexte projet à l'intérieur de l'Entreprise
+    - Compréhension et diagnostique du SI existant
+
+      - au niveau organisationnel
+      - au niveau technique et applicatif
+
+    - Etude des disfonctionnements dans chaque département
+    - Etude des processus et procédures principaux
+
+  - Normes et Benchmarking
+
+    - Analyse des contextes métier et technique à l'extérieur de l'Entreprise
+    - Recherche d'informations sur les normes en matières de logiciel de gestion dans le BTP
+
+  - Cible Fonctionnelle
+
+    - Etablir l'architecture de la cible fonctionnelle de référence
+    - Définition des objets métiers
+    - Définition des processus et activités
+    - Etablissement du modèle d'organisation type
+
+  - Thèmes de Progrès
+
+    - Formalisation des évolutions fonctionnelles sous formes d'objets métiers à gérer, de processus métiers et de cas d'utilisation.
+    - Décliner la stratégie de l'entreprise et adapter la logique des processus
+    - Adapter l'organisation des acteurs
+    - Identification de nouvelles technologies à forte valeur ajoutée
+    - Recensement des besoins et des exigences candidats à la liste des caratéristiques du SI
+    - Validation par le comité de pilotage
+    
 - Expression des Solutions
-	- Solution Spécifique
-		- Analyse de l'architecture applicative cible
-		- Définition des stratégies d'automatisation
-			- Concevoir les développements spécifiques
-		- Conception architecturale
-		- Impacts sur l'organisation
-	- Solution Standard
-		- Analyse de l'architecture applicative cible
-		- Définition des stratégies d'automatisation
-			- Concevoir les parties du systèmes implémentées au moyen d'un "progiciel" (ex. SAP) ou de "composants"
-		- Conception architecturale
-		- Impacts sur l'organisation
-	- Modélisation et Configuration (au niveau organisationnelle, données, gestion, fonctions et prestations)
-		
+
+  - Solution Spécifique
+
+    - Analyse de l'architecture applicative cible
+    - Définition des stratégies d'automatisation
+
+      - Concevoir les développements spécifiques
+
+    - Conception architecturale
+    - Impacts sur l'organisation
+
+  - Solution Standard
+
+    - Analyse de l'architecture applicative cible
+    - Définition des stratégies d'automatisation
+
+      - Concevoir les parties du systèmes implémentées au moyen d'un "progiciel" (ex. SAP) ou de "composants"
+
+    - Conception architecturale
+    - Impacts sur l'organisation
+
+  - Modélisation et Configuration (au niveau organisationnelle, données, gestion, fonctions et prestations)
+    
 - Evaluation des Solutions
-	- aux niveaux stratégie d'Entreprise, besoins fonctionnels
-	- des coûts (investissement, fonctionnement, ROI)
-	- des délais
-	- des risques
-	- récapitulatif, bilan
+
+  - aux niveaux stratégie d'Entreprise, besoins fonctionnels
+  - des coûts (investissement, fonctionnement, ROI)
+  - des délais
+  - des risques
+  - récapitulatif, bilan
 
 Modalités de suivi
 #####################
 
 Les règles de suivi
-=====================
+---------------------
 
 Le suivi du projet sera assuré grâce à l'outil de suivi de projet Redmine, dans
 lequel les membres reporteront le temps qu'il ont passé sur chacune des tâches
@@ -250,12 +271,15 @@ de séance.
 
 
 Planning prévisionnel (diagramme de Gantt)
-============================================
+--------------------------------------------
 
 Ci-dessous le planning prévisionnel de gestion de projet (au 1/02/11). Il est amené à être retouché hebdomadairement en fonction de l'évolution de l'avancement du projet.
 
+.. image:: gantt.png
+  :width: 100%
+
 Répartition charges de travail
-===================================
+-----------------------------------
 
 Il sera considéré pour chaque membre de l'équipe une charge de travail de 4h par semaine en séance (8 séances sur 8 semaines), et environ 2h de travail personnel par personne en dehors des séances.
 
@@ -266,22 +290,22 @@ Organisation de l’equipe
 ########################
 
 - *Chef de projet*: **Etienne GUERIN (EG)**
-	Il planifie l'ensemble du déroulement du projet. Son rôle est d'identifier les tâches à effectuer, d'évaluer les charges de travail, et de s'assurer du bon déroulement (suivi) du projet et de son exécution. Il met en place les outils de suivi, et communique régulièrement avec son équipe pour avoir un aperçu de l'avancement des tâches.  Il est le principal interlocuteur avec la MoA.
+  Il planifie l'ensemble du déroulement du projet. Son rôle est d'identifier les tâches à effectuer, d'évaluer les charges de travail, et de s'assurer du bon déroulement (suivi) du projet et de son exécution. Il met en place les outils de suivi, et communique régulièrement avec son équipe pour avoir un aperçu de l'avancement des tâches.  Il est le principal interlocuteur avec la MoA.
 
 - *Responsable Qualité et Communication*: **Paul ADENOT (PA)**
-	Il est chargé de mettre en place le PAQ. Il est également chargé de veiller au respect et à l'application de ce PAQ tout au long du projet. Il intervient lors de la validation des tâches.  Il est un interlocuteur privilégié avec la MoA.
+  Il est chargé de mettre en place le PAQ. Il est également chargé de veiller au respect et à l'application de ce PAQ tout au long du projet. Il intervient lors de la validation des tâches.  Il est un interlocuteur privilégié avec la MoA.
 
 - *Consultants*: ils sont experts dans leur domaine et apportent leurs compétences et savoir-faire. Ils sont chargés de produire l'étude préalable sous la direction du CdP, en collaboration avec le RQ
-	- *Experts ERP et modélisation*: Yoann BUCH (YB) et Yi Quan ZHOU (YQZ)
-	- *Expert Métier (BTP), Méthodes et Outils*: Pierrick GRANDJER (PB), Arturo MAYOR (AM)
-	- *Expert Développement Système d'Information*: Martin RICHARD (MR)
+  - *Experts ERP et modélisation*: Yoann BUCH (YB) et Yi Quan ZHOU (YQZ)
+  - *Expert Métier (BTP), Méthodes et Outils*: Pierrick GRANDJER (PB), Arturo MAYOR (AM)
+  - *Expert Développement Système d'Information*: Martin RICHARD (MR)
 
 Analyse des risques
 -------------------
 
 +-----------------+---------------+------------------+------------------+----------------------+------------------------------------+
 |Risque           | Type          |Cause             | Probabilité      | Conséquence          |  Mesure à prendre                  |
-+=================+===============+==================+==================+======================+====================================+
++-----------------+---------------+------------------+------------------+----------------------+------------------------------------+
 |Dépassement délai| Organisation  |Laxisme           |  Peu probable    |  Non respect des     |  Cdp: vérifier le niveau           |
 |                 |               |                  |                  |  engagements, prise  |  d'activité des membres            |
 |                 |               |                  |                  |  de retard,          |                                    |
@@ -317,7 +341,7 @@ Analyse des risques
 |                 |               |d'équipe          |                  |  Mauvaise qualité    |    réunions de travail             |
 |                 |               |                  |                  |  d'ensemble          |    régulières, etc.                |
 |                 |               |                  |                  |                      |                                    |
-+=================+===============+==================+==================+======================+====================================+
++-----------------+---------------+------------------+------------------+----------------------+------------------------------------+
 
 Dans notre cas, il n'y a pas de risques financier, car nous sommes dans un projet « fictif ». Cependant, si jamais nous gérons mal le projet, nous pouvons être pénalisés d'une autre façon: beaucoup de temps de travail hors séance, pénalités au niveau de la note, etc.
 
@@ -332,13 +356,13 @@ Ils seront déposés par le CdP ou le RQ au fur et à mesure de l'avancement du 
 Ci-dessous les dates prévues pour le dépôt des différents livrables:
 
 Mercredi 12/01/2011
-	Dossier d'Initialisation + PAQ + Planning Prévisionnel
+  Dossier d'Initialisation + PAQ + Planning Prévisionnel
 Mercredi 2/02/2011
-	Dossier d'expression des besoins
+  Dossier d'expression des besoins
 Mercredi 23/02/2011
-	Dossier de construction des solutions
+  Dossier de construction des solutions
 Mercredi 2/03/2011
-	Dossier d'évaluation des solutions
+  Dossier d'évaluation des solutions
 
 Toutes les semaines, un Tableau de bord de suivi d'avancement de projet sera édité.
 
