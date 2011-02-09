@@ -1,6 +1,9 @@
 Étude préalable d'une solution développée spécifiquement
 ########################################################
 
+.. contents:: Sommaire
+.. sectnum::
+
 Présentation générale
 =====================
 
@@ -10,7 +13,7 @@ certains sacrifices de la part de l'entreprise, qui pourrait devoir renoncer à
 certaines méthodes de travail bien implantées dans l'entreprise.
 
 Nous souhaitons proposer à GSTP des outils plus riches que ce qu'un ERP peut
-proposer. Nous nous interressons ainsi à des technologies et outils pour
+proposer. Nous nous intéressons ainsi à des technologies et outils pour
 lesquelles les offres standards ne sont pas développées, nous réfléchissons à
 une solution plus flexible et adaptable qui correspond mieux à l'organisation
 de l'entreprise, qui serait intégralement contrôlée par GSTP.
@@ -18,37 +21,38 @@ de l'entreprise, qui serait intégralement contrôlée par GSTP.
 Architecture globale
 ====================
 
-Nous proposons un système d'information reposant sur une architecture n-tiers,
+Nous proposons un système d'information reposant sur une architecture *n-tiers*,
 offrant une abstraction totale entre les sources de données, les moyens d'y
-acceder ou bien même leurs applications pour les utilisateurs.
+accéder ou bien même leurs applications pour les utilisateurs.
 
 Le schéma suivant présente l'architecture globale du système. Il introduit
 cinq couches qui seront présentées plus en détail ci-dessous :
 
 La couche infrastructure
-  c'est l'ensemble des programmes et serveurs qui gèrent les données de
+  C'est l'ensemble des programmes et serveurs qui gèrent les données de
   l'entreprise.
 
 La couche d'accès aux données
-  l'accès et la manipulation des données est uniformisé grâce à cette couche.
+  L'accès et la manipulation des données est uniformisé grâce à cette couche.
 
 La couche protocoles d'applications
-  différents services sont intégrés au système d'application par cette couche.
+  Différents services sont intégrés au système d'application par cette couche.
 
 La couche applicative
-  cette couche fournit des outils et des services de manipulation des données.
+  Cette couche fournit des outils et des services de manipulation des données.
 
 La couche vue :
   La vue est la manière dont les données et services sont présentés à
   l'utilisateur.
 
-TODO Exporter et intégrer le schéma
+.. image:: images/archiGlobale.png
+  :width: 100%
 
 L'infrastructure
 ----------------
 
 Le système d'information de GSTP sera composé des données de natures
-éthérogènes. Pour nous assûrer d'un stockage et d'une organisation efficiente,
+hétérogènes. Pour nous assurer d'un stockage et d'une organisation efficiente,
 les moyens mis en place pour entreposer les données de l'entreprise seront
 spécifiques à leur nature et leur usage.
 
@@ -63,10 +67,12 @@ L'accès au données
 ------------------
 
 L'accès au données offrira une interface (API) constituée de services web SOAP,
-référencés dans un annuaire WSDL. L'implémentation de cette API sera développée en Java sur un serveur d'application accueillant des modules réalisés par un ETL comme Talend.
+référencés dans un annuaire WSDL. L'implémentation de cette API sera développée
+en Java sur un serveur d'application accueillant des modules réalisés par un ETL
+comme Talend.
 
 Note : l'ETL (acronyme de *Extract, Transform, Load*) est un outil qui va
-permettre d'uniformiser et d'accélerer le développement de la couche d'accès
+permettre d'uniformiser et d'accélérer le développement de la couche d'accès
 aux données.
 
 Protocoles d'application
@@ -76,6 +82,7 @@ Le SI va intégrer différents serveurs offrant des services de différentes
 natures qui seront fournis aux utilisateurs. Les services intégrés peuvent
 être, par exemple, un VPN (Virtual Private Network), un serveur d'e-mails ou de
 communication instantanée, etc.
+
 Couche applicative
 ------------------
 
@@ -104,8 +111,64 @@ aux nouveaux appareils nomades (smartphones, tablettes).
 Analyse de l'architecture applicative cible
 ===========================================
 
+
 Définition des stratégies d'optimisation
 ========================================
+
+L'optimisation se fera par rapport à 3 axes :
+
+#. Traçabilité : l'emplacement, l'état d'un matériel pourra être connu à tout
+   moment.
+#. Efficacité : GSTP sera plus réactive, plus rapide.
+#. Efficience : Les coûts et les procédures seront diminués.
+
+Nous détaillerons ici les 
+
+Processus acquisition du matériel
+---------------------------------
+
+Traçabilité
+  Le matériel est enregistré dans une base de donnée dans le système dès la
+  réception. Il est alors clairement identifié, et pourra être suivi dans le
+  système.
+
+Efficacité
+  Les offres fournisseurs pourront êtres mises à jour par les fournisseurs eux
+  mêmes, permettant d'être tenu au courant des nouveautés. 
+
+Efficience
+  Le matériel sera acheté au meilleur prix, au regard des délais d'obtentions
+  voulus. L'outil informatique sera mis à profit pour effectuer cette
+  comparaison de manière exhaustive (l'ensemble de l'offre fournisseur sera
+  évaluée) et rapide (ce traitement pouvant être automatisé dans une certaine
+  mesure, par un outil similaire à Google Squared).
+  Le matériel sera acheté à la bonne quantité, pour éviter les ruptures ou les
+  immobilisations trop fortes.
+  
+Processus approvisionnement en pièce de rechange
+------------------------------------------------
+
+Traçabilité
+  L'intégralité des pièces entre en base de donnée dès réception, et est mis à
+  jour lors de leur utilisation. Il est donc possible d'avoir un inventaire en
+  temps réel du stock de pièces de rechange.
+
+Efficacité
+  De la même manière que pour le processus achat matériel, les fournisseurs
+  pourront mettre à jour leur offre, qui sera récupéré par notre système, de
+  manière aussi automatique et transparente que possible.
+  Les magasins pourront aussi commander des pièces, livrables directement à
+  l'atelier, ce qui accélère le processus, en évitant une centralisation, et
+  donc des transports inutiles.
+  
+Efficience
+  Ici, l'efficience découle du gain en traçabilité : GSTP pourra acheter le
+  bon nombre de pièces. Des achats opportunistes pourront être effectués, par
+  exemple en cas de baisse temporaire du prix d'un pièce, elle pourra être
+  acheté en grande quantité. Le système permettra d'avoir une vue globale sur
+  l'offre fournisseur, de la même manière qu'avec le processus achat matériel.
+  
+  
 
 Impact sur l'organisation
 =========================
