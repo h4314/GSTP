@@ -1,4 +1,4 @@
-=================================
+==================================
 Définition des thèmes de progrès
 ==================================
 
@@ -154,7 +154,7 @@ L'externalisation ne nous semble pas être la solution à conserver :
 * L'impact sur le personnel serait fort et son acceptation difficile (GSTP
   licencierait près de 60 personnes),
 * La proximité entre les deux services offre de nombreux avantages
-(organisation, délais de réponse) qui sont favorables à l'entreprise. Les
+  (organisation, délais de réponse) qui sont favorables à l'entreprise. Les
   perdre serait préjudiciable.
 
 Nous pensons donc que GSTP doit progressivement séparer ses deux activités et

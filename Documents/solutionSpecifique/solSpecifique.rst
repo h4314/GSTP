@@ -130,3 +130,8 @@ Vente
 
 TODO
 
+Définition des stratégies d'optimisation
+========================================
+
+Impact sur l'organisation
+=========================

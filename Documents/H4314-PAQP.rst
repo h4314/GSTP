@@ -138,7 +138,10 @@ D'autres documents pourront être considérés comme référence lors de ce proj
 - Cours de 4IF de Mohamed OU-HALIMA (Gestion de projet)
 - Cours de 4IF de Pierre-Alain MILLET (ERP)
 - Le livre Pro-Git, traitant de l'utilisation de l'outil de gestion de version décentralisé Git (http://progit.org/)
-- La documentation officielle de Redmine, l'outil de gestion de projet libre (http://www.redmine.org/guide)
+- La documentation officielle de Redmine, l'outil de gestion de projet libre 
+
+
+  (http://www.redmine.org/guide)
 - Le lexique des règles typographiques en usage à l'imprimerie nationale, pour tout ce qui concerne la typographie
 - La documentation utilisateur de RestructuredText, l'outil de rédaction des documents (http://docutils.sourceforge.net/docs/user/rst/quickref.html)
 
@@ -315,7 +318,7 @@ Structure de pilotage du projet
 Schéma représentant la structure de pilotage de projet entre les deux équipes :
 
 .. image:: images/comite.png
-    :width: 100%
+    :width: 50%
 
 
 
