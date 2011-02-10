@@ -18,8 +18,8 @@ lesquelles les offres standards ne sont pas développées, nous réfléchissons 
 une solution plus flexible et adaptable qui correspond mieux à l'organisation
 de l'entreprise, qui serait intégralement contrôlée par GSTP.
 
-Architecture globale
-====================
+Conception architecturale
+=========================
 
 Nous proposons un système d'information reposant sur une architecture *n-tiers*,
 offrant une abstraction totale entre les sources de données, les moyens d'y
@@ -68,8 +68,8 @@ L'accès au données
 
 L'accès au données offrira une interface (API) constituée de services web SOAP,
 référencés dans un annuaire WSDL. L'implémentation de cette API sera développée
-en Java sur un serveur d'application accueillant des modules réalisés par un ETL
-comme Talend.
+en Java sur un serveur d'application accueillant des modules réalisés par un
+ETL comme Talend.
 
 Note : l'ETL (acronyme de *Extract, Transform, Load*) est un outil qui va
 permettre d'uniformiser et d'accélérer le développement de la couche d'accès
@@ -111,6 +111,28 @@ aux nouveaux appareils nomades (smartphones, tablettes).
 Analyse de l'architecture applicative cible
 ===========================================
 
+Nous allons maintenant présenter les principales composants de la solutions
+spécifiques et leur intégration dans les services de GSTP.
+
+Achat
+-----
+
+TODO
+
+Gestion du matériel
+-------------------
+
+TODO
+
+Maintenance
+-----------
+
+TODO
+
+Vente
+-----
+
+TODO
 
 Définition des stratégies d'optimisation
 ========================================
