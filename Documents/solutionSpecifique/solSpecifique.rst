@@ -214,5 +214,10 @@ car combinée à un petit module d'aide à la décision, cette fonctionnalité
 fournirait des propositions sensées quant à des modifications de plannings de
 chantiers.
 
+Services internes
+-----------------
+
+Pour les deux points évoqués ci-dessus, il ressort que l'organisation de GSTP doit être drastiquement modifiée sur plusieurs points. Notamment, comme il a été évoqué dans l'étude de l'existant, les accords commerciaux de GSTP avec les entreprises partenaires devront être revus afin d'établir de nouvelles relations. En particulier, les distributeurs de smartphones seront ciblés afin de pouvoir équiper à prix raisonnable l'ensemble des chantiers gérés par GSTP. De même, l'accès à des données privées peut être délicat à obtenir. Il conviendra donc d'être spécialement vigilant lors des contacts avec les détenteurs de ces données. Encore une fois, la direction commerciale de GSTP devra être grandement renforcée.
+
 
 
