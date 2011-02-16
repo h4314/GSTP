@@ -107,28 +107,12 @@ aux nouveaux appareils nomades (smartphones, tablettes).
 Analyse de l'architecture applicative cible
 ===========================================
 
-Nous allons maintenant présenter les principales composants de la solutions
-spécifiques et leur intégration dans les services de GSTP.
+Nous allons auditer les spécificiations organisationnelles pour les connecter à
+l'architecture applicative de la solution spécifique. En d'autres termes, nous
+allons étudier les similitudes entre les lots fonctionnels exprimés lors de la
+spécification de la demande client pour les organiser en modules cohérents.
 
-Achat
------
-
-TODO
-
-Gestion du matériel
--------------------
-
-TODO
-
-Maintenance
------------
-
-TODO
-
-Vente
------
-
-TODO
+TODO packages
 
 Définition des stratégies d'optimisation
 ========================================
