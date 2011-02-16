@@ -194,3 +194,19 @@ Efficience
 
 Impact sur l'organisation
 =========================
+
+
+Réactivité
+----------
+
+Pour optimiser une réactivité quantitative, les personnels concernés doivent anticiper sur les prestations partenaires. Le fait que le service soit fourni sous forme d'application web permet d'y accéder facilement depuis un smartphone ou un PDA quel que soit l'endroit où l'on se trouve. Ainsi, dès qu'une opération a lieu, que ce soit la réception d'un matériel, le constat d'un matériel défectueux ou encore une transaction concernant un chantier, la personne en charge peut immédiatement renseigner son travail auprès du siège central où l'information sera traitée.
+Il s'ensuit une réactivité accrue car le fait que la plupart des chantiers ne soient pas informatisés pouvait entraîner de lourds retards dans ces démarches. L'organisation s'en trouve donc simplifiée à la fois pour la gestion sur le site central des opérations diverses et pour la saisie du suivi de ces opérations sur les chantiers.
+
+Gestion de nouvelles données
+----------------------------
+
+L'architecture de notre solution est telle qu'il est complètement transparent pour les utilisateurs de travailler avec des données venant de sources complètement différentes. Si GSTP envisage de diversifier ses sources de données, par exemple en créant un nouveau département spécialisé, cette opération ne nécessitera aucun temps d'adaptation contrairement à ce qui serait inévitable avec l'organisation actuelle, étant donné les lourdes démarches mises en évidence pendant l'étude de l'existant.
+De même, il est parfaitement envisageable de mettre en place un service permettant de coupler les plannings prévisionnels des chantiers avec des informations concernant la météo. L'organisation s'en trouverait donc simplifée car combinée à un petit module d'aide à la décision, cette fonctionnalité fournirait des propositions sensées quant à des modifications de plannings de chantiers.
+
+
+
