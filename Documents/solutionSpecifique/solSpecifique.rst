@@ -189,8 +189,113 @@ Efficience
   exemple en cas de baisse temporaire du prix d'une pièce, elle pourra être
   achetée en grande quantité. Le système permettra d'avoir une vue globale sur
   l'offre fournisseur, de la même manière qu'avec le processus achat matériel.
+
+Processus de gestion des demandes chantier
+------------------------------------------
+
+Traçabilité
+  Les chantiers verront leurs données centralisées, et sauvegardés selon un
+  format standard.
+
+Efficacité
+  Les demandes en chantier seront anticipées, et donc les coûts de location
+  pourront être diminués.
+  Le processus pourra être accéléré, en faisant passer du matériel directement
+  de chantier en chantier, sans passer par le siège : les demandes planifiées
+  en matériel pourront chercher dans les chantiers allant se finir dans un
+  futur proche, libérant ainsi du matériel.
+  Le matériel pourra être rendu directement par le chantier, ce qui permettra
+  encore d'économiser sur les coûts de transport.
+
+Efficience
+  Les locations pourront être globalisées, ce qui pourra permettre d'effectuer
+  des économies, à la fois d'échelles (plus de matériel loué en même temps) et
+  des locations pouvant s'étendre sur plus longtemps, le matériel étant utilisé
+  par plusieurs chantiers, afin de profiter d'éventuels prix dégressifs.
+  De part une planification plus globale, le taux d'utilisation du matériel
+  pourra être maximisé.
+
+Processus de maintenance opérationnelle
+---------------------------------------
+
+Traçabilité
+  Les demandes de maintenance opérationnelles sont stockées, de manière
+  uniforme.
+  Les pièces de rechanges sont, comme indiqué précédemment, rentrée dans le
+  système, pour arriver à une gestion de stocks en temps réel.
+
+Efficacité
+  Le gain en efficacité de cette partie découle des gains en efficacité de
+  l'approvisionnement en pièce de rechange. Les pièces de rechanges peuvent
+  être commandées juste avant une date de maintenance préventive, pour ne pas
+  bloquer le processus de maintenance parce qu'une pièce doit être commandée.
+  Les gammes opératoires seront formalisées (et entrée dans le systèmes de
+  *Knowledge Management*), ce qui permettra de capitaliser, et donc d'augmenter
+  l'efficacité des opérationnels sur les opérations de maintenance.
+
+Efficience
+  De la même manière, l'efficience pour la maintenance opérationnel est une
+  externalité de l'efficience de l'approvisionnement en pièces de rechanges :
+  le processus est mieux maitrisé, permettant d'avoir une réponse ajustée.
+  Les opérations de maintenances seront évaluées, ce qui permettra d'améliorer
+  les gammes de maintenance, et une meilleur estimation du besoin en pièces.
+
+
+Processus de gestion des retours chantiers vers le parc de matériel
+-------------------------------------------------------------------
+
+Traçabilité
+  Les différents matériels étant déjà tracé par les processus en amont, ce
+  processus continue l'action.
+  Les disponibilités de matériels sont alors connus dans le temps.
+
+Efficacité
+  Une maintenance préventive est effectué dès que possible, permettant de
+  lisser les coups de réparation, et de diminuer les investissements. Le
+  système permet d'alerter quand un matériel n'a pas eu de maintenance
+  préventive depuis longtemps, puisque qu'il est tracé au sein du système.
+  On pourra donc observer une réduction des coûts de maintenance.
   
-  
+Efficience
+  La planification est améliorée, les opérationnels ont une meilleurs
+  visibilité.
+
+Processus de planification de maintenance
+-----------------------------------------
+
+Traçabilité
+  Le opérations de maintenances sont consultables. Les opérations passées
+  restent accessibles.
+
+Efficacité
+  La maintenance préventive est planifiée, et donc a plus de chance d'être
+  respecté. Le taux de panne et d'indisponibilité doit diminuer, et donc les
+  coûts de maintenances baissent.
+
+Efficience
+  Les opérations de planification sont automatiquement ajouté au système, en
+  fonction du type de matériel et de son taux d'utilisation. Puisque tous les
+  équipements sont référencés dans le système, il n'y a pas de risque d'oublis.
+ 
+
+Processus de mise à disposition de matériel
+-------------------------------------------
+
+Traçabilité
+  Les procédures de transfert de matériel de chantier à chantier étant
+  clairement définies et intégrée dans le logiciel, les équipement ne peuvent
+  pas être « perdus ».
+  Les livraisons de matériel sont planifiés, permettant de mieux ordonnancer
+  leur répartition.
+
+Efficacité
+  Les équipements sont mis à disposition plus vite.
+
+Efficience
+  Les coûts de transports sont réduit, puisqu'il est moins nécessaire de passer
+  par le parc central (il reste nécessaire d'y passer lorsqu'un besoin de
+  maintenance se fait sentir). Les transports de matériels peuvent être
+  mutualisés entre chantiers.
 
 Impact sur l'organisation
 =========================
