@@ -13,7 +13,7 @@ certains sacrifices de la part de l'entreprise, qui pourrait devoir renoncer à
 certaines méthodes de travail bien implantées dans l'entreprise.
 
 Nous souhaitons proposer à GSTP des outils plus riches que ce qu'un ERP peut
-proposer. Nous nous intéressons ainsi à des technologies et outils pour
+offrir. Nous nous intéressons ainsi à des technologies et outils pour
 lesquelles les offres standards ne sont pas développées, nous réfléchissons à
 une solution plus flexible et adaptable qui correspond mieux à l'organisation
 de l'entreprise, qui serait intégralement contrôlée par GSTP.
@@ -312,6 +312,11 @@ Gestion de nouvelles données
 
 L'architecture de notre solution est telle qu'il est complètement transparent pour les utilisateurs de travailler avec des données venant de sources complètement différentes. Si GSTP envisage de diversifier ses sources de données, par exemple en créant un nouveau département spécialisé, cette opération ne nécessitera aucun temps d'adaptation contrairement à ce qui serait inévitable avec l'organisation actuelle, étant donné les lourdes démarches mises en évidence pendant l'étude de l'existant.
 De même, il est parfaitement envisageable de mettre en place un service permettant de coupler les plannings prévisionnels des chantiers avec des informations concernant la météo. L'organisation s'en trouverait donc simplifée car combinée à un petit module d'aide à la décision, cette fonctionnalité fournirait des propositions sensées quant à des modifications de plannings de chantiers.
+
+Services internes
+-----------------
+
+Pour les deux points évoqués ci-dessus, il ressort que l'organisation de GSTP doit être drastiquement modifiée sur plusieurs points. Notamment, comme il a été évoqué dans l'étude de l'existant, les accords commerciaux de GSTP avec les entreprises partenaires devront être revus afin d'établir de nouvelles relations. En particulier, les distributeurs de smartphones seront ciblés afin de pouvoir équiper à prix raisonnable l'ensemble des chantiers gérés par GSTP. De même, l'accès à des données privées peut être délicat à obtenir. Il conviendra donc d'être spécialement vigilant lors des contacts avec les détenteurs de ces données. Encore une fois, la direction commerciale de GSTP devra être grandement renforcée.
 
 
 
