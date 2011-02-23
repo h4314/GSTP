@@ -1,3 +1,43 @@
 ================================
 Dossier d'expression des besoins
 ================================
+
+.. contents::Sommaire
+.. sectnum
+
+Ce dossier est décomposé en quatre sous-dossiers:
+
+#. Synthèse de l'existant
+#. Benchmarking
+#. Elaboration de la cible fonctionnelle
+#. Définition des thèmes de progrès
+
+
+Synthèse de l'existant
+===========================
+
+Voir le document **Synthèse de l'existant**.
+
+Benchmarking
+===========================
+
+Voir le document **Benchmarking**.
+
+
+Elaboration de la cible fonctionnelle
+=======================================
+
+Voir le rapport généré avec l'outil de modélisation ARIS.
+
+
+Définition des thèmes de progrès
+==================================
+
+Voir le document **Définition des thèmes de progrès**.
+
+Conclusion
+============
+
+Ce dossier d'expression des besoins conclut une première phase du projet. La MOA est fortement invitée à analyser et critiquer ce document, et d'en faire les retours à la MOE.
+
+
