@@ -13,7 +13,7 @@ certains sacrifices de la part de l'entreprise, qui pourrait devoir renoncer à
 certaines méthodes de travail bien implantées dans l'entreprise.
 
 Nous souhaitons proposer à GSTP des outils plus riches que ce qu'un ERP peut
-proposer. Nous nous intéressons ainsi à des technologies et outils pour
+offrir. Nous nous intéressons ainsi à des technologies et outils pour
 lesquelles les offres standards ne sont pas développées, nous réfléchissons à
 une solution plus flexible et adaptable qui correspond mieux à l'organisation
 de l'entreprise, qui serait intégralement contrôlée par GSTP.
