@@ -13,8 +13,8 @@ certains sacrifices de la part de l'entreprise, qui pourrait devoir renoncer à
 certaines méthodes de travail bien implantées dans l'entreprise.
 
 Nous souhaitons proposer à GSTP des outils plus riches que ce qu'un ERP peut
-offrir. Nous nous intéressons ainsi à des technologies et outils pour
-lesquelles les offres standards ne sont pas développées, nous réfléchissons à
+apporter. Nous nous intéressons ainsi à des technologies et outils pour
+lesquels les offres standards ne sont pas développées, nous réfléchissons à
 une solution plus flexible et adaptable qui correspond mieux à l'organisation
 de l'entreprise, qui serait intégralement contrôlée par GSTP.
 
@@ -23,7 +23,7 @@ Conception architecturale
 
 Nous proposons un système d'information reposant sur une architecture *n-tiers*,
 offrant une abstraction totale entre les sources de données, les moyens d'y
-accéder ou bien même leurs applications pour les utilisateurs.
+accéder ou même leurs applications pour les utilisateurs.
 
 Le schéma suivant présente l'architecture globale du système. Il introduit
 cinq couches qui seront présentées plus en détail ci-dessous :
@@ -56,7 +56,7 @@ hétérogènes. Pour nous assurer d'un stockage et d'une organisation efficiente
 les moyens mis en place pour entreposer les données de l'entreprise seront
 spécifiques à leur nature et leur usage.
 
-Par exemple, des documents manipulés sur un chantiers vont être dans des
+Par exemple, des documents manipulés sur un chantier vont être dans des
 formats propriétaires que nous ne pouvons pas manipuler facilement (un document
 PDF, un fichier *projet* pour un logiciel de métré, ...). Pour gérer
 efficacement ces données, nous pouvons utiliser un système de fichiers
@@ -150,12 +150,12 @@ Processus acquisition du matériel
 ---------------------------------
 
 Traçabilité
-  Le matériel est enregistré dans une base de donnée dans le système dès la
+  Le matériel est enregistré dans une base de données dans le système dès la
   réception. Il est alors clairement identifié, et pourra être suivi dans le
   système.
 
 Efficacité
-  Les offres fournisseurs pourront êtres mises à jour par les fournisseurs eux
+  Les offres fournisseurs pourront être mises à jour par les fournisseurs eux
   mêmes, permettant d'être tenu au courant des nouveautés. 
 
 Efficience
@@ -171,7 +171,7 @@ Processus approvisionnement en pièce de rechange
 ------------------------------------------------
 
 Traçabilité
-  L'intégralité des pièces entre en base de donnée dès réception, et est mis à
+  L'intégralité des pièces entre en base de données dès réception, et est mis à
   jour lors de leur utilisation. Il est donc possible d'avoir un inventaire en
   temps réel du stock de pièces de rechange.
 
@@ -186,8 +186,8 @@ Efficacité
 Efficience
   Ici, l'efficience découle du gain en traçabilité : GSTP pourra acheter le
   bon nombre de pièces. Des achats opportunistes pourront être effectués, par
-  exemple en cas de baisse temporaire du prix d'un pièce, elle pourra être
-  acheté en grande quantité. Le système permettra d'avoir une vue globale sur
+  exemple en cas de baisse temporaire du prix d'une pièce, elle pourra être
+  achetée en grande quantité. Le système permettra d'avoir une vue globale sur
   l'offre fournisseur, de la même manière qu'avec le processus achat matériel.
   
   
@@ -199,8 +199,19 @@ Impact sur l'organisation
 Réactivité
 ----------
 
-Pour optimiser une réactivité quantitative, les personnels concernés doivent anticiper sur les prestations partenaires. Le fait que le service soit fourni sous forme d'application web permet d'y accéder facilement depuis un smartphone ou un PDA quel que soit l'endroit où l'on se trouve. Ainsi, dès qu'une opération a lieu, que ce soit la réception d'un matériel, le constat d'un matériel défectueux ou encore une transaction concernant un chantier, la personne en charge peut immédiatement renseigner son travail auprès du siège central où l'information sera traitée.
-Il s'ensuit une réactivité accrue car le fait que la plupart des chantiers ne soient pas informatisés pouvait entraîner de lourds retards dans ces démarches. L'organisation s'en trouve donc simplifiée à la fois pour la gestion sur le site central des opérations diverses et pour la saisie du suivi de ces opérations sur les chantiers.
+Pour optimiser la réactivité de l'entreprise, les opérationnels concernés 
+doivent anticiper sur les prestations partenaires. Le fait que le service 
+soit fourni sous forme d'application web permet d'y accéder facilement depuis 
+un smartphone ou un PDA quel que soit l'endroit où l'on se trouve. Ainsi, dès 
+qu'une opération a lieu, que ce soit la réception d'un matériel, le constat 
+d'un matériel défectueux ou encore une transaction concernant un chantier, 
+la personne en charge peut immédiatement renseigner son travail auprès du 
+siège central où l'information sera traitée.
+Il s'ensuit une réactivité accrue car le fait que la plupart des chantiers ne 
+soient pas informatisés pouvait entraîner de lourds retards dans ces démarches.
+L'organisation s'en trouve donc simplifiée à la fois pour la gestion sur le 
+site central des opérations diverses et pour la saisie du suivi de ces 
+opérations sur les chantiers.
 
 Gestion de nouvelles données
 ----------------------------
