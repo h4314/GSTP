@@ -116,7 +116,8 @@ l'architecture applicative de la solution spécifique. En d'autres termes, nous
 allons étudier les similitudes entre les lots fonctionnels exprimés lors de la
 spécification de la demande client pour les organiser en modules cohérents.
 
-TODO packages
+.. image:: images/packages.png
+  :width: 100%
 
 Définition des stratégies d'optimisation
 ========================================
