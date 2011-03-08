@@ -41,7 +41,7 @@ La couche protocoles d'applications
 La couche applicative
   Cette couche fournit des outils et des services de manipulation des données.
 
-La couche vue :
+La couche vue
   La vue est la manière dont les données et services sont présentés à
   l'utilisateur.
 
