@@ -1,4 +1,7 @@
-J'ai été bluffé par la puissance de Microsoft project et je compte passer sur
+Martin RICHARD
+===============
+
+J'ai été bluffé par la puissance de Microsoft Project et je compte passer sur
 Outlook.
 
 Mon point de vue personnel sur ce projet reste cependant mitigé. un projet sur
@@ -12,11 +15,11 @@ Cependant, beaucoup de points m'ont surpris dans l'exécution de ce projet : nou
 solution spécifique (les cours de SI par S. Servigne commencent pendant le
 projet). D'autre part, l'entreprise support n'était pas réellement évidente à
 cerner : la plupart du temps, on se doit d'étudier des situations qu'on invente
-ou suppose (car le sujet n'est pas suffisament précis et que l'entreprise
+ou suppose (car le sujet n'est pas suffisamment précis et que l'entreprise
 n'existe pas réellement), on suppose également beaucoup sur les pratiques
 considérées comme admises dans une entreprise de BTP : nous n'avons aucune
 expérience dans le domaine et aucun moyen de nous documenter efficacement !
 
-Finalement, je ne pense que l'exercice m'a permi de me faire une idée des
+Finalement, je ne pense que l'exercice m'a permis de me faire une idée des
 enjeux d'une étude préalable, mais je ne pense pas avoir réellement compris
 comment l'exécuter efficacement, avec notre "bon sens" pour seule référence.
