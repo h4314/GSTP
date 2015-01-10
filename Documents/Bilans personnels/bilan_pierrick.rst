@@ -1,4 +1,4 @@
-Pierrick GRANDJER
+
 =================
 
 Le sujet de ce projet était intéressant car il s'agissait de se mettre en
