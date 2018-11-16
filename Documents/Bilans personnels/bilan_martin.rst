@@ -5,7 +5,7 @@ J'ai été bluffé par la puissance de Microsoft Project et je compte passer sur
 Outlook.
 
 Mon point de vue personnel sur ce projet reste cependant mitigé. un projet sur
-ce format (longue durée) permet de mettre en place une organisation que l'on a
+ce format (longue durée) permet de mettre en place une organisation que l'on n'a
 généralement pas le temps d'essayer dans d'autres contextes, mais qui parfois
 s'avère difficile à tenir sans les outils de collaboration adaptés (nous avons
 eu la chance de pouvoir héberger un logiciel de gestion de projet sur un
